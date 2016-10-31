@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Tsp
 {
-	public class MessageImprint
+    public class MessageImprint
 		: Asn1Encodable
 	{
 		private readonly AlgorithmIdentifier	hashAlgorithm;

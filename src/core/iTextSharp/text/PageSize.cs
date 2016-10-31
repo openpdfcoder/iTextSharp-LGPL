@@ -50,7 +50,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// The PageSize-object contains a number of read only rectangles representing the most common paper sizes.
     /// </summary>

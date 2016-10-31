@@ -48,7 +48,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * Beginning with BaseVersion 1.7, the extensions dictionary lets developers

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Org.BouncyCastle.Utilities.Collections
 {
-	public sealed class CollectionUtilities
+    public sealed class CollectionUtilities
 	{
 		private CollectionUtilities()
 		{

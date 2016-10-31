@@ -48,7 +48,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.style {
+namespace iTextSharp.text.rtf.style
+{
     /**
     * <code>RtfStyleTypes</code> contains the different types of Stylesheet entries
     * that exist in RTF.

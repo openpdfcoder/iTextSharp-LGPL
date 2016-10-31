@@ -3,8 +3,8 @@ using System.IO;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Generic signature object</remarks>
-	public class OnePassSignaturePacket
+    /// <remarks>Generic signature object</remarks>
+    public class OnePassSignaturePacket
 		: ContainedPacket
 	{
 		private int version;

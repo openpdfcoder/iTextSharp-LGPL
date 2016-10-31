@@ -1,8 +1,7 @@
-using System;
-using System.IO;
-using System.Collections;
-
 using iTextSharp.text;
+using System;
+using System.Collections;
+using System.IO;
 
 /*
  * Copyright 2001, 2002 Paulo Soares
@@ -51,7 +50,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * Instance of PdfReader in each output document.
     *

@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.X509.Store
 {
-	public class X509StoreException
+    public class X509StoreException
 		: Exception
 	{
 		public X509StoreException()

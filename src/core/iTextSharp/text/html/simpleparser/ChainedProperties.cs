@@ -47,9 +47,10 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html.simpleparser {
+namespace iTextSharp.text.html.simpleparser
+{
 
-public class ChainedProperties {
+    public class ChainedProperties {
     
         public static int[] fontSizes = {8, 10, 12, 14, 18, 24, 36};
         public ArrayList chain = new ArrayList();

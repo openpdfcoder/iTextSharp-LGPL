@@ -1,7 +1,7 @@
+using iTextSharp.text.factories;
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text.factories;
 
 /*
  * $Id: Annotation.cs,v 1.12 2008/05/13 11:25:08 psoares33 Exp $
@@ -53,7 +53,7 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text 
+namespace iTextSharp.text
 {
     /// <summary>
     /// An Annotation is a little note that can be added to a page

@@ -1,18 +1,17 @@
-using System;
-
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	/**
+    /**
 	 * a GOST3410 key pair generator.
 	 * This generates GOST3410 keys in line with the method described
 	 * in GOST R 34.10-94.
 	 */
-	public class Gost3410KeyPairGenerator
+    public class Gost3410KeyPairGenerator
 		: IAsymmetricCipherKeyPairGenerator
 	{
 		private Gost3410KeyGenerationParameters param;

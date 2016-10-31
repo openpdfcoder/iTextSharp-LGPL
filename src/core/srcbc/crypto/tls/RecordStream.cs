@@ -3,8 +3,8 @@ using System.IO;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/// <remarks>An implementation of the TLS 1.0 record layer.</remarks>
-	public class RecordStream
+    /// <remarks>An implementation of the TLS 1.0 record layer.</remarks>
+    public class RecordStream
 	{
 		private TlsProtocolHandler handler;
 		private Stream inStr;

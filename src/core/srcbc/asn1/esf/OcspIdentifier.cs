@@ -1,21 +1,20 @@
-using System;
-
 using Org.BouncyCastle.Asn1.Ocsp;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
-	/// <code>
-	/// OcspIdentifier ::= SEQUENCE {
-	///		ocspResponderID		ResponderID,
-	///			-- As in OCSP response data
-	///		producedAt			GeneralizedTime
-	///			-- As in OCSP response data
-	/// }
-	/// </code>
-	/// </remarks>
-	public class OcspIdentifier
+    /// <remarks>
+    /// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
+    /// <code>
+    /// OcspIdentifier ::= SEQUENCE {
+    ///		ocspResponderID		ResponderID,
+    ///			-- As in OCSP response data
+    ///		producedAt			GeneralizedTime
+    ///			-- As in OCSP response data
+    /// }
+    /// </code>
+    /// </remarks>
+    public class OcspIdentifier
 		: Asn1Encodable
 	{
 		private readonly ResponderID		ocspResponderID;

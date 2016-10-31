@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	public class VmpcEngine
+    public class VmpcEngine
 		: IStreamCipher
 	{
 		/*

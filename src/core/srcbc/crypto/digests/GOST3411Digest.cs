@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Engines;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Digests
 {
-	/**
+    /**
 	* implementation of GOST R 34.11-94
 	*/
-	public class Gost3411Digest
+    public class Gost3411Digest
 		: IDigest
 	{
 		private const int DIGEST_LENGTH = 32;

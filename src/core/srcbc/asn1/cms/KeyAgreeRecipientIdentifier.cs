@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	public class KeyAgreeRecipientIdentifier
+    public class KeyAgreeRecipientIdentifier
 		: Asn1Encodable
 	{
 		/**

@@ -1,7 +1,7 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
+using System;
+using System.IO;
 /*
  * $Id: RtfTab.cs,v 1.5 2008/05/23 17:24:29 psoares33 Exp $
  * 
@@ -54,7 +54,8 @@ using iTextSharp.text.rtf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp.text.rtf.text
+{
 
     /**
     * The RtfTab encapsulates a tab position and tab type in a paragraph.

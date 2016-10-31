@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	public class AeadParameters
+    public class AeadParameters
 		: ICipherParameters
 	{
 		private readonly byte[] associatedText;

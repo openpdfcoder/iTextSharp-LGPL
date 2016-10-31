@@ -2,7 +2,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Asn1
 {
-	public class BerSetGenerator
+    public class BerSetGenerator
 		: BerGenerator
 	{
 		public BerSetGenerator(

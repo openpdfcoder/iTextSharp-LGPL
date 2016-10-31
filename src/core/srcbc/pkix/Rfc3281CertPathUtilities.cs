@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.Globalization;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
@@ -10,10 +5,14 @@ using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
+using System.Globalization;
+using System.IO;
 
 namespace Org.BouncyCastle.Pkix
 {
-	internal class Rfc3281CertPathUtilities
+    internal class Rfc3281CertPathUtilities
 	{
 		internal static void ProcessAttrCert7(
 			IX509AttributeCertificate	attrCert,

@@ -49,7 +49,8 @@ using System.Security.Cryptography;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
 
     /**
     * Support for JBIG2 images.

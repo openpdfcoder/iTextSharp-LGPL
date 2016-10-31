@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities.IO;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Utilities.IO;
-
 namespace Org.BouncyCastle.Asn1
 {
-	public class BerOctetStringParser
+    public class BerOctetStringParser
 		: Asn1OctetStringParser
 	{
 		private readonly Asn1StreamParser _parser;

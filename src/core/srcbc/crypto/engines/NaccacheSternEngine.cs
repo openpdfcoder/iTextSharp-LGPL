@@ -1,17 +1,16 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Utilities;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* NaccacheStern Engine. For details on this cipher, please see
 	* http://www.gemplus.com/smart/rd/publications/pdf/NS98pkcs.pdf
 	*/
-	public class NaccacheSternEngine
+    public class NaccacheSternEngine
 		: IAsymmetricBlockCipher
 	{
 		private bool forEncryption;

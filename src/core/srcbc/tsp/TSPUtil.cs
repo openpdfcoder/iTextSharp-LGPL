@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Nist;
@@ -11,10 +7,13 @@ using Org.BouncyCastle.Asn1.TeleTrust;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Tsp
 {
-	public class TspUtil
+    public class TspUtil
 	{
 		private static readonly IDictionary digestLengths = new Hashtable();
 		private static readonly IDictionary digestNames = new Hashtable();

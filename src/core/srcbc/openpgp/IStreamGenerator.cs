@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	public interface IStreamGenerator
+    public interface IStreamGenerator
 	{
 		void Close();
 	}

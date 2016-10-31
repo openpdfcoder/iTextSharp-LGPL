@@ -1,7 +1,7 @@
-using System;
-using System.Collections;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using System;
+using System.Collections;
 /*
  * $Id: PdfPCellEventForwarder.cs,v 1.2 2008/05/13 11:25:40 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.events {
+namespace iTextSharp.text.pdf.events
+{
 
     /**
     * If you want to add more than one event to a cell,

@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Agreement.Kdf
 {
-	public class DHKdfParameters
+    public class DHKdfParameters
 		: IDerivationParameters
 	{
 		private readonly DerObjectIdentifier algorithm;

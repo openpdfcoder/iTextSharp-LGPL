@@ -1,10 +1,10 @@
+using Org.BouncyCastle.Asn1.X509;
 using System;
 using System.IO;
-using Org.BouncyCastle.Asn1.X509;
 
 namespace Org.BouncyCastle.Asn1.IsisMtt.Ocsp
 {
-	/**
+    /**
 	* ISIS-MTT-Optional: The certificate requested by the client by inserting the
 	* RetrieveIfAllowed extension in the request, will be returned in this
 	* extension.
@@ -37,7 +37,7 @@ namespace Org.BouncyCastle.Asn1.IsisMtt.Ocsp
 	*            }
 	* </pre>
 	*/
-	public class RequestedCertificate
+    public class RequestedCertificate
 		: Asn1Encodable, IAsn1Choice
 	{
 		public enum Choice

@@ -1,20 +1,19 @@
-using System;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	 * the RecipientInfo class for a recipient who has been sent a message
 	 * encrypted using a password.
 	 */
-	public class PasswordRecipientInformation
+    public class PasswordRecipientInformation
 		: RecipientInformation
 	{
 		private readonly PasswordRecipientInfo	_info;

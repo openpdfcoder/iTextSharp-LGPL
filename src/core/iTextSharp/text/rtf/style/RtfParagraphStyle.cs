@@ -1,11 +1,12 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.text;
+using System;
+using System.IO;
 
-namespace iTextSharp.text.rtf.style {
+namespace iTextSharp.text.rtf.style
+{
 
     /**
     * The RtfParagraphStyle stores all style/formatting attributes of a RtfParagraph.

@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Asn1.X500;
+using Org.BouncyCastle.Math;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Asn1.X500;
-using Org.BouncyCastle.Math;
-
 namespace Org.BouncyCastle.Asn1.X509.SigI
 {
-	/**
+    /**
 	* Contains personal data for the otherName field in the subjectAltNames
 	* extension.
 	* <p/>
@@ -24,7 +23,7 @@ namespace Org.BouncyCastle.Asn1.X509.SigI
 	* @see org.bouncycastle.asn1.x509.sigi.NameOrPseudonym
 	* @see org.bouncycastle.asn1.x509.sigi.SigIObjectIdentifiers
 	*/
-	public class PersonalData
+    public class PersonalData
 		: Asn1Encodable
 	{
 		private readonly NameOrPseudonym	nameOrPseudonym;

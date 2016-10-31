@@ -1,14 +1,13 @@
+using Org.BouncyCastle.Security;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Security;
-
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>
-	/// Generator for a PGP master and subkey ring.
-	/// This class will generate both the secret and public key rings
-	/// </remarks>
+    /// <remarks>
+    /// Generator for a PGP master and subkey ring.
+    /// This class will generate both the secret and public key rings
+    /// </remarks>
     public class PgpKeyRingGenerator
     {
         private ArrayList					keys = new ArrayList();

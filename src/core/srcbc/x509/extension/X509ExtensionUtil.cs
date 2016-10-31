@@ -1,14 +1,13 @@
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Asn1.X509;
+using Org.BouncyCastle.Security.Certificates;
 using System;
 using System.Collections;
 using System.IO;
 
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Security.Certificates;
-
 namespace Org.BouncyCastle.X509.Extension
 {
-	public class X509ExtensionUtilities
+    public class X509ExtensionUtilities
 	{
 		public static Asn1Object FromExtensionValue(
 			Asn1OctetString extensionValue)

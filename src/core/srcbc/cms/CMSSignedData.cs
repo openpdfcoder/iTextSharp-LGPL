@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.X509;
@@ -9,10 +5,13 @@ using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* general class for handling a pkcs7-signature message.
 	*
 	* A simple example of usage - note, in the example below the validity of
@@ -35,7 +34,7 @@ namespace Org.BouncyCastle.Cms
 	*  }
 	* </pre>
 	*/
-	public class CmsSignedData
+    public class CmsSignedData
 	{
 		private static readonly CmsSignedHelper Helper = CmsSignedHelper.Instance;
 

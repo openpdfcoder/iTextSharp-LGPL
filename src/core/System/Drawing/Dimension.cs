@@ -1,6 +1,7 @@
 using System;
 
-namespace System.Drawing {
+namespace System.Drawing
+{
     /// <summary>
     /// The <code>Dimension</code> class encapsulates the width and
     /// height of a component (in int precision) in a single object. 

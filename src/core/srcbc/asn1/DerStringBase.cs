@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Asn1
 {
-	public abstract class DerStringBase
+    public abstract class DerStringBase
 		: Asn1Object, IAsn1String
 	{
 		protected DerStringBase()

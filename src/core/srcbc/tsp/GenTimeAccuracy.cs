@@ -3,7 +3,7 @@ using Org.BouncyCastle.Asn1.Tsp;
 
 namespace Org.BouncyCastle.Tsp
 {
-	public class GenTimeAccuracy
+    public class GenTimeAccuracy
 	{
 		private Accuracy accuracy;
 

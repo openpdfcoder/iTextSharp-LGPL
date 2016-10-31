@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.IsisMtt.Ocsp
 {
-	/**
+    /**
 	* ISIS-MTT PROFILE: The responder may include this extension in a response to
 	* send the hash of the requested certificate to the responder. This hash is
 	* cryptographically bound to the certificate and serves as evidence that the
@@ -24,7 +23,7 @@ namespace Org.BouncyCastle.Asn1.IsisMtt.Ocsp
 	*     }
 	* </pre>
 	*/
-	public class CertHash
+    public class CertHash
 		: Asn1Encodable
 	{
 		private readonly AlgorithmIdentifier	hashAlgorithm;

@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Cmp
 {
-	/**
+    /**
 	 * <pre>
 	 * PKIFailureInfo ::= BIT STRING {
 	 * badAlg               (0),
@@ -31,7 +31,7 @@ namespace Org.BouncyCastle.Asn1.Cmp
 	 *    -- the request cannot be handled due to system failure
 	 * </pre>
 	 */
-	public class PkiFailureInfo
+    public class PkiFailureInfo
 		: DerBitString
 	{
 		public const int BadAlg               = (1 << 7); // unrecognized or unsupported Algorithm Identifier

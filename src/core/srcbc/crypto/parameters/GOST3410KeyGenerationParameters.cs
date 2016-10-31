@@ -1,12 +1,11 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	public class Gost3410KeyGenerationParameters
+    public class Gost3410KeyGenerationParameters
 		: KeyGenerationParameters
 	{
 		private readonly Gost3410Parameters parameters;

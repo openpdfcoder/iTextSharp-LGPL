@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Cms
 {
-	internal class BaseDigestCalculator
+    internal class BaseDigestCalculator
 		: IDigestCalculator
 	{
 		private readonly byte[] digest;

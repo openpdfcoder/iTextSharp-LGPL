@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Ess
 {
-	[Obsolete("Use version in Asn1.Esf instead")]
+    [Obsolete("Use version in Asn1.Esf instead")]
 	public class OtherSigningCertificate
 		: Asn1Encodable
 	{

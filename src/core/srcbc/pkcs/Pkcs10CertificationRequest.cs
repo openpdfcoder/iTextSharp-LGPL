@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.Globalization;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Nist;
@@ -16,6 +11,10 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.Globalization;
+using System.IO;
 
 namespace Org.BouncyCastle.Pkcs
 {

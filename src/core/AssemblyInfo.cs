@@ -13,7 +13,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyProduct("")]
 [assembly: AssemblyCopyright("Copyright (C) 1999-2009 by Bruno Lowagie and Paulo Soares. All Rights Reserved.")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]        
+[assembly: AssemblyCulture("")]
 
 //
 // Version information for an assembly consists of the following four values:
@@ -54,5 +54,5 @@ using System.Runtime.CompilerServices;
 //       documentation for more information on this.
 //
 [assembly: AssemblyDelaySign(false)]
-[assembly: AssemblyKeyFile("..\\..\\itextsharp.snk")]
+[assembly: AssemblyKeyFile("itextsharp.snk")]
 [assembly: AssemblyKeyName("")]

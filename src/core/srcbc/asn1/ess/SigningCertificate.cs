@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Ess
 {
-	public class SigningCertificate
+    public class SigningCertificate
 		: Asn1Encodable
 	{
 		private Asn1Sequence certs, policies;

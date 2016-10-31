@@ -1,12 +1,11 @@
-using System;
-
 using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Ess
 {
-	public class EssCertIDv2
+    public class EssCertIDv2
 		: Asn1Encodable
 	{
 		private readonly AlgorithmIdentifier hashAlgorithm;

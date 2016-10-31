@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Ocsp
 {
-	public class OcspException
+    public class OcspException
 		: Exception
 	{
 		public OcspException()

@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Ocsp;
+using System;
 
 namespace Org.BouncyCastle.Ocsp
 {
-	/**
+    /**
 	 * base generator for an OCSP response - at the moment this only supports the
 	 * generation of responses containing BasicOCSP responses.
 	 */
-	public class OCSPRespGenerator
+    public class OCSPRespGenerator
 	{
 		public const int Successful			= 0;	// Response has valid confirmations
 		public const int MalformedRequest	= 1;	// Illegal confirmation request

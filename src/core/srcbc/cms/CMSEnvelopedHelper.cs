@@ -1,13 +1,12 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Security;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Cms
 {
-	class CmsEnvelopedHelper
+    class CmsEnvelopedHelper
 	{
 		internal static readonly CmsEnvelopedHelper Instance = new CmsEnvelopedHelper();
 

@@ -1,6 +1,5 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Bcpg.Sig
 {

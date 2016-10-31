@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Base interface for a PGP key.</remarks>
+    /// <remarks>Base interface for a PGP key.</remarks>
     public interface IBcpgKey
     {
 		/// <summary>

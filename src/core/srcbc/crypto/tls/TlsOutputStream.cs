@@ -1,12 +1,11 @@
-using System;
-
 using Org.BouncyCastle.Utilities.IO;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/// <remarks>An output Stream for a TLS 1.0 connection.</remarks>
-	// TODO Fix name and make internal once TlsProtocolHandler.TlsOuputStream is removed
-	public class TlsOuputStream
+    /// <remarks>An output Stream for a TLS 1.0 connection.</remarks>
+    // TODO Fix name and make internal once TlsProtocolHandler.TlsOuputStream is removed
+    public class TlsOuputStream
 		: BaseOutputStream
 	{
 		private readonly TlsProtocolHandler handler;

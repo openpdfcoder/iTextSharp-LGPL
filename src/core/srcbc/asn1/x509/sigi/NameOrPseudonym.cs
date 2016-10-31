@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Asn1.X500;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Asn1.X500;
-
 namespace Org.BouncyCastle.Asn1.X509.SigI
 {
-	/**
+    /**
 	* Structure for a name or pseudonym.
 	* 
 	* <pre>
@@ -21,7 +20,7 @@ namespace Org.BouncyCastle.Asn1.X509.SigI
 	* @see org.bouncycastle.asn1.x509.sigi.PersonalData
 	* 
 	*/
-	public class NameOrPseudonym
+    public class NameOrPseudonym
 		: Asn1Encodable, IAsn1Choice
 	{
 		private readonly DirectoryString	pseudonym;

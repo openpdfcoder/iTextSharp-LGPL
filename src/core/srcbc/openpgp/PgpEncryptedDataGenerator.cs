@@ -1,17 +1,16 @@
-using System;
-using System.Collections;
-using System.Diagnostics;
-using System.IO;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.IO;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
+using System.Collections;
+using System.Diagnostics;
+using System.IO;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>Generator for encrypted objects.</remarks>
+    /// <remarks>Generator for encrypted objects.</remarks>
     public class PgpEncryptedDataGenerator
 		: IStreamGenerator
     {

@@ -49,7 +49,8 @@ using System.Text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.factories {
+namespace iTextSharp.text.factories
+{
     /**
     * This class can produce String combinations representing a roman number.
     */

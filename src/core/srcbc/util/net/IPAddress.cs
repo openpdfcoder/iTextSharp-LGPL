@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Math;
 using System;
 using System.Globalization;
 
-using Org.BouncyCastle.Math;
-
 namespace Org.BouncyCastle.Utilities.Net
 {
-	public class IPAddress
+    public class IPAddress
 	{
 		/**
 		 * Validate the given IPv4 or IPv6 address.

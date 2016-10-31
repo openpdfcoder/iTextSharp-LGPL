@@ -48,12 +48,13 @@ using System;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf.crypto {
+namespace iTextSharp.text.pdf.crypto
+{
 
-/**
- * An initialization vector generator for a CBC block encryption. It's a random generator based on RC4.
- * @author Paulo Soares (psoares@consiste.pt)
- */
+    /**
+     * An initialization vector generator for a CBC block encryption. It's a random generator based on RC4.
+     * @author Paulo Soares (psoares@consiste.pt)
+     */
     public sealed class IVGenerator {
         
         private static ARCFOUREncryption rc4;

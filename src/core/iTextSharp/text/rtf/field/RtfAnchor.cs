@@ -1,8 +1,8 @@
+using iTextSharp.text;
+using iTextSharp.text.rtf.document;
+using iTextSharp.text.rtf.text;
 using System;
 using System.IO;
-using iTextSharp.text;
-using iTextSharp.text.rtf.text;
-using iTextSharp.text.rtf.document;
 /*
  * $Id: RtfAnchor.cs,v 1.7 2008/05/16 19:30:54 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.field {
+namespace iTextSharp.text.rtf.field
+{
 
     /**
     * 

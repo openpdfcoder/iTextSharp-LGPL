@@ -1,17 +1,16 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Macs;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Modes
 {
-	/// <summary>
-	/// Implements the Galois/Counter mode (GCM) detailed in
-	/// NIST Special Publication 800-38D.
-	/// </summary>
-	public class GcmBlockCipher
+    /// <summary>
+    /// Implements the Galois/Counter mode (GCM) detailed in
+    /// NIST Special Publication 800-38D.
+    /// </summary>
+    public class GcmBlockCipher
 		: IAeadBlockCipher
 	{
 		private const int					BlockSize = 16;

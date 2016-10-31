@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Ess;
 using Org.BouncyCastle.Asn1.Nist;
@@ -15,10 +11,13 @@ using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Tsp
 {
-	public class TimeStampToken
+    public class TimeStampToken
 	{
 		private readonly CmsSignedData		tsToken;
 		private readonly SignerInformation	tsaSignerInfo;

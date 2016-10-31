@@ -1,17 +1,16 @@
+using Org.BouncyCastle.Security;
+using Org.BouncyCastle.Utilities;
+using Org.BouncyCastle.Utilities.Collections;
+using Org.BouncyCastle.X509.Store;
 using System;
 using System.Text;
 
-using Org.BouncyCastle.Security;
-using Org.BouncyCastle.X509.Store;
-using Org.BouncyCastle.Utilities;
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Pkix
 {
-	/// <summary>
+    /// <summary>
     /// Summary description for PkixBuilderParameters.
-	/// </summary>
-	public class PkixBuilderParameters
+    /// </summary>
+    public class PkixBuilderParameters
 		: PkixParameters
 	{
 		private int maxPathLength = 5;

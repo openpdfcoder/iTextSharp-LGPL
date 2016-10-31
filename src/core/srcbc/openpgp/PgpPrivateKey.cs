@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
+using System;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>General class to contain a private key for use with other OpenPGP objects.</remarks>
+    /// <remarks>General class to contain a private key for use with other OpenPGP objects.</remarks>
     public class PgpPrivateKey
     {
         private readonly long keyId;

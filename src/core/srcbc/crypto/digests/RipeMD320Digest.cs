@@ -2,10 +2,10 @@ using System;
 
 namespace Org.BouncyCastle.Crypto.Digests
 {
-	/// <remarks>
-	/// <p>Implementation of RipeMD 320.</p>
-	/// <p><b>Note:</b> this algorithm offers the same level of security as RipeMD160.</p>
-	/// </remarks>
+    /// <remarks>
+    /// <p>Implementation of RipeMD 320.</p>
+    /// <p><b>Note:</b> this algorithm offers the same level of security as RipeMD160.</p>
+    /// </remarks>
     public class RipeMD320Digest
 		: GeneralDigest
     {

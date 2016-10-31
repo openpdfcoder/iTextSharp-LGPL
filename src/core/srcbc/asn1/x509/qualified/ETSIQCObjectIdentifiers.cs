@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
+using System;
 
 namespace Org.BouncyCastle.Asn1.X509.Qualified
 {
-	public abstract class EtsiQCObjectIdentifiers
+    public abstract class EtsiQCObjectIdentifiers
 	{
 		//
 		// base id

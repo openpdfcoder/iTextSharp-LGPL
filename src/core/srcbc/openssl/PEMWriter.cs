@@ -1,9 +1,3 @@
-using System;
-using System.Diagnostics;
-using System.Globalization;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
@@ -17,11 +11,16 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities.Encoders;
 using Org.BouncyCastle.X509;
+using System;
+using System.Diagnostics;
+using System.Globalization;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.OpenSsl
 {
-	/// <remarks>General purpose writer for OpenSSL PEM objects.</remarks>
-	public class PemWriter
+    /// <remarks>General purpose writer for OpenSSL PEM objects.</remarks>
+    public class PemWriter
 	{
 		private readonly TextWriter writer;
 

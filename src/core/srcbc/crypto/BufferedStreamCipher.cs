@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto
 {
-	public class BufferedStreamCipher
+    public class BufferedStreamCipher
 		: BufferedCipherBase
 	{
 		private readonly IStreamCipher cipher;

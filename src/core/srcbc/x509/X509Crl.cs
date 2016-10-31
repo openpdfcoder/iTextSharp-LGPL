@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Utilities;
 using Org.BouncyCastle.Asn1.X509;
@@ -14,10 +10,13 @@ using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.Utilities.Date;
 using Org.BouncyCastle.Utilities.Encoders;
 using Org.BouncyCastle.X509.Extension;
+using System;
+using System.Collections;
+using System.Text;
 
 namespace Org.BouncyCastle.X509
 {
-	/**
+    /**
 	 * The following extensions are listed in RFC 2459 as relevant to CRLs
 	 *
 	 * Authority Key Identifier
@@ -26,7 +25,7 @@ namespace Org.BouncyCastle.X509
 	 * Delta CRL Indicator (critical)
 	 * Issuing Distribution Point (critical)
 	 */
-	public class X509Crl
+    public class X509Crl
 		: X509ExtensionBase
 		// TODO Add interface Crl?
 	{

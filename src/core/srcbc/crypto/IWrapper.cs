@@ -1,6 +1,5 @@
-using System;
-
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto
 {

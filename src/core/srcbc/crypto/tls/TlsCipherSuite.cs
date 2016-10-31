@@ -2,8 +2,8 @@ using System;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/// <remarks>A generic class for ciphersuites in TLS 1.0.</remarks>
-	public abstract class TlsCipherSuite
+    /// <remarks>A generic class for ciphersuites in TLS 1.0.</remarks>
+    public abstract class TlsCipherSuite
 	{
 		internal const short KE_RSA = 1;
 		internal const short KE_RSA_EXPORT = 2;

@@ -2,7 +2,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Asn1
 {
-	public class DerSetGenerator
+    public class DerSetGenerator
 		: DerGenerator
 	{
 		private readonly MemoryStream _bOut = new MemoryStream();

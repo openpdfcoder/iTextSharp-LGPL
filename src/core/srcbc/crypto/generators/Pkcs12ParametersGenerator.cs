@@ -1,13 +1,12 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	/**
+    /**
 	 * Generator for Pbe derived keys and ivs as defined by Pkcs 12 V1.0.
 	 * <p>
 	 * The document this implementation is based on can be found at
@@ -15,7 +14,7 @@ namespace Org.BouncyCastle.Crypto.Generators
 	 * RSA's Pkcs12 Page</a>
 	 * </p>
 	 */
-	public class Pkcs12ParametersGenerator
+    public class Pkcs12ParametersGenerator
 		: PbeParametersGenerator
 	{
 		public const int KeyMaterial = 1;

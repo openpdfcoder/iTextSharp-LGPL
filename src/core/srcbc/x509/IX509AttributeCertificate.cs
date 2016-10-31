@@ -1,13 +1,12 @@
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.Math;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Math;
-
 namespace Org.BouncyCastle.X509
 {
-	/// <remarks>Interface for an X.509 Attribute Certificate.</remarks>
-	public interface IX509AttributeCertificate
+    /// <remarks>Interface for an X.509 Attribute Certificate.</remarks>
+    public interface IX509AttributeCertificate
 		: IX509Extension
 	{
 		/// <summary>The version number for the certificate.</summary>

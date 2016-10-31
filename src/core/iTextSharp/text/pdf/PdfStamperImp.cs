@@ -1,12 +1,12 @@
-using System;
-using System.IO;
-using System.Collections;
-using System.Text;
-using System.util;
+using iTextSharp.text.pdf.collection;
 using iTextSharp.text.pdf.interfaces;
 using iTextSharp.text.pdf.intern;
-using iTextSharp.text.pdf.collection;
 using iTextSharp.text.xml.xmp;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
+using System.util;
 /*
  * Copyright 2003 by Paulo Soares.
  *
@@ -54,7 +54,8 @@ using iTextSharp.text.xml.xmp;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     public class PdfStamperImp : PdfWriter {
         internal Hashtable readers2intrefs = new Hashtable();
         internal Hashtable readers2file = new Hashtable();

@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Globalization;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Iana;
@@ -11,10 +8,12 @@ using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Generators;
+using System.Collections;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Security
 {
-	public sealed class GeneratorUtilities
+    public sealed class GeneratorUtilities
 	{
 		private GeneratorUtilities()
 		{

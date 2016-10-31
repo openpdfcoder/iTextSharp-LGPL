@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities;
 using System;
 using System.Text;
 
-using Org.BouncyCastle.Utilities;
-
 namespace Org.BouncyCastle.Asn1.X509
 {
-	public class GeneralNames
+    public class GeneralNames
 		: Asn1Encodable
 	{
 		private readonly GeneralName[] names;

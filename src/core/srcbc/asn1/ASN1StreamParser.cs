@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Asn1
 {
-	public class Asn1StreamParser
+    public class Asn1StreamParser
 	{
 		private readonly Stream _in;
 		private readonly int _limit;

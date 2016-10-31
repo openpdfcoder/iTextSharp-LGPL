@@ -1,7 +1,7 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf.document;
+using System;
+using System.IO;
 /*
  * $Id: RtfTotalPageNumber.cs,v 1.5 2008/05/23 17:24:26 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.field {
+namespace iTextSharp.text.rtf.field
+{
 
     /**
     * The RtfTotalPageNumber provides the total number of pages field in rtf documents.

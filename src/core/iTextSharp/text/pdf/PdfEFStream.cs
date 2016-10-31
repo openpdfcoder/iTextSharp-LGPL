@@ -1,6 +1,6 @@
 using System;
-using System.IO;
 using System.Collections;
+using System.IO;
 using System.util.zlib;
 /*
  * $Id: PdfEFStream.java 3735 2009-02-26 01:44:03Z xlv $
@@ -51,7 +51,8 @@ using System.util.zlib;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * Extends PdfStream and should be used to create Streams for Embedded Files

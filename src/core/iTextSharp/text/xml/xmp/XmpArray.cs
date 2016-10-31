@@ -51,7 +51,8 @@ using System.Text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml.xmp {
+namespace iTextSharp.text.xml.xmp
+{
 
     /**
     * StringBuilder to construct an XMP array.

@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Digests;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/// <remarks>A combined hash, which implements md5(m) || sha1(m).</remarks>
-	public class CombinedHash
+    /// <remarks>A combined hash, which implements md5(m) || sha1(m).</remarks>
+    public class CombinedHash
 		: IDigest
 	{
 		private IDigest md5 = new MD5Digest();

@@ -1,7 +1,7 @@
+using iTextSharp.text.pdf.draw;
 using System;
 using System.Collections;
 using System.util.collections;
-using iTextSharp.text.pdf.draw;
 
 /*
  * Copyright 2001-2005 by Paulo Soares.
@@ -50,34 +50,35 @@ using iTextSharp.text.pdf.draw;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
-/**
- * Formats text in a columnwise form. The text is bound
- * on the left and on the right by a sequence of lines. This allows the column
- * to have any shape, not only rectangular.
- * <P>
- * Several parameters can be set like the first paragraph line indent and
- * extra space between paragraphs.
- * <P>
- * A call to the method <CODE>go</CODE> will return one of the following
- * situations: the column ended or the text ended.
- * <P>
- * I the column ended, a new column definition can be loaded with the method
- * <CODE>setColumns</CODE> and the method <CODE>go</CODE> can be called again.
- * <P>
- * If the text ended, more text can be loaded with <CODE>addText</CODE>
- * and the method <CODE>go</CODE> can be called again.<BR>
- * The only limitation is that one or more complete paragraphs must be loaded
- * each time.
- * <P>
- * Full bidirectional reordering is supported. If the run direction is
- * <CODE>PdfWriter.RUN_DIRECTION_RTL</CODE> the meaning of the horizontal
- * alignments and margins is mirrored.
- * @author Paulo Soares (psoares@consiste.pt)
- */
+    /**
+     * Formats text in a columnwise form. The text is bound
+     * on the left and on the right by a sequence of lines. This allows the column
+     * to have any shape, not only rectangular.
+     * <P>
+     * Several parameters can be set like the first paragraph line indent and
+     * extra space between paragraphs.
+     * <P>
+     * A call to the method <CODE>go</CODE> will return one of the following
+     * situations: the column ended or the text ended.
+     * <P>
+     * I the column ended, a new column definition can be loaded with the method
+     * <CODE>setColumns</CODE> and the method <CODE>go</CODE> can be called again.
+     * <P>
+     * If the text ended, more text can be loaded with <CODE>addText</CODE>
+     * and the method <CODE>go</CODE> can be called again.<BR>
+     * The only limitation is that one or more complete paragraphs must be loaded
+     * each time.
+     * <P>
+     * Full bidirectional reordering is supported. If the run direction is
+     * <CODE>PdfWriter.RUN_DIRECTION_RTL</CODE> the meaning of the horizontal
+     * alignments and margins is mirrored.
+     * @author Paulo Soares (psoares@consiste.pt)
+     */
 
-public class ColumnText {
+    public class ColumnText {
     /** Eliminate the arabic vowels */    
     public int AR_NOVOWEL = ArabicLigaturizer.ar_novowel;
     /** Compose the tashkeel in the ligatures. */    

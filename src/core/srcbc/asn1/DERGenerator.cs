@@ -1,6 +1,5 @@
-using System.IO;
-
 using Org.BouncyCastle.Utilities.IO;
+using System.IO;
 
 namespace Org.BouncyCastle.Asn1
 {

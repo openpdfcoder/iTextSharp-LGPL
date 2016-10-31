@@ -46,7 +46,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     public class PdfMediaClipData : PdfDictionary {
         
         internal PdfMediaClipData(String file, PdfFileSpecification fs, String mimeType) {

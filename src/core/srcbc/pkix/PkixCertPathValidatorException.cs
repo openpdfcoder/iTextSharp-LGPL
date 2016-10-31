@@ -1,9 +1,9 @@
-using System;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Pkix
 {
-	/**
+    /**
 	 * An exception indicating one of a variety of problems encountered when 
 	 * validating a certification path. <br />
 	 * <br />
@@ -28,7 +28,7 @@ namespace Org.BouncyCastle.Pkix
 	 * @see CertPathValidator
 	 **/
 
-	public class PkixCertPathValidatorException : GeneralSecurityException
+    public class PkixCertPathValidatorException : GeneralSecurityException
 	{
 		private Exception cause;
 		private PkixCertPath certPath;

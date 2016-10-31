@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Asn1.X9
 {
-	public abstract class X9ECParametersHolder
+    public abstract class X9ECParametersHolder
 	{
 		private X9ECParameters parameters;
 

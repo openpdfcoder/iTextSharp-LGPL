@@ -1,14 +1,13 @@
-using System;
-using System.Diagnostics;
-
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
+using System.Diagnostics;
 
 namespace Org.BouncyCastle.Crypto.Agreement
 {
-	/**
+    /**
 	 * a Diffie-Hellman key exchange engine.
 	 * <p>
 	 * note: This uses MTI/A0 key agreement in order to make the key agreement
@@ -19,7 +18,7 @@ namespace Org.BouncyCastle.Crypto.Agreement
 	 * It's possible to extend this to more than two parties as well, for the moment
 	 * that is left as an exercise for the reader.</p>
 	 */
-	public class DHAgreement
+    public class DHAgreement
 	{
 		private DHPrivateKeyParameters  key;
 		private DHParameters			dhParams;

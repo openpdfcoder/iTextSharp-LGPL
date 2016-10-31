@@ -1,22 +1,21 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
-	/// <code>
-	/// CrlIdentifier ::= SEQUENCE 
-	/// {
-	/// 	crlissuer		Name,
-	/// 	crlIssuedTime	UTCTime,
-	/// 	crlNumber		INTEGER OPTIONAL
-	/// }
-	/// </code>
-	/// </remarks>
-	public class CrlIdentifier
+    /// <remarks>
+    /// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
+    /// <code>
+    /// CrlIdentifier ::= SEQUENCE 
+    /// {
+    /// 	crlissuer		Name,
+    /// 	crlIssuedTime	UTCTime,
+    /// 	crlNumber		INTEGER OPTIONAL
+    /// }
+    /// </code>
+    /// </remarks>
+    public class CrlIdentifier
 		: Asn1Encodable
 	{
 		private readonly X509Name	crlIssuer;

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using System.Text;
 using System.Net;
+using System.Text;
 /*
  * $Id: RandomAccessFileOrArray.cs,v 1.9 2008/05/13 11:25:23 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using System.Net;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /** An implementation of a RandomAccessFile for input only
     * that accepts a file or a byte array as data source.
     *

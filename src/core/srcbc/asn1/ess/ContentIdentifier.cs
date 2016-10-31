@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Ess
 {
-	public class ContentIdentifier
+    public class ContentIdentifier
 		: Asn1Encodable
 	{
 		private Asn1OctetString value;

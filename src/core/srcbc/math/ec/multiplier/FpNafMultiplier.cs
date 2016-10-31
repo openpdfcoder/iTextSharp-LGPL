@@ -1,9 +1,9 @@
 namespace Org.BouncyCastle.Math.EC.Multiplier
 {
-	/**
+    /**
 	* Class implementing the NAF (Non-Adjacent Form) multiplication algorithm.
 	*/
-	internal class FpNafMultiplier
+    internal class FpNafMultiplier
 		: ECMultiplier
 	{
 		/**

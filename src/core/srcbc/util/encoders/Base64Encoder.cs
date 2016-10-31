@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Utilities.Encoders
 {
-	public class Base64Encoder
+    public class Base64Encoder
 		: IEncoder
 	{
 		protected readonly byte[] encodingTable =

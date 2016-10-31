@@ -2,17 +2,17 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// <code>
-	/// SignaturePolicyIdentifier ::= CHOICE {
-	///		SignaturePolicyId		SignaturePolicyId,
-	///		SignaturePolicyImplied	SignaturePolicyImplied
-	/// }
-	/// 
-	/// SignaturePolicyImplied ::= NULL
-	/// </code>
-	/// </remarks>
-	public class SignaturePolicyIdentifier
+    /// <remarks>
+    /// <code>
+    /// SignaturePolicyIdentifier ::= CHOICE {
+    ///		SignaturePolicyId		SignaturePolicyId,
+    ///		SignaturePolicyImplied	SignaturePolicyImplied
+    /// }
+    /// 
+    /// SignaturePolicyImplied ::= NULL
+    /// </code>
+    /// </remarks>
+    public class SignaturePolicyIdentifier
 		: Asn1Encodable, IAsn1Choice
 	{
 		private readonly SignaturePolicyId sigPolicy;

@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
@@ -8,11 +5,13 @@ using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.X509
 {
-	/// <remarks>Class to produce an X.509 Version 2 AttributeCertificate.</remarks>
-	public class X509V2AttributeCertificateGenerator
+    /// <remarks>Class to produce an X.509 Version 2 AttributeCertificate.</remarks>
+    public class X509V2AttributeCertificateGenerator
 	{
 		private readonly X509ExtensionsGenerator extGenerator = new X509ExtensionsGenerator();
 

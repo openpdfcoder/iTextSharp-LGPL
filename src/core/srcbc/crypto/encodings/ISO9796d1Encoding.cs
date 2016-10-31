@@ -1,17 +1,17 @@
-using System;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Encodings
 {
-	/**
+    /**
 	* ISO 9796-1 padding. Note in the light of recent results you should
 	* only use this with RSA (rather than the "simpler" Rabin keys) and you
 	* should never use it with anything other than a hash (ie. even if the
 	* message is small don't sign the message, sign it's hash) or some "random"
 	* value. See your favorite search engine for details.
 	*/
-	public class ISO9796d1Encoding
+    public class ISO9796d1Encoding
 		: IAsymmetricBlockCipher
 	{
 		private static readonly byte[] shadows = { 0xe, 0x3, 0x5, 0x8, 0x9, 0x4, 0x2, 0xf,

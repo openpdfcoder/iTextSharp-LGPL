@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Crypto
 {
-	/// <summary>The interface stream ciphers conform to.</summary>
+    /// <summary>The interface stream ciphers conform to.</summary>
     public interface IStreamCipher
     {
 		/// <summary>The name of the algorithm this cipher implements.</summary>

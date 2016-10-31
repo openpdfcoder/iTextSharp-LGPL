@@ -1,6 +1,6 @@
 using System;
-using System.IO;
 using System.Collections;
+using System.IO;
 using System.Text;
 
 /*
@@ -50,12 +50,13 @@ using System.Text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
-/** This class takes any PDF and returns exactly the same but
- * encrypted. All the content, links, outlines, etc, are kept.
- * It is also possible to change the info dictionary.
- */
-public sealed class PdfEncryptor {
+namespace iTextSharp.text.pdf
+{
+    /** This class takes any PDF and returns exactly the same but
+     * encrypted. All the content, links, outlines, etc, are kept.
+     * It is also possible to change the info dictionary.
+     */
+    public sealed class PdfEncryptor {
     
     private PdfEncryptor(){
     }

@@ -1,15 +1,14 @@
-using System;
-using System.Collections;
-using System.util;
-using System.Text;
-using System.Xml;
-
 using iTextSharp.text;
+using iTextSharp.text.factories;
+using iTextSharp.text.html;
 using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.draw;
 using iTextSharp.text.xml.simpleparser;
-using iTextSharp.text.html;
-using iTextSharp.text.factories;
+using System;
+using System.Collections;
+using System.Text;
+using System.util;
+using System.Xml;
 
 /*
  * $Id: ITextHandler.cs,v 1.21 2008/05/13 11:26:11 psoares33 Exp $
@@ -61,7 +60,8 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml {
+namespace iTextSharp.text.xml
+{
 
     /// <summary>
     /// The <CODE>iTextHandler</CODE>-class maps several XHTML-tags to iText-objects.

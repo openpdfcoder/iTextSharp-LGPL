@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.Pkcs;
@@ -11,14 +8,16 @@ using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Pkcs;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* the RecipientInfo class for a recipient who has been sent a message
 	* encrypted using key agreement.
 	*/
-	public class KeyAgreeRecipientInformation
+    public class KeyAgreeRecipientInformation
 		: RecipientInformation
 	{
 		private KeyAgreeRecipientInfo _info;

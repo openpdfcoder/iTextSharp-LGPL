@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Cmp
 {
-	public class PkiStatusInfo
+    public class PkiStatusInfo
 		: Asn1Encodable
 	{
 		DerInteger      status;

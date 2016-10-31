@@ -1,7 +1,7 @@
+using iTextSharp.text;
 using System;
 using System.IO;
 using System.Net;
-using iTextSharp.text;
 /*
  * $Id: PdfImage.cs,v 1.6 2008/05/13 11:25:21 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * <CODE>PdfImage</CODE> is a <CODE>PdfStream</CODE> containing an image-<CODE>Dictionary</CODE> and -stream.
     */

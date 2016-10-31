@@ -1,16 +1,15 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	 * this does your basic RSA algorithm with blinding
 	 */
-	public class RsaBlindedEngine
+    public class RsaBlindedEngine
 		: IAsymmetricBlockCipher
 	{
 		private readonly RsaCoreEngine core = new RsaCoreEngine();

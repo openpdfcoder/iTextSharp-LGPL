@@ -1,6 +1,6 @@
 using System;
-using System.Text;
 using System.Collections;
+using System.Text;
 using System.util;
 
 /*
@@ -53,13 +53,14 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
-/**
- * Each PDF document can contain maximum 1 AcroForm.
- */
+    /**
+     * Each PDF document can contain maximum 1 AcroForm.
+     */
 
-public class PdfAcroForm : PdfDictionary {
+    public class PdfAcroForm : PdfDictionary {
 
     private PdfWriter writer;
 

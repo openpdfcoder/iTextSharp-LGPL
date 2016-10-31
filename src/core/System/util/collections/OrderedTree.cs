@@ -1,6 +1,6 @@
+using System;
 using System.Collections;
 using System.Text;
-using System;
 
 /*
  * $Id:  $
@@ -51,7 +51,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace System.util.collections {
+namespace System.util.collections
+{
     public class OrderedTree {
         // the number of nodes contained in the tree
         private int intCount;

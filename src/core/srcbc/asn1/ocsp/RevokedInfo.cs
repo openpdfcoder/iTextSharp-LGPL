@@ -1,7 +1,6 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Ocsp
 {

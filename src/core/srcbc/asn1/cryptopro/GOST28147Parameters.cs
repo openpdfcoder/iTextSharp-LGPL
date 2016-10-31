@@ -1,7 +1,6 @@
+using Org.BouncyCastle.Asn1;
 using System;
 using System.Collections;
-
-using Org.BouncyCastle.Asn1;
 
 namespace Org.BouncyCastle.Asn1.CryptoPro
 {

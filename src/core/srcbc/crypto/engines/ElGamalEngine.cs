@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* this does your basic ElGamal algorithm.
 	*/
-	public class ElGamalEngine
+    public class ElGamalEngine
 		: IAsymmetricBlockCipher
 	{
 		private ElGamalKeyParameters key;

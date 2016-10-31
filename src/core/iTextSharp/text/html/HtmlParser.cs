@@ -1,10 +1,9 @@
-using System;
-using System.IO;
-using System.Xml;
-using System.Collections;
-
 using iTextSharp.text;
 using iTextSharp.text.xml;
+using System;
+using System.Collections;
+using System.IO;
+using System.Xml;
 
 /*
  * Copyright 2001, 2002 by Bruno Lowagie.
@@ -53,7 +52,8 @@ using iTextSharp.text.xml;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html {
+namespace iTextSharp.text.html
+{
 
     /// <summary>
     /// This class can be used to parse an XML file.

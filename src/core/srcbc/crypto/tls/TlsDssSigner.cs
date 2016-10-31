@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Signers;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	internal class TlsDssSigner
+    internal class TlsDssSigner
 		: DsaDigestSigner
 	{
 		internal TlsDssSigner()

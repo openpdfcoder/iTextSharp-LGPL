@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <summary>Basic type for a trust packet.</summary>
+    /// <summary>Basic type for a trust packet.</summary>
     public class TrustPacket
         : ContainedPacket
     {

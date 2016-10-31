@@ -1,15 +1,14 @@
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.Pkix;
 using System;
 using System.Text;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Pkix;
-
 namespace Org.BouncyCastle.Pkix
 {
-	/// <summary>
-	/// Summary description for PkixCertPathBuilderResult.
-	/// </summary>
-	public class PkixCertPathBuilderResult
+    /// <summary>
+    /// Summary description for PkixCertPathBuilderResult.
+    /// </summary>
+    public class PkixCertPathBuilderResult
 		: PkixCertPathValidatorResult//, ICertPathBuilderResult
 	{
 		private PkixCertPath certPath;

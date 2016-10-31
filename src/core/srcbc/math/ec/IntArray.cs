@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Org.BouncyCastle.Math.EC
 {
-	internal class IntArray
+    internal class IntArray
 		: ICloneable
 	{
 		// TODO make m fixed for the IntArray, and hence compute T once and for all

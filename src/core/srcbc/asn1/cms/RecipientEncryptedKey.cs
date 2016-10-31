@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	public class RecipientEncryptedKey
+    public class RecipientEncryptedKey
 		: Asn1Encodable
 	{
 		private readonly KeyAgreeRecipientIdentifier identifier;

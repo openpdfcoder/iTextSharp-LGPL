@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Tsp
 {
-	public class TimeStampReq
+    public class TimeStampReq
 		: Asn1Encodable
 	{
 		private readonly DerInteger				version;

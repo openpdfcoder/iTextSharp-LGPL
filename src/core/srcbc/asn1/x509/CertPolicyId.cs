@@ -8,7 +8,7 @@ namespace Org.BouncyCastle.Asn1.X509
      *     CertPolicyId ::= OBJECT IDENTIFIER
      * </pre>
      */
-     public class CertPolicyID
+    public class CertPolicyID
 		 : DerObjectIdentifier
     {
        public CertPolicyID(

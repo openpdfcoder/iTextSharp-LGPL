@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Security
 {
-	public class EncryptionException
+    public class EncryptionException
 		: IOException
 	{
 		public EncryptionException(

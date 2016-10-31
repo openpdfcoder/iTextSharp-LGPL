@@ -2,7 +2,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Asn1
 {
-	public abstract class Asn1Encodable
+    public abstract class Asn1Encodable
 		: IAsn1Convertible
     {
 		public const string Der = "DER";

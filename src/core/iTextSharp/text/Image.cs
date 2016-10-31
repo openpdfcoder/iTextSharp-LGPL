@@ -1,15 +1,14 @@
+using iTextSharp.text.factories;
+using iTextSharp.text.pdf;
+using iTextSharp.text.pdf.codec;
 using System;
+using System.Collections;
 using System.IO;
 using System.Net;
-using System.Text;
-using System.Runtime.CompilerServices;
-using System.Collections;
-using System.util;
 using System.Reflection;
-
-using iTextSharp.text.pdf;
-using iTextSharp.text.factories;
-using iTextSharp.text.pdf.codec;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.util;
 
 /*
  * $Id: Image.cs,v 1.28 2008/05/13 11:25:11 psoares33 Exp $
@@ -61,7 +60,8 @@ using iTextSharp.text.pdf.codec;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// An Image is the representation of a graphic element (JPEG, PNG or GIF)
     /// that has to be inserted into the document

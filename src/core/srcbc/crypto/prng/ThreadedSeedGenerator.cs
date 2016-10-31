@@ -3,13 +3,13 @@ using System.Threading;
 
 namespace Org.BouncyCastle.Crypto.Prng
 {
-	/**
+    /**
 	 * A thread based seed generator - one source of randomness.
 	 * <p>
 	 * Based on an idea from Marcus Lippert.
 	 * </p>
 	 */
-	public class ThreadedSeedGenerator
+    public class ThreadedSeedGenerator
 	{
 		private class SeedGenerator
 		{

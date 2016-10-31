@@ -1,6 +1,6 @@
+using iTextSharp.text.factories;
 using System;
 using System.Text;
-using iTextSharp.text.factories;
 
 /*
  * Copyright 2003 by Michael Niedermair.
@@ -48,16 +48,17 @@ using iTextSharp.text.factories;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
 
-/**
- * 
- * A special-version of <CODE>LIST</CODE> which use roman-letters.
- * 
- * @see com.lowagie.text.List
- * @version 2003-06-22
- * @author Michael Niedermair
- */
+    /**
+     * 
+     * A special-version of <CODE>LIST</CODE> which use roman-letters.
+     * 
+     * @see com.lowagie.text.List
+     * @version 2003-06-22
+     * @author Michael Niedermair
+     */
 
     public class RomanList : List {
 

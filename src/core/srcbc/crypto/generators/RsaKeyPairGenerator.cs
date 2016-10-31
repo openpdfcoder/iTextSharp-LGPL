@@ -1,8 +1,7 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {

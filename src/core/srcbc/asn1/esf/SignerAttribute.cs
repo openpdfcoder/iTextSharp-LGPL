@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	public class SignerAttribute
+    public class SignerAttribute
 		: Asn1Encodable
 	{
 		private Asn1Sequence			claimedAttributes;

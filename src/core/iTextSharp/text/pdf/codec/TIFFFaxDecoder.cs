@@ -45,7 +45,8 @@ using System;
  * nuclear facility. 
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp.text.pdf.codec
+{
     public class TIFFFaxDecoder {
         
         private int bitPointer, bytePointer;

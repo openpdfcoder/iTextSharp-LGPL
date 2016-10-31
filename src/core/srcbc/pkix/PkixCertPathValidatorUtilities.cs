@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.IsisMtt;
 using Org.BouncyCastle.Asn1.X509;
@@ -16,13 +11,17 @@ using Org.BouncyCastle.Utilities.Date;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Extension;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.Pkix
 {
-	/// <summary>
-	/// Summary description for PkixCertPathValidatorUtilities.
-	/// </summary>
-	public class PkixCertPathValidatorUtilities
+    /// <summary>
+    /// Summary description for PkixCertPathValidatorUtilities.
+    /// </summary>
+    public class PkixCertPathValidatorUtilities
 	{
 		internal static readonly string ANY_POLICY = "2.5.29.32.0";
 

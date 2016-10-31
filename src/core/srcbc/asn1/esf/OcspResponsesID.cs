@@ -2,16 +2,16 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
-	/// <code>
-	/// OcspResponsesID ::= SEQUENCE {
-	///		ocspIdentifier	OcspIdentifier,
-	///		ocspRepHash		OtherHash OPTIONAL
-	/// }
-	/// </code>
-	/// </remarks>
-	public class OcspResponsesID
+    /// <remarks>
+    /// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
+    /// <code>
+    /// OcspResponsesID ::= SEQUENCE {
+    ///		ocspIdentifier	OcspIdentifier,
+    ///		ocspRepHash		OtherHash OPTIONAL
+    /// }
+    /// </code>
+    /// </remarks>
+    public class OcspResponsesID
 		: Asn1Encodable
 	{
 		private readonly OcspIdentifier	ocspIdentifier;

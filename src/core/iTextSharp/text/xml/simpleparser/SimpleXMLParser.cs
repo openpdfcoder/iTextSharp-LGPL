@@ -1,8 +1,8 @@
 using System;
-using System.IO;
-using System.Text;
 using System.Collections;
 using System.Globalization;
+using System.IO;
+using System.Text;
 /*
  * Copyright 2003 Paulo Soares
  *
@@ -79,7 +79,8 @@ using System.Globalization;
  * used in iText under the MPL.
  */
 
-namespace iTextSharp.text.xml.simpleparser {
+namespace iTextSharp.text.xml.simpleparser
+{
     /**
     * A simple XML and HTML parser.  This parser is, like the SAX parser,
     * an event based parser, but with much less functionality.

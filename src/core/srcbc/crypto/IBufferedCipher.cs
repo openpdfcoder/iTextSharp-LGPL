@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Crypto
 {
-	/// <remarks>Block cipher engines are expected to conform to this interface.</remarks>
+    /// <remarks>Block cipher engines are expected to conform to this interface.</remarks>
     public interface IBufferedCipher
     {
 		/// <summary>The name of the algorithm this cipher implements.</summary>

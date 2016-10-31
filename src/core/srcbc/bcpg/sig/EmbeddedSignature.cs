@@ -2,10 +2,10 @@ using System;
 
 namespace Org.BouncyCastle.Bcpg.Sig
 {
-	/**
+    /**
 	 * Packet embedded signature
 	 */
-	public class EmbeddedSignature
+    public class EmbeddedSignature
 		: SignatureSubpacket
 	{
 		public EmbeddedSignature(

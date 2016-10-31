@@ -1,9 +1,9 @@
+using iTextSharp.text.xml.simpleparser;
 using System;
-using System.IO;
 using System.Collections;
+using System.IO;
 using System.Text;
 using System.util;
-using iTextSharp.text.xml.simpleparser;
 /*
  * Copyright 2004 by Paulo Soares.
  *
@@ -50,7 +50,8 @@ using iTextSharp.text.xml.simpleparser;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     *

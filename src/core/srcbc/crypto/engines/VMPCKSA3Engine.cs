@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	public class VmpcKsa3Engine
+    public class VmpcKsa3Engine
 		: VmpcEngine
 	{
 		public override string AlgorithmName

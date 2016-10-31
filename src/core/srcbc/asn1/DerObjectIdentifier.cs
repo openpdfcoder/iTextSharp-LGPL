@@ -1,9 +1,8 @@
+using Org.BouncyCastle.Math;
 using System;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-
-using Org.BouncyCastle.Math;
 
 namespace Org.BouncyCastle.Asn1
 {

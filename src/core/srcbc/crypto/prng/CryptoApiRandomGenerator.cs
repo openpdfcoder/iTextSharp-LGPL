@@ -5,10 +5,10 @@ using System.Security.Cryptography;
 
 namespace Org.BouncyCastle.Crypto.Prng
 {
-	/// <summary>
-	/// Uses Microsoft's RNGCryptoServiceProvider
-	/// </summary>
-	public class CryptoApiRandomGenerator
+    /// <summary>
+    /// Uses Microsoft's RNGCryptoServiceProvider
+    /// </summary>
+    public class CryptoApiRandomGenerator
 		: IRandomGenerator
 	{
 		private readonly RNGCryptoServiceProvider rndProv;

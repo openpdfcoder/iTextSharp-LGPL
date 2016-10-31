@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Ocsp;
 using Org.BouncyCastle.Asn1.X509;
@@ -10,10 +6,13 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Ocsp
 {
-	/**
+    /**
 	 * <pre>
 	 * OcspRequest     ::=     SEQUENCE {
 	 *       tbsRequest                  TBSRequest,
@@ -43,7 +42,7 @@ namespace Org.BouncyCastle.Ocsp
 	 *       serialNumber        CertificateSerialNumber }
 	 * </pre>
 	 */
-	public class OcspReq
+    public class OcspReq
 		: X509ExtensionBase
 	{
 		private OcspRequest req;

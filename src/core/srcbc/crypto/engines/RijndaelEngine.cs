@@ -1,17 +1,16 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* an implementation of Rijndael, based on the documentation and reference implementation
 	* by Paulo Barreto, Vincent Rijmen, for v2.0 August '99.
 	* <p>
 	* Note: this implementation is based on information prior to readonly NIST publication.
 	* </p>
 	*/
-	public class RijndaelEngine
+    public class RijndaelEngine
 		: IBlockCipher
 	{
 		private static readonly int MAXROUNDS = 14;

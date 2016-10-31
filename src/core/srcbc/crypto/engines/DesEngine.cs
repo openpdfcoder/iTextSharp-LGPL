@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/// <remarks>A class that provides a basic DES engine.</remarks>
+    /// <remarks>A class that provides a basic DES engine.</remarks>
     public class DesEngine
 		: IBlockCipher
     {

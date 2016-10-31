@@ -1,7 +1,7 @@
 
 namespace Org.BouncyCastle.Asn1
 {
-	/**
+    /**
 	 * Marker interface for CHOICE objects - if you implement this in a roll-your-own
 	 * object, any attempt to tag the object implicitly will convert the tag to an
 	 * explicit one as the encoding rules require.
@@ -10,7 +10,7 @@ namespace Org.BouncyCastle.Asn1
 	 * pattern which takes a tag object and the tagging mode used. 
 	 * </p>
 	 */
-	public interface IAsn1Choice
+    public interface IAsn1Choice
 	{
 		// marker interface
 	}

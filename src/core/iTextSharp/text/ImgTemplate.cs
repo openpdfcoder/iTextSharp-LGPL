@@ -1,6 +1,5 @@
-using System;
-
 using iTextSharp.text.pdf;
+using System;
 
 /*
  * $Id: ImgTemplate.cs,v 1.5 2008/05/13 11:25:11 psoares33 Exp $
@@ -52,7 +51,8 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// PdfTemplate that has to be inserted into the document
     /// </summary>

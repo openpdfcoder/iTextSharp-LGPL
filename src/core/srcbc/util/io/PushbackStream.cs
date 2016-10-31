@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Asn1.Utilities;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Asn1.Utilities;
-
 namespace Org.BouncyCastle.Utilities.IO
 {
-	public class PushbackStream
+    public class PushbackStream
 		: FilterStream
 	{
 		private int buf = -1;

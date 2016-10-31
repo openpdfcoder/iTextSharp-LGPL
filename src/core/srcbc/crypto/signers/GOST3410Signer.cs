@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Signers
 {
-	/**
+    /**
 	 * Gost R 34.10-94 Signature Algorithm
 	 */
-	public class Gost3410Signer
+    public class Gost3410Signer
 		: IDsa
 	{
 		private Gost3410KeyParameters key;

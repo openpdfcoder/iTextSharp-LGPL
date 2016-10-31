@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Macs
 {
-	public class VmpcMac
+    public class VmpcMac
 		: IMac
 	{
 		private byte g;

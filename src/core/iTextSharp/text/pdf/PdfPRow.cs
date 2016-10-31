@@ -1,5 +1,5 @@
-using System;
 using iTextSharp.text;
+using System;
 /*
  * $Id: PdfPRow.java 3913 2009-04-26 08:51:11Z blowagie $
  *
@@ -49,7 +49,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * A row in a PdfPTable.

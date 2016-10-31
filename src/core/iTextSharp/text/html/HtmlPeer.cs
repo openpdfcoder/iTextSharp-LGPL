@@ -1,7 +1,7 @@
-using System;
-using System.Globalization;
-using System.Collections;
 using iTextSharp.text.xml;
+using System;
+using System.Collections;
+using System.Globalization;
 using System.util;
 
 /*
@@ -54,7 +54,8 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html {
+namespace iTextSharp.text.html
+{
 
     /**
     * This interface is implemented by the peer of all the iText objects.

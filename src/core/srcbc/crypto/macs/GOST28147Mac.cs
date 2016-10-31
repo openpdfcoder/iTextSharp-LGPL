@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Macs
 {
-	/**
+    /**
 	* implementation of GOST 28147-89 MAC
 	*/
-	public class Gost28147Mac : IMac
+    public class Gost28147Mac : IMac
 	{
 		private const int			blockSize = 8;
 		private const int			macSize = 4;

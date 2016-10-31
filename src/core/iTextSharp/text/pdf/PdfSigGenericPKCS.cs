@@ -1,7 +1,7 @@
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.X509;
 using System;
 using System.IO;
-using Org.BouncyCastle.X509;
-using Org.BouncyCastle.Crypto;
 /*
  * Copyright 2004 by Paulo Soares.
  *
@@ -48,7 +48,8 @@ using Org.BouncyCastle.Crypto;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * A signature dictionary representation for the standard filters.

@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Org.BouncyCastle.Utilities.Collections
 {
-	public class HashSet
+    public class HashSet
 		: ISet
 	{
 		private readonly Hashtable impl = new Hashtable();

@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	/**
+    /**
 	* <pre>
 	* EnvelopedData ::= SEQUENCE {
 	*     version CMSVersion,
@@ -13,7 +13,7 @@ namespace Org.BouncyCastle.Asn1.Cms
 	* }
 	* </pre>
 	*/
-	public class EnvelopedDataParser
+    public class EnvelopedDataParser
 	{
 		private Asn1SequenceParser	_seq;
 		private DerInteger			_version;

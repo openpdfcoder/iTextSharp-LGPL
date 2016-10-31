@@ -1,9 +1,8 @@
+using Org.BouncyCastle.Asn1.X509;
+using Org.BouncyCastle.Math;
 using System;
 using System.Collections;
 using System.IO;
-
-using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Math;
 
 namespace Org.BouncyCastle.Asn1.Pkcs
 {

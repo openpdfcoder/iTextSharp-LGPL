@@ -62,7 +62,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Apache.Bzip2
 {
-	/**
+    /**
     * An input stream that decompresses from the BZip2 format (with the file
     * header chars) to be read as any other stream.
     *

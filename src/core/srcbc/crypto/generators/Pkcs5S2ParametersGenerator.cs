@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Macs;
+using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	/**
+    /**
 	* Generator for Pbe derived keys and ivs as defined by Pkcs 5 V2.0 Scheme 2.
 	* This generator uses a SHA-1 HMac as the calculation function.
 	* <p>
@@ -17,7 +16,7 @@ namespace Org.BouncyCastle.Crypto.Generators
 	* <a href="http://www.rsasecurity.com/rsalabs/pkcs/pkcs-5/index.html">
 	* RSA's Pkcs5 Page</a></p>
 	*/
-	public class Pkcs5S2ParametersGenerator
+    public class Pkcs5S2ParametersGenerator
 		: PbeParametersGenerator
 	{
 		private readonly IMac hMac = new HMac(new Sha1Digest());

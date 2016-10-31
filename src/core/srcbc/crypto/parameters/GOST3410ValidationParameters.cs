@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	public class Gost3410ValidationParameters
+    public class Gost3410ValidationParameters
 	{
 		private int x0;
 		private int c;

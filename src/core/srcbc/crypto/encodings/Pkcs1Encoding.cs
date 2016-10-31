@@ -1,17 +1,16 @@
-using System;
-
-using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Digests;
+using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Encodings
 {
-	/**
+    /**
 	* this does your basic Pkcs 1 v1.5 padding - whether or not you should be using this
 	* depends on your application - see Pkcs1 Version 2 for details.
 	*/
-	public class Pkcs1Encoding
+    public class Pkcs1Encoding
 		: IAsymmetricBlockCipher
 	{
 		/**

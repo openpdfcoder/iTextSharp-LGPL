@@ -62,7 +62,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Apache.Bzip2
 {
-	/**
+    /**
     * An output stream that compresses into the BZip2 format (with the file
     * header chars) into another stream.
     *

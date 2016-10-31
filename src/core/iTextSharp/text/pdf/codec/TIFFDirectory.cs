@@ -1,8 +1,8 @@
+using iTextSharp.text.pdf;
 using System;
 using System.Collections;
 using System.IO;
 using System.Text;
-using iTextSharp.text.pdf;
 /*
  * Copyright 2003-2008 by Paulo Soares.
  * 
@@ -49,7 +49,8 @@ using iTextSharp.text.pdf;
  * nuclear facility.
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp.text.pdf.codec
+{
     /**
     * A class representing an Image File Directory (IFD) from a TIFF 6.0
     * stream.  The TIFF file format is described in more detail in the

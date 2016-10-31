@@ -1,23 +1,22 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1.Ocsp;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Utilities.Collections;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.3.2 Revocation Values Attribute Definition
-	/// <code>
-	/// RevocationValues ::=  SEQUENCE {
-	///		crlVals			[0] SEQUENCE OF CertificateList     OPTIONAL,
-	///		ocspVals		[1] SEQUENCE OF BasicOCSPResponse   OPTIONAL,
-	///		otherRevVals	[2] OtherRevVals
-	/// }
-	/// </code>
-	/// </remarks>
-	public class RevocationValues
+    /// <remarks>
+    /// RFC 3126: 4.3.2 Revocation Values Attribute Definition
+    /// <code>
+    /// RevocationValues ::=  SEQUENCE {
+    ///		crlVals			[0] SEQUENCE OF CertificateList     OPTIONAL,
+    ///		ocspVals		[1] SEQUENCE OF BasicOCSPResponse   OPTIONAL,
+    ///		otherRevVals	[2] OtherRevVals
+    /// }
+    /// </code>
+    /// </remarks>
+    public class RevocationValues
 		: Asn1Encodable
 	{
 		private readonly Asn1Sequence	crlVals;

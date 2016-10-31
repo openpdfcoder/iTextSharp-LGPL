@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	public class EncryptedData
+    public class EncryptedData
 		: Asn1Encodable
 	{
 		private readonly DerInteger				version;

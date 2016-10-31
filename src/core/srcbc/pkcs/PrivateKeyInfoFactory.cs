@@ -1,5 +1,3 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Oiw;
@@ -12,10 +10,11 @@ using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Pkcs
 {
-	public sealed class PrivateKeyInfoFactory
+    public sealed class PrivateKeyInfoFactory
 	{
 		private PrivateKeyInfoFactory()
 		{

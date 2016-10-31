@@ -46,7 +46,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     public class StampContent : PdfContentByte {
         internal PdfStamperImp.PageStamp ps;
         internal PageResources pageResources;

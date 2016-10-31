@@ -1,7 +1,7 @@
+using iTextSharp.text;
 using System;
 using System.Collections;
 using System.IO;
-using iTextSharp.text;
 /*
  * $Id: PdfCopy.cs,v 1.24 2008/05/13 11:25:19 psoares33 Exp $
  * 
@@ -54,7 +54,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * Make copies of PDF documents. Documents can be edited after reading and
     * before writing them out.

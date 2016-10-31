@@ -1,8 +1,7 @@
-using System;
-using System.Globalization;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Math.EC;
+using System;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {

@@ -1,15 +1,14 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* Parsing class for an CMS Enveloped Data object from an input stream.
 	* <p>
 	* Note: that because we are in a streaming mode only one recipient can be tried and it is important
@@ -42,7 +41,7 @@ namespace Org.BouncyCastle.Cms
 	*  where bufSize is a suitably large buffer size.
 	* </p>
 	*/
-	public class CmsEnvelopedDataParser
+    public class CmsEnvelopedDataParser
 		: CmsContentInfoParser
 	{
 		internal RecipientInformationStore	recipientInfoStore;

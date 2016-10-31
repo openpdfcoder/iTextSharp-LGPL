@@ -1,9 +1,9 @@
+using iTextSharp.text;
 using System;
 using System.Collections;
 using System.IO;
 using System.Net;
 using System.util;
-using iTextSharp.text;
 /*
  * Copyright 2003-2008 by Paulo Soares.
  *
@@ -93,7 +93,8 @@ using iTextSharp.text;
  * nuclear facility.
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp.text.pdf.codec
+{
     /** Reads a BMP image. All types of BMP can be read.
     * <p>
     * It is based in the JAI codec.

@@ -2,17 +2,17 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
-	/// <code>
-	/// CrlOcspRef ::= SEQUENCE {
-	///		crlids		[0] CRLListID		OPTIONAL,
-	/// 	ocspids		[1] OcspListID		OPTIONAL,
-	/// 	otherRev	[2] OtherRevRefs	OPTIONAL
-	/// }
-	/// </code>
-	/// </remarks>
-	public class CrlOcspRef
+    /// <remarks>
+    /// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
+    /// <code>
+    /// CrlOcspRef ::= SEQUENCE {
+    ///		crlids		[0] CRLListID		OPTIONAL,
+    /// 	ocspids		[1] OcspListID		OPTIONAL,
+    /// 	otherRev	[2] OtherRevRefs	OPTIONAL
+    /// }
+    /// </code>
+    /// </remarks>
+    public class CrlOcspRef
 		: Asn1Encodable
 	{
 		private readonly CrlListID		crlids;

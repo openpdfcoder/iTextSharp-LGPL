@@ -1,7 +1,6 @@
 using System;
-using System.IO;
 using System.Collections;
-
+using System.IO;
 using System.util.zlib;
 
 /*
@@ -54,7 +53,8 @@ using System.util.zlib;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
      * <CODE>PdfStream</CODE> is the Pdf stream object.
      * <P>

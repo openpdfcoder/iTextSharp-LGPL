@@ -1,7 +1,7 @@
-using System;
-using System.Collections;
 using iTextSharp.text;
 using iTextSharp.text.pdf.events;
+using System;
+using System.Collections;
 
 /*
  * Copyright 2001, 2002 Paulo Soares
@@ -50,7 +50,8 @@ using iTextSharp.text.pdf.events;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /** A cell in a PdfPTable.
     */

@@ -1,7 +1,7 @@
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic tags for compression algorithms.</remarks>
-	public enum CompressionAlgorithmTag
+    /// <remarks>Basic tags for compression algorithms.</remarks>
+    public enum CompressionAlgorithmTag
 	{
 		Uncompressed = 0,	// Uncompressed
 		Zip = 1,			// ZIP (RFC 1951)

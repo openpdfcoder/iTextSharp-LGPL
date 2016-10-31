@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cmp;
 using Org.BouncyCastle.Asn1.Tsp;
@@ -10,13 +6,16 @@ using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Tsp
 {
-	/**
+    /**
 	 * Base class for an RFC 3161 Time Stamp Request.
 	 */
-	public class TimeStampRequest
+    public class TimeStampRequest
 		: X509ExtensionBase
 	{
 		private TimeStampReq req;

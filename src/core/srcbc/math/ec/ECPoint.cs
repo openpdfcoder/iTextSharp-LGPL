@@ -1,17 +1,15 @@
+using Org.BouncyCastle.Asn1.X9;
+using Org.BouncyCastle.Math.EC.Multiplier;
 using System;
 using System.Collections;
 using System.Diagnostics;
 
-using Org.BouncyCastle.Asn1.X9;
-
-using Org.BouncyCastle.Math.EC.Multiplier;
-
 namespace Org.BouncyCastle.Math.EC
 {
-	/**
+    /**
 	 * base class for points on elliptic curves.
 	 */
-	public abstract class ECPoint
+    public abstract class ECPoint
 	{
 		internal readonly ECCurve			curve;
 		internal readonly ECFieldElement	x, y;

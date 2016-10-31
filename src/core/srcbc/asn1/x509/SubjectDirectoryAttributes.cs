@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * This extension may contain further X.500 attributes of the subject. See also
 	 * RFC 3039.
 	 *
@@ -24,7 +23,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 *
 	 * @see org.bouncycastle.asn1.x509.X509Name for AttributeType ObjectIdentifiers.
 	 */
-	public class SubjectDirectoryAttributes
+    public class SubjectDirectoryAttributes
 		: Asn1Encodable
 	{
 		private readonly ArrayList attributes = new ArrayList();

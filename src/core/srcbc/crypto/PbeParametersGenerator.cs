@@ -1,14 +1,13 @@
+using Org.BouncyCastle.Utilities;
 using System;
 using System.Text;
 
-using Org.BouncyCastle.Utilities;
-
 namespace Org.BouncyCastle.Crypto
 {
-	/**
+    /**
 	 * super class for all Password Based Encyrption (Pbe) parameter generator classes.
 	 */
-	public abstract class PbeParametersGenerator
+    public abstract class PbeParametersGenerator
 	{
 		protected byte[]	mPassword;
 		protected byte[]	mSalt;

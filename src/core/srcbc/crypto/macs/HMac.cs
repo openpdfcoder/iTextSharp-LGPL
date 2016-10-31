@@ -1,8 +1,7 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Crypto.Macs
 {

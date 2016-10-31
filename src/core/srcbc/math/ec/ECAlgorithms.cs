@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Math.EC
 {
-	public class ECAlgorithms
+    public class ECAlgorithms
 	{
 		public static ECPoint SumOfTwoMultiplies(ECPoint P, BigInteger a,
 			ECPoint Q, BigInteger b)

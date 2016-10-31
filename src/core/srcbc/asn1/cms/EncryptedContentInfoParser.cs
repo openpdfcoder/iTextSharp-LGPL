@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	/**
+    /**
 	* <pre>
 	* EncryptedContentInfo ::= SEQUENCE {
 	*     contentType ContentType,
@@ -13,7 +12,7 @@ namespace Org.BouncyCastle.Asn1.Cms
 	* }
 	* </pre>
 	*/
-	public class EncryptedContentInfoParser
+    public class EncryptedContentInfoParser
 	{
 		private DerObjectIdentifier		_contentType;
 		private AlgorithmIdentifier		_contentEncryptionAlgorithm;

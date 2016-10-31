@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Asn1.Pkcs;
+using Org.BouncyCastle.Utilities.IO;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Asn1.Pkcs;
-using Org.BouncyCastle.Utilities.IO;
-
 namespace Org.BouncyCastle.Cms
 {
-	public class CmsTypedStream
+    public class CmsTypedStream
 	{
 		private const int BufferSize = 32 * 1024;
 

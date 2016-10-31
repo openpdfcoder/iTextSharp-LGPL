@@ -2,15 +2,15 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/// <remarks>
-	/// <pre>
-	/// PrivateKeyUsagePeriod ::= SEQUENCE
-	/// {
-	/// notBefore       [0]     GeneralizedTime OPTIONAL,
-	/// notAfter        [1]     GeneralizedTime OPTIONAL }
-	/// </pre>
-	/// </remarks>
-	public class PrivateKeyUsagePeriod
+    /// <remarks>
+    /// <pre>
+    /// PrivateKeyUsagePeriod ::= SEQUENCE
+    /// {
+    /// notBefore       [0]     GeneralizedTime OPTIONAL,
+    /// notAfter        [1]     GeneralizedTime OPTIONAL }
+    /// </pre>
+    /// </remarks>
+    public class PrivateKeyUsagePeriod
 		: Asn1Encodable
 	{
 		public static PrivateKeyUsagePeriod GetInstance(

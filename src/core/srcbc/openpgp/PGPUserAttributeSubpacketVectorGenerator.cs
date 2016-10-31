@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Bcpg.Attr;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Bcpg.Attr;
-
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	public class PgpUserAttributeSubpacketVectorGenerator
+    public class PgpUserAttributeSubpacketVectorGenerator
 	{
 		private ArrayList list = new ArrayList();
 

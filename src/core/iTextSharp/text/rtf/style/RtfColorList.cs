@@ -1,9 +1,9 @@
-using System;
-using System.IO;
-using System.Collections;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
+using System;
+using System.Collections;
+using System.IO;
 /*
  * $Id: RtfColorList.cs,v 1.5 2008/05/16 19:31:11 psoares33 Exp $
  * 
@@ -54,7 +54,8 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.style {
+namespace iTextSharp.text.rtf.style
+{
 
     /**
     * The RtfColorList stores all colours that appear in the document. Black

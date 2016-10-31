@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Security
 {
-	public class InvalidKeyException : KeyException
+    public class InvalidKeyException : KeyException
 	{
 		public InvalidKeyException() : base() { }
 		public InvalidKeyException(string message) : base(message) { }

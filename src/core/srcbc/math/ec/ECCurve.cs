@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Math.EC.Abc;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Math.EC.Abc;
-
 namespace Org.BouncyCastle.Math.EC
 {
-	/// <remarks>Base class for an elliptic curve.</remarks>
-	public abstract class ECCurve
+    /// <remarks>Base class for an elliptic curve.</remarks>
+    public abstract class ECCurve
 	{
 		internal ECFieldElement a, b;
 

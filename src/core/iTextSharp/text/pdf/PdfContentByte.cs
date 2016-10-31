@@ -1,10 +1,10 @@
-using System;
-using System.Collections;
-using System.Text;
 using iTextSharp.text;
 using iTextSharp.text.exceptions;
 using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.intern;
+using System;
+using System.Collections;
+using System.Text;
 
 /*
  * $Id: PdfContentByte.cs,v 1.23 2008/05/13 11:25:19 psoares33 Exp $
@@ -56,7 +56,8 @@ using iTextSharp.text.pdf.intern;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
      * <CODE>PdfContentByte</CODE> is an object containing the user positioned
      * text and graphic contents of a page. It knows how to apply the proper

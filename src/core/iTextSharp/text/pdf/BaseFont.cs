@@ -1,12 +1,12 @@
-using System;
-using System.Globalization;
-using System.Reflection;
-using System.Diagnostics;
-using System.IO;
-using System.Text;
-using System.Collections;
-using System.util;
 using iTextSharp.text.xml.simpleparser;
+using System;
+using System.Collections;
+using System.Diagnostics;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Text;
+using System.util;
 
 /*
  * $Id: BaseFont.cs,v 1.17 2008/05/13 11:25:17 psoares33 Exp $
@@ -58,7 +58,8 @@ using iTextSharp.text.xml.simpleparser;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /// <summary>
     /// Summary description for BaseFont.
     /// </summary>

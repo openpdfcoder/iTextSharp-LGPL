@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Ocsp;
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Ocsp
 {
-	/**
+    /**
 	 * wrapper for the RevokedInfo object
 	 */
-	public class RevokedStatus
+    public class RevokedStatus
 		: CertificateStatus
 	{
 		internal readonly RevokedInfo info;

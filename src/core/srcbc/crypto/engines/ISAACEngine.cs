@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* Implementation of Bob Jenkin's ISAAC (Indirection Shift Accumulate Add and Count).
 	* see: http://www.burtleburtle.net/bob/rand/isaacafa.html
 	*/
-	public class IsaacEngine
+    public class IsaacEngine
 		: IStreamCipher
 	{
 		// Constants

@@ -1,12 +1,12 @@
-using System;
 using Org.BouncyCastle.Crypto;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	/**
+    /**
 	* parameters for Key derivation functions for ISO-18033
 	*/
-	public class Iso18033KdfParameters
+    public class Iso18033KdfParameters
 		: IDerivationParameters
 	{
 		byte[]  seed;

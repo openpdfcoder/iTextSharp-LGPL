@@ -1,16 +1,15 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.IO;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities.Collections;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>General class to handle a PGP public key object.</remarks>
+    /// <remarks>General class to handle a PGP public key object.</remarks>
     public class PgpPublicKey
     {
 		private static readonly int[] MasterKeyCertificationTypes = new int[]

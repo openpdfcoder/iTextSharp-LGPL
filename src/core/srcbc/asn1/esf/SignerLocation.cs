@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Asn1;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Asn1;
-
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/**
+    /**
 	* Signer-Location attribute (RFC3126).
 	*
 	* <pre>
@@ -17,7 +16,7 @@ namespace Org.BouncyCastle.Asn1.Esf
 	*   PostalAddress ::= SEQUENCE SIZE(1..6) OF DirectoryString
 	* </pre>
 	*/
-	public class SignerLocation
+    public class SignerLocation
 		: Asn1Encodable
 	{
 		// TODO Should these be using DirectoryString?

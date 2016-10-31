@@ -3,10 +3,10 @@ using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* a holding class for a byte array of data to be processed.
 	*/
-	public class CmsProcessableByteArray
+    public class CmsProcessableByteArray
 		:    CmsProcessable
 	{
 		private readonly byte[] bytes;

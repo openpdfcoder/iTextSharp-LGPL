@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     public class OutputStreamCounter : Stream {
         protected Stream outc;
         protected int counter = 0;

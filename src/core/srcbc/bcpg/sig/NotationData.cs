@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Org.BouncyCastle.Bcpg.Sig
 {
-	/**
+    /**
 	* Class provided a NotationData object according to
 	* RFC2440, Chapter 5.2.3.15. Notation Data
 	*/
-	public class NotationData
+    public class NotationData
 		: SignatureSubpacket
 	{
 		public const int HeaderFlagLength = 4;

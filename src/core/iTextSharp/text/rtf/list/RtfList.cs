@@ -1,12 +1,12 @@
-using System;
-using System.IO;
-using System.Collections;
 using iTextSharp.text;
+using iTextSharp.text.factories;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.style;
 using iTextSharp.text.rtf.text;
-using iTextSharp.text.factories;
+using System;
+using System.Collections;
+using System.IO;
 /*
  * $Id: RtfList.cs,v 1.18 2008/05/16 19:31:01 psoares33 Exp $
  * 
@@ -57,7 +57,8 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.list {
+namespace iTextSharp.text.rtf.list
+{
 
     /**
     * The RtfList stores one List. It also provides the methods to write the

@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Tsp
 {
-	public class TspException
+    public class TspException
 		: Exception
 	{
 		public TspException()

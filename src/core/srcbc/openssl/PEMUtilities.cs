@@ -1,13 +1,12 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.OpenSsl
 {
-	internal sealed class PemUtilities
+    internal sealed class PemUtilities
 	{
 		internal static bool ParseDekAlgName(
 			string		dekAlgName,

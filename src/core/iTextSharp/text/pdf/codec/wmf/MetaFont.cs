@@ -50,7 +50,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.codec.wmf {
+namespace iTextSharp.text.pdf.codec.wmf
+{
     public class MetaFont : MetaObject {
         static string[] fontNames = {
                                         "Courier", "Courier-Bold", "Courier-Oblique", "Courier-BoldOblique",

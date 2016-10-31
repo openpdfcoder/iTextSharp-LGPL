@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Modes;
 using Org.BouncyCastle.Crypto.Paddings;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Macs
 {
-	/**
+    /**
 	* CMAC - as specified at www.nuee.nagoya-u.ac.jp/labs/tiwata/omac/omac.html
 	* <p>
 	* CMAC is analogous to OMAC1 - see also en.wikipedia.org/wiki/CMAC
@@ -24,7 +23,7 @@ namespace Org.BouncyCastle.Crypto.Macs
 	* cipher.
 	* </p>
 	*/
-	public class CMac
+    public class CMac
 		: IMac
 	{
 		private const byte CONSTANT_128 = (byte)0x87;

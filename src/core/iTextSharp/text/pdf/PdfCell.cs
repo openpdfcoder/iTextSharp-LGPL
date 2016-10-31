@@ -1,7 +1,6 @@
+using iTextSharp.text;
 using System;
 using System.Collections;
-
-using iTextSharp.text;
 
 /*
  * $Id: PdfCell.cs,v 1.10 2008/05/13 11:25:19 psoares33 Exp $
@@ -53,7 +52,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
      * A <CODE>PdfCell</CODE> is the PDF translation of a <CODE>Cell</CODE>.

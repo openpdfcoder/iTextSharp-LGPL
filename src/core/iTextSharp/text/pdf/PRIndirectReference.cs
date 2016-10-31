@@ -1,6 +1,6 @@
 using System;
-using System.Text;
 using System.IO;
+using System.Text;
 
 /*
  * $Id: PRIndirectReference.cs,v 1.3 2008/05/13 11:25:23 psoares33 Exp $
@@ -52,7 +52,8 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     public class PRIndirectReference : PdfIndirectReference {
     

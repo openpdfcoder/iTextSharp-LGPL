@@ -1,19 +1,18 @@
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
-	/// <code>
-	/// OcspListID ::=  SEQUENCE {
-	///		ocspResponses	SEQUENCE OF OcspResponsesID
-	/// }
-	/// </code>
-	/// </remarks>
-	public class OcspListID
+    /// <remarks>
+    /// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
+    /// <code>
+    /// OcspListID ::=  SEQUENCE {
+    ///		ocspResponses	SEQUENCE OF OcspResponsesID
+    /// }
+    /// </code>
+    /// </remarks>
+    public class OcspListID
 		: Asn1Encodable
 	{
 		private readonly Asn1Sequence ocspResponses;

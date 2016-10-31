@@ -1,8 +1,8 @@
-using System;
-using System.IO;
-using System.Drawing;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
+using System;
+using System.Drawing;
+using System.IO;
 /**
  * $Id: RtfShapeProperty.cs,v 1.8 2008/05/23 17:24:27 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text.rtf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.graphic {
+namespace iTextSharp.text.rtf.graphic
+{
 
     /**
     * The RtfShapeProperty stores all shape properties that are

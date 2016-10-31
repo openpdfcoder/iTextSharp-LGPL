@@ -1,6 +1,7 @@
 using System;
 
-namespace System.Drawing {
+namespace System.Drawing
+{
     /// <summary>
     /// The <code>Dimension2D</code> class is to encapsulate a width 
     /// and a height dimension.

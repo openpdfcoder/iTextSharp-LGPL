@@ -1,20 +1,19 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	/**
+    /**
 	 * Key generation parameters for NaccacheStern cipher. For details on this cipher, please see
 	 *
 	 * http://www.gemplus.com/smart/rd/publications/pdf/NS98pkcs.pdf
 	 */
-	public class NaccacheSternKeyPairGenerator
+    public class NaccacheSternKeyPairGenerator
 		: IAsymmetricCipherKeyPairGenerator
 	{
 		private static readonly int[] smallPrimes =

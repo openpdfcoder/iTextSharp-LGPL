@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Math;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Math;
-
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>A multiple precision integer</remarks>
+    /// <remarks>A multiple precision integer</remarks>
     public class MPInteger
         : BcpgObject
     {

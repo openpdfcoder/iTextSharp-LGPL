@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Ocsp;
 using Org.BouncyCastle.Asn1.X509;
@@ -10,10 +6,13 @@ using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Ocsp
 {
-	public class OcspReqGenerator
+    public class OcspReqGenerator
 	{
 		private IList			list = new ArrayList();
 		private GeneralName		requestorName = null;

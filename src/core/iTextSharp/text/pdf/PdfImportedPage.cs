@@ -1,6 +1,5 @@
-using System;
-
 using iTextSharp.text;
+using System;
 
 /*
  * $Id: PdfImportedPage.cs,v 1.3 2008/05/13 11:25:21 psoares33 Exp $
@@ -52,7 +51,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /** Represents an imported page.
      *

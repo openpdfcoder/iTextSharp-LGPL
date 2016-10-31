@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * Target information extension for attributes certificates according to RFC
 	 * 3281.
 	 * 
@@ -11,7 +11,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 * </pre>
 	 * 
 	 */
-	public class TargetInformation
+    public class TargetInformation
 		: Asn1Encodable
 	{
 		private readonly Asn1Sequence targets;

@@ -1,6 +1,6 @@
+using iTextSharp.text;
 using System;
 using System.IO;
-using iTextSharp.text;
 /*
  * $Id: RtfTOCEntry.cs,v 1.6 2008/05/23 17:24:26 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.field {
+namespace iTextSharp.text.rtf.field
+{
 
     /**
     * The RtfTOCEntry is used together with the RtfTableOfContents to generate a table of

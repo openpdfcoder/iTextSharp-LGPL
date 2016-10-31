@@ -1,5 +1,3 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Nist;
@@ -9,10 +7,11 @@ using Org.BouncyCastle.Asn1.TeleTrust;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Asn1.X9;
 using Org.BouncyCastle.Crypto;
+using System;
 
 namespace Org.BouncyCastle.X509
 {
-	internal class X509SignatureUtilities
+    internal class X509SignatureUtilities
 	{
 		private static readonly Asn1Null derNull = DerNull.Instance;
 

@@ -1,17 +1,16 @@
-using System;
-using System.IO;
-
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Engines;
 using Org.BouncyCastle.Crypto.Modes;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/// <remarks>
-	/// A manager for ciphersuite. This class does manage all ciphersuites
-	/// which are used by MicroTLS.
-	/// </remarks>
-	public class TlsCipherSuiteManager
+    /// <remarks>
+    /// A manager for ciphersuite. This class does manage all ciphersuites
+    /// which are used by MicroTLS.
+    /// </remarks>
+    public class TlsCipherSuiteManager
 	{
 		private const int TLS_RSA_WITH_3DES_EDE_CBC_SHA = 0x000a;
 		private const int TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA = 0x0013;

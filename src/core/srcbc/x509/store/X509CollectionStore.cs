@@ -3,10 +3,10 @@ using System.Collections;
 
 namespace Org.BouncyCastle.X509.Store
 {
-	/**
+    /**
 	 * A simple collection backed store.
 	 */
-	internal class X509CollectionStore
+    internal class X509CollectionStore
 		: IX509Store
 	{
 		private ICollection _local;

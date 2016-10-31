@@ -1,12 +1,13 @@
-using System;
-using System.Text;
-using System.Collections;
-using System.util;
+using iTextSharp.text.factories;
 using iTextSharp.text.html;
 using iTextSharp.text.pdf;
-using iTextSharp.text.factories;
+using System;
+using System.Collections;
+using System.Text;
+using System.util;
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// A Phrase is a series of Chunks.
     /// </summary>

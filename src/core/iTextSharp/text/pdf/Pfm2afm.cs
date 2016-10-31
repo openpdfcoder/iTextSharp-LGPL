@@ -99,7 +99,7 @@ using System.Text;
  *  Compiled with Watcom C 10.6                                     *
  *                                                                  *
  ********************************************************************/
- 
+
 /********************************************************************
  *                                                                  *
  *  Further modifications, 4/21/98, by Rod Smith                    *
@@ -140,7 +140,8 @@ using System.Text;
  *                                                                  *
  ********************************************************************/
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * Converts a PFM file into an AFM file.
     */

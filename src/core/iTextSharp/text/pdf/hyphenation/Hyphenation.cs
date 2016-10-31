@@ -8,7 +8,8 @@ using System.Text;
  * LICENSE file included with these sources.
  */
 
-namespace iTextSharp.text.pdf.hyphenation {
+namespace iTextSharp.text.pdf.hyphenation
+{
     /**
      * This class represents a hyphenated word.
      *

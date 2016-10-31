@@ -1,16 +1,15 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.Utilities.Date;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Pkix
 {
-	/// <summary>
-	/// Summary description for PkixParameters.
-	/// </summary>
-	public class PkixParameters
+    /// <summary>
+    /// Summary description for PkixParameters.
+    /// </summary>
+    public class PkixParameters
 //		: ICertPathParameters
 	{
 		/**

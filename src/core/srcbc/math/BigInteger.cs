@@ -7,7 +7,7 @@ using System.Text;
 namespace Org.BouncyCastle.Math
 {
 #if !NETCF_1_0
-	[Serializable]
+    [Serializable]
 #endif
 	public class BigInteger
 	{

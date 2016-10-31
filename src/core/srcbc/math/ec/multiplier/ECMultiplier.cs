@@ -1,10 +1,10 @@
 namespace Org.BouncyCastle.Math.EC.Multiplier
 {
-	/**
+    /**
 	* Interface for classes encapsulating a point multiplication algorithm
 	* for <code>ECPoint</code>s.
 	*/
-	internal interface ECMultiplier
+    internal interface ECMultiplier
 	{
 		/**
 		* Multiplies the <code>ECPoint p</code> by <code>k</code>, i.e.

@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* this does your basic RSA algorithm.
 	*/
-	class RsaCoreEngine
+    class RsaCoreEngine
 	{
 		private RsaKeyParameters	key;
 		private bool				forEncryption;

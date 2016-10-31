@@ -1,7 +1,7 @@
 using System;
+using System.Collections;
 using System.IO;
 using System.Text;
-using System.Collections;
 
 /*
  * $Id: TrueTypeFontUnicode.cs,v 1.12 2008/05/13 11:25:23 psoares33 Exp $
@@ -53,7 +53,8 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /** Represents a True Type font with Unicode encoding. All the character
      * in the font can be used directly by using the encoding Identity-H or

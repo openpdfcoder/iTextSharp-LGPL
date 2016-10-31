@@ -1,6 +1,6 @@
 using System;
-using System.Text;
 using System.Collections;
+using System.Text;
 using System.util;
 
 /*
@@ -53,7 +53,8 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// This is an Element that contains
     /// some meta information about the document.

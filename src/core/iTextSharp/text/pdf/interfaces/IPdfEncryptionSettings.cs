@@ -1,5 +1,5 @@
-using System;
 using Org.BouncyCastle.X509;
+using System;
 /*
  * $Id: IPdfEncryptionSettings.cs,v 1.2 2007/04/29 13:57:00 psoares33 Exp $
  *
@@ -49,7 +49,8 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.interfaces {
+namespace iTextSharp.text.pdf.interfaces
+{
 
     /**
     * Encryption settings are described in section 3.5 (more specifically

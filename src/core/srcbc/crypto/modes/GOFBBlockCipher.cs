@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Modes
 {
-	/**
+    /**
 	* implements the GOST 28147 OFB counter mode (GCTR).
 	*/
-	public class GOfbBlockCipher
+    public class GOfbBlockCipher
 		: IBlockCipher
 	{
 		private byte[]	IV;

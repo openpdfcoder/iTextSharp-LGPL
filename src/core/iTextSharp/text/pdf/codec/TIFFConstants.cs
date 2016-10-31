@@ -28,10 +28,11 @@ using System;
  * OF THIS SOFTWARE.
  */
 
-namespace iTextSharp.text.pdf.codec {
-/**
- * A list of constants used in class TIFFImage.
- */
+namespace iTextSharp.text.pdf.codec
+{
+    /**
+     * A list of constants used in class TIFFImage.
+     */
     public class TIFFConstants {
         
     /*

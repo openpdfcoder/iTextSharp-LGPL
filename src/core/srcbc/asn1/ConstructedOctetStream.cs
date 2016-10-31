@@ -1,10 +1,9 @@
-using System.IO;
-
 using Org.BouncyCastle.Utilities.IO;
+using System.IO;
 
 namespace Org.BouncyCastle.Asn1
 {
-	internal class ConstructedOctetStream
+    internal class ConstructedOctetStream
 		: BaseInputStream
 	{
 		private readonly Asn1StreamParser _parser;

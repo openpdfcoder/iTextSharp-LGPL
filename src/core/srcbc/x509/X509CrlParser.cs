@@ -1,18 +1,17 @@
-using System;
-using System.Collections;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities.Encoders;
 using Org.BouncyCastle.Utilities.IO;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.X509
 {
-	public class X509CrlParser
+    public class X509CrlParser
 	{
 		private static readonly PemParser PemCrlParser = new PemParser("CRL");
 

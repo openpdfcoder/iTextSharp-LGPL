@@ -1,24 +1,24 @@
-using System;
-using System.Collections;
-using System.Text;
-using System.Globalization;
-using System.IO;
-using Org.BouncyCastle.X509;
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.Ocsp;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.Tsp;
 using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Ocsp;
+using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Tsp;
-using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Utilities;
+using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.Globalization;
+using System.IO;
+using System.Text;
 
 /*
  * Copyright 2004 by Paulo Soares.
@@ -66,7 +66,8 @@ using Org.BouncyCastle.Utilities;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * This class does all the processing related to signing and verifying a PKCS#7
     * signature.

@@ -2,7 +2,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Generic compressed data object.</remarks>
+    /// <remarks>Generic compressed data object.</remarks>
     public class CompressedDataPacket
         : InputStreamPacket
     {

@@ -1,5 +1,5 @@
-using System;
 using iTextSharp.text;
+using System;
 /*
  * Copyright 2005 by Paulo Soares.
  *
@@ -47,7 +47,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * Creates a pushbutton field. It supports all the text and icon alignments.
     * The icon may be an image or a template.

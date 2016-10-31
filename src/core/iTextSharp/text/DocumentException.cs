@@ -51,7 +51,8 @@ using System;
  *
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// Signals that an error has occurred in a Document.
     /// </summary>

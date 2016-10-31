@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Utilities;
+using Org.BouncyCastle.Utilities.IO;
 using System;
 using System.Collections;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Text;
-
-using Org.BouncyCastle.Utilities;
-using Org.BouncyCastle.Utilities.IO;
 
 namespace Org.BouncyCastle.Bcpg
 {

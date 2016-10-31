@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Cmp
 {
-	public enum PkiStatus
+    public enum PkiStatus
 	{
 		Granted					= 0,
 		GrantedWithMods			= 1,

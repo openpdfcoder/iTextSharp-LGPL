@@ -1,12 +1,11 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Encodings;
 using Org.BouncyCastle.Crypto.Engines;
 using Org.BouncyCastle.Crypto.Signers;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	internal class TlsRsaSigner
+    internal class TlsRsaSigner
 		: GenericSigner
 	{
 		internal TlsRsaSigner()

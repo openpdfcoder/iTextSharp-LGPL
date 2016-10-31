@@ -1,12 +1,11 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	public abstract class Gost3410KeyParameters
+    public abstract class Gost3410KeyParameters
 		: AsymmetricKeyParameter
 	{
 		private readonly Gost3410Parameters parameters;

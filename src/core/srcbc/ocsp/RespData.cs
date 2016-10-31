@@ -1,14 +1,13 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Ocsp;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Ocsp
 {
-	public class RespData
+    public class RespData
 		: X509ExtensionBase
 	{
 		internal readonly ResponseData data;

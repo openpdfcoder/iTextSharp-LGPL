@@ -1,17 +1,16 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Modes;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	 * Wrap keys according to RFC 3217 - RC2 mechanism
 	 */
-	public class RC2WrapEngine
+    public class RC2WrapEngine
 		: IWrapper
 	{
 		/** Field engine */

@@ -1,16 +1,16 @@
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Asn1.Cmp;
+using Org.BouncyCastle.Asn1.Tsp;
+using Org.BouncyCastle.Asn1.X509;
+using Org.BouncyCastle.Math;
+using Org.BouncyCastle.Tsp;
+using Org.BouncyCastle.X509;
 using System;
-using System.IO;
 using System.Collections;
+using System.IO;
 using System.Net;
 using System.Text;
 using System.util;
-using Org.BouncyCastle.X509;
-using Org.BouncyCastle.Math;
-using Org.BouncyCastle.Tsp;
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Asn1.Cmp;
-using Org.BouncyCastle.Asn1.Tsp;
 /*
  * $Id: TSAClientBouncyCastle.java 3973 2009-06-16 10:30:31Z psoares33 $
  *
@@ -60,7 +60,8 @@ using Org.BouncyCastle.Asn1.Tsp;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * Time Stamp Authority Client interface implementation using Bouncy Castle

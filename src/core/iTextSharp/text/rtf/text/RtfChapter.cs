@@ -1,8 +1,8 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
+using System;
+using System.IO;
 /*
  * $Id: RtfChapter.cs,v 1.7 2008/05/16 19:31:23 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text.rtf.document;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp.text.rtf.text
+{
 
     /**
     * The RtfChapter wraps a Chapter element.

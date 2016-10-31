@@ -1,10 +1,9 @@
+using Org.BouncyCastle.Utilities;
+using Org.BouncyCastle.Utilities.Encoders;
 using System;
 using System.Collections;
 using System.IO;
 using System.Text;
-
-using Org.BouncyCastle.Utilities;
-using Org.BouncyCastle.Utilities.Encoders;
 
 namespace Org.BouncyCastle.Asn1.Utilities
 {

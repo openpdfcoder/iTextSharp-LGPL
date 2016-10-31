@@ -1,6 +1,6 @@
+using iTextSharp.text.rtf.parser;
 using System;
 using System.Collections;
-using iTextSharp.text.rtf.parser;
 /* 
  * $Id: RtfCtrlWordMgr.cs,v 1.2 2008/05/13 11:25:59 psoares33 Exp $
  * 
@@ -51,7 +51,8 @@ using iTextSharp.text.rtf.parser;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.parser.ctrlwords {
+namespace iTextSharp.text.rtf.parser.ctrlwords
+{
 
     /**
     * <code>RtfCtrlWordMgr</code> handles the dispatching of control words from

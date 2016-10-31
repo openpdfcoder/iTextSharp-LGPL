@@ -1,7 +1,7 @@
 using System;
-using System.util;
-using System.IO;
 using System.Collections;
+using System.IO;
+using System.util;
 
 /*
  * Copyright 2003 by Paulo Soares.
@@ -49,7 +49,8 @@ using System.Collections;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /** Writes an FDF form.
     * @author Paulo Soares (psoares@consiste.pt)
     */

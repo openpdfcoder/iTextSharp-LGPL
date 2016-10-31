@@ -1,16 +1,15 @@
-using System;
-using System.IO;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.IO;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities.IO;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>A public key encrypted data object.</remarks>
+    /// <remarks>A public key encrypted data object.</remarks>
     public class PgpPublicKeyEncryptedData
         : PgpEncryptedData
     {

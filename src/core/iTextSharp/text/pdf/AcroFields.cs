@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
 using System.IO;
-using System.Xml;
 using System.util;
+using System.Xml;
 /*
  * Copyright 2003-2005 by Paulo Soares.
  *
@@ -50,7 +50,8 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /** Query and change fields in existing documents either by method
     * calls or by FDF merging.
     * @author Paulo Soares (psoares@consiste.pt)

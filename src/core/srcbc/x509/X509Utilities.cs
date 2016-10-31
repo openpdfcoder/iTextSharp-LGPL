@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.Globalization;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Nist;
@@ -15,10 +10,14 @@ using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities.Collections;
+using System;
+using System.Collections;
+using System.Globalization;
+using System.IO;
 
 namespace Org.BouncyCastle.X509
 {
-	internal class X509Utilities
+    internal class X509Utilities
 	{
 		private static readonly Hashtable	algorithms = new Hashtable();
 		private static readonly Hashtable	exParams = new Hashtable();

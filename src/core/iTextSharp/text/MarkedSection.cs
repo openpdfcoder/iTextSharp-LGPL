@@ -52,7 +52,8 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
 
     /**
     * Wrapper that allows to add properties to a Chapter/Section object.

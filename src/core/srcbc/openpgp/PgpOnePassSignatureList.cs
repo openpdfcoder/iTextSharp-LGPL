@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>Holder for a list of PgpOnePassSignature objects.</remarks>
+    /// <remarks>Holder for a list of PgpOnePassSignature objects.</remarks>
     public class PgpOnePassSignatureList
 		: PgpObject
     {

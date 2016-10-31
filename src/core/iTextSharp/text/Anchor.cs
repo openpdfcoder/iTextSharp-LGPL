@@ -1,9 +1,8 @@
+using iTextSharp.text.factories;
+using iTextSharp.text.html;
 using System;
 using System.Collections;
 using System.util;
-
-using iTextSharp.text.html;
-using iTextSharp.text.factories;
 
 /*
  * $Id: Anchor.cs,v 1.9 2008/05/13 11:25:08 psoares33 Exp $
@@ -55,7 +54,7 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text 
+namespace iTextSharp.text
 {
     /// <summary>
     /// An Anchor can be a reference or a destination of a reference.

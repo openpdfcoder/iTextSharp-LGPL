@@ -50,7 +50,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// Raw Image data that has to be inserted into the document
     /// </summary>

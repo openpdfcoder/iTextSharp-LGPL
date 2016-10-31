@@ -7,14 +7,15 @@ using System;
  * LICENSE file included with these sources.
  */
 
-namespace iTextSharp.text.pdf.hyphenation {
-	/**
+namespace iTextSharp.text.pdf.hyphenation
+{
+    /**
 	 * This class implements a simple char vector with access to the
 	 * underlying array.
 	 *
 	 * @author Carlos Villegas <cav@uniscope.co.jp>
 	 */
-	public class CharVector : ICloneable {
+    public class CharVector : ICloneable {
 
 		/**
 		 * Capacity increment size

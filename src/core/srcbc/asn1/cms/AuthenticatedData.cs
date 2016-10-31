@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	public class AuthenticatedData
+    public class AuthenticatedData
 	    : Asn1Encodable
 	{
 	    private DerInteger version;

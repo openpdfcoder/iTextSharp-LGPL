@@ -1,7 +1,6 @@
+using Org.BouncyCastle.Crypto.Engines;
 using System;
 using System.Diagnostics;
-
-using Org.BouncyCastle.Crypto.Engines;
 
 namespace Org.BouncyCastle.Crypto
 {

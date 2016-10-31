@@ -1,8 +1,7 @@
+using iTextSharp.text;
 using System;
 using System.Collections;
 using System.util;
-
-using iTextSharp.text;
 
 /*
  * $Id: XmlPeer.cs,v 1.5 2008/05/13 11:26:12 psoares33 Exp $
@@ -54,12 +53,13 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml {
+namespace iTextSharp.text.xml
+{
 
-	/// <summary>
-	/// This interface is implemented by the peer of all the iText objects.
-	/// </summary>
-	public class XmlPeer {
+    /// <summary>
+    /// This interface is implemented by the peer of all the iText objects.
+    /// </summary>
+    public class XmlPeer {
     
 		/// <summary> This is the name of the alias. </summary>
 		protected String tagname;

@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto
 {
-	/**
+    /**
 	 * a wrapper for block ciphers with a single byte block size, so that they
 	 * can be treated like stream ciphers.
 	 */
-	public class StreamBlockCipher
+    public class StreamBlockCipher
 		: IStreamCipher
 	{
 		private readonly IBlockCipher cipher;

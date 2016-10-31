@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	/**
+    /**
 	* RFC 3274 - CMS Compressed Data.
 	* <pre>
 	* CompressedData ::= SEQUENCE {
@@ -15,7 +14,7 @@ namespace Org.BouncyCastle.Asn1.Cms
 	* }
 	* </pre>
 	*/
-	public class CompressedDataParser
+    public class CompressedDataParser
 	{
 		private DerInteger			_version;
 		private AlgorithmIdentifier	_compressionAlgorithm;

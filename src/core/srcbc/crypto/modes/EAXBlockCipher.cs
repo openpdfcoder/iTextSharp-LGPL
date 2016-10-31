@@ -1,12 +1,11 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Macs;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Modes
 {
-	/**
+    /**
 	* A Two-Pass Authenticated-Encryption Scheme Optimized for Simplicity and 
 	* Efficiency - by M. Bellare, P. Rogaway, D. Wagner.
 	* 
@@ -19,7 +18,7 @@ namespace Org.BouncyCastle.Crypto.Modes
 	* 
 	* Of course, this implementations is NOT thread-safe.
 	*/
-	public class EaxBlockCipher
+    public class EaxBlockCipher
 		: IAeadBlockCipher
 	{
 		private enum Tag : byte { N, H, C };

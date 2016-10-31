@@ -1,12 +1,11 @@
-using System;
-
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Agreement.Srp
 {
-	public class Srp6Utilities
+    public class Srp6Utilities
 	{
 		public static BigInteger CalculateK(IDigest digest, BigInteger N, BigInteger g)
 		{

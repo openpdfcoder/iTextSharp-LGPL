@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Asn1.X509;
 using System;
 using System.Collections;
 using System.IO;
 
-using Org.BouncyCastle.Asn1.X509;
-
 namespace Org.BouncyCastle.Asn1.Tsp
 {
-	public class TstInfo
+    public class TstInfo
 		: Asn1Encodable
 	{
 		private readonly DerInteger				version;

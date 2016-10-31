@@ -1,19 +1,18 @@
-using System.Collections;
-using System.Globalization;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X9;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Agreement;
 using Org.BouncyCastle.Crypto.Agreement.Kdf;
 using Org.BouncyCastle.Crypto.Digests;
+using System.Collections;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Security
 {
-	/// <remarks>
-	///  Utility class for creating IBasicAgreement objects from their names/Oids
-	/// </remarks>
-	public sealed class AgreementUtilities
+    /// <remarks>
+    ///  Utility class for creating IBasicAgreement objects from their names/Oids
+    /// </remarks>
+    public sealed class AgreementUtilities
 	{
 		private AgreementUtilities()
 		{

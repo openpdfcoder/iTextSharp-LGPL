@@ -49,7 +49,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
 
     /**
     * Interface implemented by Element objects that can potentially consume

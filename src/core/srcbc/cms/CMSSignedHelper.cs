@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Iana;
@@ -16,6 +13,8 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Cms
 {

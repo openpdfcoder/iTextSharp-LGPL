@@ -1,8 +1,8 @@
+using iTextSharp.text.pdf;
 using System;
 using System.IO;
 using System.Net;
 using System.util;
-using iTextSharp.text.pdf;
 
 /*
  * $Id: Jpeg.cs,v 1.11 2008/05/13 11:25:11 psoares33 Exp $
@@ -54,7 +54,8 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// An Jpeg is the representation of a graphic element (JPEG)
     /// that has to be inserted into the document

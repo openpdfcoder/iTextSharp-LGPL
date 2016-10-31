@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Microsoft
 {
-	public abstract class MicrosoftObjectIdentifiers
+    public abstract class MicrosoftObjectIdentifiers
 	{
 		//
 		// Microsoft

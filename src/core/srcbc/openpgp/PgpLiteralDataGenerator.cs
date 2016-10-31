@@ -1,13 +1,12 @@
+using Org.BouncyCastle.Utilities;
+using Org.BouncyCastle.Utilities.Date;
 using System;
 using System.IO;
 using System.Text;
 
-using Org.BouncyCastle.Utilities;
-using Org.BouncyCastle.Utilities.Date;
-
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>Class for producing literal data packets.</remarks>
+    /// <remarks>Class for producing literal data packets.</remarks>
     public class PgpLiteralDataGenerator
 		: IStreamGenerator
 	{

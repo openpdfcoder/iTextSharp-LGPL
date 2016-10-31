@@ -1,7 +1,6 @@
-using System;
-
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Math.EC;
+using System;
 
 namespace Org.BouncyCastle.Asn1.X9
 {

@@ -1,9 +1,8 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.X509.Store;
+using System;
 
 namespace Org.BouncyCastle.Cms
 {

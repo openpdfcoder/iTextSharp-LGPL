@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
-using System.IO;
 using System.Globalization;
+using System.IO;
 using System.util;
 
 /*
@@ -54,7 +54,8 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     public class GlyphList {
         private static Hashtable unicode2names = new Hashtable();

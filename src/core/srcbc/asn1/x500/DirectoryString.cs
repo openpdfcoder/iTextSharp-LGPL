@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.X500
 {
-	public class DirectoryString
+    public class DirectoryString
 		: Asn1Encodable, IAsn1Choice, IAsn1String
 	{
 		private readonly DerStringBase str;

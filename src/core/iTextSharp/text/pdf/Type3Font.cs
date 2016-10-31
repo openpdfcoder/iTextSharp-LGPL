@@ -47,7 +47,8 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * A class to support Type3 fonts.

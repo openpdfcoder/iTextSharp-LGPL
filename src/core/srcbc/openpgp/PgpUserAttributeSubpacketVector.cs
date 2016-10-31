@@ -2,7 +2,7 @@ using Org.BouncyCastle.Bcpg.Attr;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>Container for a list of user attribute subpackets.</remarks>
+    /// <remarks>Container for a list of user attribute subpackets.</remarks>
     public class PgpUserAttributeSubpacketVector
     {
         private readonly UserAttributeSubpacket[] packets;

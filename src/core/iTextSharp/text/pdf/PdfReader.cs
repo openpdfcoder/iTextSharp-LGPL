@@ -1,18 +1,18 @@
-using System;
-using System.Collections;
-using System.Security.Cryptography;
-using System.Net;
-using System.Text;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.exceptions;
-using iTextSharp.text.pdf.intern;
 using iTextSharp.text.pdf.interfaces;
+using iTextSharp.text.pdf.intern;
+using Org.BouncyCastle.Cms;
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
+using System.Net;
+using System.Security.Cryptography;
+using System.Text;
 using System.util;
 using System.util.zlib;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Cms;
-using Org.BouncyCastle.X509;
 /*
  * $Id: PdfReader.cs,v 1.50 2008/05/13 11:25:23 psoares33 Exp $
  * 
@@ -63,7 +63,8 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /** Reads a PDF document.
     * @author Paulo Soares (psoares@consiste.pt)
     * @author Kazuya Ujihara

@@ -1,17 +1,16 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Tsp;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Math;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Tsp
 {
-	/**
+    /**
 	 * Generator for RFC 3161 Time Stamp Request objects.
 	 */
-	public class TimeStampRequestGenerator
+    public class TimeStampRequestGenerator
 	{
 		private DerObjectIdentifier reqPolicy;
 

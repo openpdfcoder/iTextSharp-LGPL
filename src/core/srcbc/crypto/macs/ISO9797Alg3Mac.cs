@@ -1,19 +1,18 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Engines;
 using Org.BouncyCastle.Crypto.Modes;
 using Org.BouncyCastle.Crypto.Paddings;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Macs
 {
-	/**
+    /**
 	* DES based CBC Block Cipher MAC according to ISO9797, algorithm 3 (ANSI X9.19 Retail MAC)
 	*
 	* This could as well be derived from CBCBlockCipherMac, but then the property mac in the base
 	* class must be changed to protected
 	*/
-	public class ISO9797Alg3Mac : IMac
+    public class ISO9797Alg3Mac : IMac
 	{
 		private byte[] mac;
 		private byte[] buf;

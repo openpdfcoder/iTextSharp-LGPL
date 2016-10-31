@@ -1,6 +1,6 @@
 using System;
-using System.IO;
 using System.Collections;
+using System.IO;
 
 /*
  * $Id: PdfDictionary.cs,v 1.10 2008/05/13 11:25:19 psoares33 Exp $
@@ -52,7 +52,8 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
      * <CODE>PdfDictionary</CODE> is the Pdf dictionary object.
      * <P>

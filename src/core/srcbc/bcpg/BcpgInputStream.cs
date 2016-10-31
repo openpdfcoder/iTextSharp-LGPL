@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Utilities.IO;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Utilities.IO;
-
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Reader for PGP objects.</remarks>
+    /// <remarks>Reader for PGP objects.</remarks>
     public class BcpgInputStream
         : BaseInputStream
     {

@@ -1,13 +1,12 @@
-using System;
-using System.IO;
-
 using Org.BouncyCastle.Crypto.Engines;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Utilities;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Crypto
 {
-	public class BufferedIesCipher
+    public class BufferedIesCipher
 		: BufferedCipherBase
 	{
 		private readonly IesEngine engine;

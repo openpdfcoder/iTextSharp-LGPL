@@ -1,8 +1,7 @@
-using System;
-using System.Collections;
-
 using iTextSharp.text;
 using iTextSharp.text.pdf.events;
+using System;
+using System.Collections;
 
 /*
  * Copyright 2001, 2002 Paulo Soares
@@ -51,7 +50,8 @@ using iTextSharp.text.pdf.events;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /** This is a table that can be put at an absolute position but can also
     * be added to the document as the class <CODE>Table</CODE>.
     * In the last case when crossing pages the table always break at full rows; if a

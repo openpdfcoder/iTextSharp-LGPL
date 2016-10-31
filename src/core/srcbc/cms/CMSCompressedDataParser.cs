@@ -1,10 +1,9 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Utilities.Zlib;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {

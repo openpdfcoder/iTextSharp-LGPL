@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic PGP packet tag types.</remarks>
+    /// <remarks>Basic PGP packet tag types.</remarks>
     public enum PacketTag
     {
         Reserved =  0,								//  Reserved - a packet tag must not have this value

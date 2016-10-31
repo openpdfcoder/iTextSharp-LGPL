@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Asn1
 {
-	public class DerSequence
+    public class DerSequence
 		: Asn1Sequence
 	{
 		public static readonly DerSequence Empty = new DerSequence();

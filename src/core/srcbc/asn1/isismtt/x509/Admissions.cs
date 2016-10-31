@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Asn1.X509;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Asn1.X509;
-
 namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 {
-	/**
+    /**
 	* An Admissions structure.
 	* <p/>
 	* <pre>
@@ -22,7 +21,7 @@ namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 	* @see Org.BouncyCastle.Asn1.IsisMtt.X509.ProfessionInfo
 	* @see Org.BouncyCastle.Asn1.IsisMtt.X509.NamingAuthority
 	*/
-	public class Admissions
+    public class Admissions
 		: Asn1Encodable
 	{
 		private readonly GeneralName		admissionAuthority;

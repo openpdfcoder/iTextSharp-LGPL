@@ -1,10 +1,10 @@
-using System;
 using iTextSharp.text.rtf;
+using iTextSharp.text.rtf.direct;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.parser;
 using iTextSharp.text.rtf.parser.destinations;
 using iTextSharp.text.rtf.parser.properties;
-using iTextSharp.text.rtf.direct;
+using System;
 
 /* $Id: RtfCtrlWordHandler.cs,v 1.3 2008/05/13 11:25:58 psoares33 Exp $
  * 
@@ -54,7 +54,8 @@ using iTextSharp.text.rtf.direct;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser.ctrlwords {
+namespace iTextSharp.text.rtf.parser.ctrlwords
+{
 
     /**
     * <code>RtfCtrlWordBase</code> is the base class for all

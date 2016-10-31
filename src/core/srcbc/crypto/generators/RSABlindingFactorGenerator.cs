@@ -1,17 +1,16 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	/**
+    /**
 	* Generate a random factor suitable for use with RSA blind signatures
 	* as outlined in Chaum's blinding and unblinding as outlined in
 	* "Handbook of Applied Cryptography", page 475.
 	*/
-	public class RsaBlindingFactorGenerator
+    public class RsaBlindingFactorGenerator
 	{
 		private RsaKeyParameters key;
 		private SecureRandom random;

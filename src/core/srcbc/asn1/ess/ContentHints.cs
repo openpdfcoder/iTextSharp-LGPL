@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Ess
 {
-	public class ContentHints
+    public class ContentHints
 		: Asn1Encodable
 	{
 		private readonly DerUtf8String contentDescription;

@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	/**
+    /**
 	 * generate suitable parameters for GOST3410.
 	 */
-	public class Gost3410ParametersGenerator
+    public class Gost3410ParametersGenerator
 	{
 		private int             size;
 		private int             typeproc;

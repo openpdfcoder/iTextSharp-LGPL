@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Globalization;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Kisa;
@@ -12,10 +8,13 @@ using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
+using System.Collections;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Security
 {
-	public sealed class ParameterUtilities
+    public sealed class ParameterUtilities
 	{
 		private ParameterUtilities()
 		{

@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
-using System.Text;
 using System.IO;
+using System.Text;
 using System.Xml;
 /*
  * $Id: XfaForm.cs,v 1.8 2008/06/06 14:57:18 psoares33 Exp $
@@ -52,7 +52,8 @@ using System.Xml;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * Processes XFA forms.

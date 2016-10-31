@@ -48,7 +48,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace System.util {
+namespace System.util
+{
 
     // a replacement for the StringTokenizer java class
     // it's more or less the same as the one in the GNU classpath

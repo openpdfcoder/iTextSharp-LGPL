@@ -1,17 +1,16 @@
-using System;
-using System.IO;
-
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Macs;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/// <remarks>
-	/// A generic TLS MAC implementation, which can be used with any kind of
-	/// IDigest to act as an HMAC.
-	/// </remarks>
-	public class TlsMac
+    /// <remarks>
+    /// A generic TLS MAC implementation, which can be used with any kind of
+    /// IDigest to act as an HMAC.
+    /// </remarks>
+    public class TlsMac
 	{
 		private long seqNo;
 		private HMac mac;

@@ -1,8 +1,8 @@
+using iTextSharp.text;
 using System;
+using System.Collections;
 using System.IO;
 using System.Net;
-using iTextSharp.text;
-using System.Collections;
 
 /*
  * $Id: MetaDo.cs,v 1.4 2008/05/13 11:25:36 psoares33 Exp $

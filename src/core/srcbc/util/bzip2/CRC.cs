@@ -62,7 +62,7 @@ using System;
 
 namespace Org.BouncyCastle.Apache.Bzip2
 {
-	/**
+    /**
     * A simple class the hold and calculate the CRC for sanity checking
     * of the data.
     *

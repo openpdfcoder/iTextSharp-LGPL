@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.X509
 {
-	/**
+    /**
 	 * Class for carrying the values in an X.509 Attribute.
 	 */
-	public class X509Attribute
+    public class X509Attribute
 		: Asn1Encodable
 	{
 		private readonly AttributeX509 attr;

@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Pkcs
 {
-	public class Pbkdf2Params
+    public class Pbkdf2Params
 		: Asn1Encodable
 	{
 		private readonly Asn1OctetString	octStr;

@@ -1,16 +1,15 @@
-using System;
-
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Agreement.Srp
 {
-	/**
+    /**
 	 * Implements the server side SRP-6a protocol. Note that this class is stateful, and therefore NOT threadsafe.
 	 * This implementation of SRP is based on the optimized message sequence put forth by Thomas Wu in the paper
 	 * "SRP-6: Improvements and Refinements to the Secure Remote Password Protocol, 2002"
 	 */
-	public class Srp6Server
+    public class Srp6Server
 	{
 	    protected BigInteger N;
 	    protected BigInteger g;

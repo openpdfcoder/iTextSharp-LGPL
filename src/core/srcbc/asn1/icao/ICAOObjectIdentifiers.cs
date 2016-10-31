@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Icao
 {
-	public abstract class IcaoObjectIdentifiers
+    public abstract class IcaoObjectIdentifiers
 	{
 		//
 		// base id

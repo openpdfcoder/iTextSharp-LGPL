@@ -1,13 +1,12 @@
-using System;
-
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto
 {
-	/**
+    /**
 	 * The base class for symmetric, or secret, cipher key generators.
 	 */
-	public class CipherKeyGenerator
+    public class CipherKeyGenerator
 	{
 		protected internal SecureRandom	random;
 		protected internal int			strength;

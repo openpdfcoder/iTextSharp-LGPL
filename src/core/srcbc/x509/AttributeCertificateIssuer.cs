@@ -1,17 +1,16 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.X509
 {
-	/**
+    /**
 	 * Carrying class for an attribute certificate issuer.
 	 */
-	public class AttributeCertificateIssuer
+    public class AttributeCertificateIssuer
 		//: CertSelector, Selector
 		: IX509Selector
 	{

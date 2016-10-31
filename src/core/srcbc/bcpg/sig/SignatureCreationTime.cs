@@ -1,6 +1,5 @@
-using System;
-
 using Org.BouncyCastle.Utilities.Date;
+using System;
 
 namespace Org.BouncyCastle.Bcpg.Sig
 {

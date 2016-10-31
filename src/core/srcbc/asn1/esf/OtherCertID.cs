@@ -1,18 +1,17 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// <code>
-	/// OtherCertID ::= SEQUENCE {
-	/// 	otherCertHash	OtherHash,
-	/// 	issuerSerial	IssuerSerial OPTIONAL
-	/// }
-	/// </code>
-	/// </remarks>
-	public class OtherCertID
+    /// <remarks>
+    /// <code>
+    /// OtherCertID ::= SEQUENCE {
+    /// 	otherCertHash	OtherHash,
+    /// 	issuerSerial	IssuerSerial OPTIONAL
+    /// }
+    /// </code>
+    /// </remarks>
+    public class OtherCertID
 		: Asn1Encodable
 	{
 		private readonly OtherHash		otherCertHash;

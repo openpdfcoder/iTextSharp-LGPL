@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Ess
 {
-	public class EssCertID
+    public class EssCertID
 		: Asn1Encodable
 	{
 		private Asn1OctetString certHash;

@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Asn1
 {
-	public class BerSetParser
+    public class BerSetParser
 		: Asn1SetParser
 	{
 		private readonly Asn1StreamParser _parser;

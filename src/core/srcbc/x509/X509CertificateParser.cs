@@ -1,25 +1,24 @@
-﻿using System;
-using System.Collections;
-using System.IO;
-using System.Text;
-
-using Org.BouncyCastle.Asn1;
+﻿using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities.Encoders;
 using Org.BouncyCastle.Utilities.IO;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.X509
 {
-	/**
+    /**
 	 * class for dealing with X509 certificates.
 	 * <p>
 	 * At the moment this will deal with "-----BEGIN CERTIFICATE-----" to "-----END CERTIFICATE-----"
 	 * base 64 encoded certs, as well as the BER binaries of certificates and some classes of PKCS#7
 	 * objects.</p>
 	 */
-	public class X509CertificateParser
+    public class X509CertificateParser
 	{
 		private static readonly PemParser PemCertParser = new PemParser("CERTIFICATE");
 

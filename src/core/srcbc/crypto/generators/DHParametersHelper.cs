@@ -1,12 +1,11 @@
-using System;
-
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	internal class DHParametersHelper
+    internal class DHParametersHelper
 	{
 		// The primes b/w 2 and ~2^10
 		/*

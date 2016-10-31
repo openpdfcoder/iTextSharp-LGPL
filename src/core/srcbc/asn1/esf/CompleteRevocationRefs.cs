@@ -1,17 +1,16 @@
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
-	/// <code>
-	/// CompleteRevocationRefs ::= SEQUENCE OF CrlOcspRef
-	/// </code>
-	/// </remarks>
-	public class CompleteRevocationRefs
+    /// <remarks>
+    /// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
+    /// <code>
+    /// CompleteRevocationRefs ::= SEQUENCE OF CrlOcspRef
+    /// </code>
+    /// </remarks>
+    public class CompleteRevocationRefs
 		: Asn1Encodable
 	{
 		private readonly Asn1Sequence crlOcspRefs;

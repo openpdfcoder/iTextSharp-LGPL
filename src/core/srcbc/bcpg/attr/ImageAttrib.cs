@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Bcpg.Attr
 {
-	/// <remarks>Basic type for a image attribute packet.</remarks>
+    /// <remarks>Basic type for a image attribute packet.</remarks>
     public class ImageAttrib
 		: UserAttributeSubpacket
     {

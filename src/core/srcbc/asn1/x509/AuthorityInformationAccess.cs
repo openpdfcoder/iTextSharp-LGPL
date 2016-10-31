@@ -1,13 +1,12 @@
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Utilities;
 using System;
 using System.Collections;
 using System.Text;
 
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Utilities;
-
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * The AuthorityInformationAccess object.
 	 * <pre>
 	 * id-pe-authorityInfoAccess OBJECT IDENTIFIER ::= { id-pe 1 }
@@ -23,7 +22,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 * id-ad-ocsp OBJECT IDENTIFIER ::= { id-ad 1 }
 	 * </pre>
 	 */
-	public class AuthorityInformationAccess
+    public class AuthorityInformationAccess
 		: Asn1Encodable
 	{
 		private readonly AccessDescription[] descriptions;

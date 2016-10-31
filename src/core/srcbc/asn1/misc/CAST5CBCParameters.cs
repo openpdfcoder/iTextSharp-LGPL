@@ -1,7 +1,6 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Misc
 {

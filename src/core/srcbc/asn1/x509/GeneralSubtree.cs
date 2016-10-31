@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * Class for containing a restriction object subtrees in NameConstraints. See
 	 * RFC 3280.
 	 *
@@ -21,7 +20,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 * @see org.bouncycastle.asn1.x509.NameConstraints
 	 *
 	 */
-	public class GeneralSubtree
+    public class GeneralSubtree
 		: Asn1Encodable
 	{
 		private readonly GeneralName	baseName;

@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	* This class helps to support crossCerfificatePairs in a LDAP directory
 	* according RFC 2587
 	*
@@ -35,7 +35,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	*         -- at least one of the pair shall be present -- }
 	* </pre>
 	*/
-	public class CertificatePair
+    public class CertificatePair
 		: Asn1Encodable
 	{
 		private X509CertificateStructure forward, reverse;

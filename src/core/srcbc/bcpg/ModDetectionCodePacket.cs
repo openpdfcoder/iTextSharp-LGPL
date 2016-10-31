@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic packet for a modification detection code packet.</remarks>
+    /// <remarks>Basic packet for a modification detection code packet.</remarks>
     public class ModDetectionCodePacket
         : ContainedPacket
     {

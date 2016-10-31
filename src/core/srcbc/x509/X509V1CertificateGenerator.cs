@@ -1,20 +1,19 @@
-﻿using System;
-using System.Collections;
-
-using Org.BouncyCastle.Asn1;
+﻿using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.X509
 {
-	/// <summary>
-	/// Class to Generate X509V1 Certificates.
-	/// </summary>
-	public class X509V1CertificateGenerator
+    /// <summary>
+    /// Class to Generate X509V1 Certificates.
+    /// </summary>
+    public class X509V1CertificateGenerator
 	{
 		private V1TbsCertificateGenerator   tbsGen;
 		private DerObjectIdentifier         sigOID;

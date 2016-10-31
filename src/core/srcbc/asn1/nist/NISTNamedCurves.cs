@@ -1,18 +1,17 @@
-using System;
-using System.Collections;
-using System.Globalization;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Sec;
 using Org.BouncyCastle.Asn1.X9;
 using Org.BouncyCastle.Utilities.Collections;
+using System;
+using System.Collections;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Asn1.Nist
 {
-	/**
+    /**
 	* Utility class for fetching curves using their NIST names as published in FIPS-PUB 186-2
 	*/
-	public sealed class NistNamedCurves
+    public sealed class NistNamedCurves
 	{
 		private NistNamedCurves()
 		{

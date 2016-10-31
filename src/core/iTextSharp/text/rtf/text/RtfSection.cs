@@ -1,12 +1,12 @@
-using System;
-using System.IO;
-using System.Collections;
-using System.Text;
 using iTextSharp.text;
+using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.field;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
 using FD = iTextSharp.text.rtf.field;
-using iTextSharp.text.rtf;
 /*
  * $Id: RtfSection.cs,v 1.9 2008/05/16 19:31:24 psoares33 Exp $
  * 
@@ -57,7 +57,8 @@ using iTextSharp.text.rtf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp.text.rtf.text
+{
 
     /**
     * The RtfSection wraps a Section element.

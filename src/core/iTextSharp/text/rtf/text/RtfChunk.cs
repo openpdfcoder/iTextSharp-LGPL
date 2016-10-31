@@ -1,9 +1,9 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.style;
+using System;
+using System.IO;
 using ST = iTextSharp.text.rtf.style;
 /*
  * $Id: RtfChunk.cs,v 1.7 2008/05/16 19:31:24 psoares33 Exp $
@@ -55,7 +55,8 @@ using ST = iTextSharp.text.rtf.style;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp.text.rtf.text
+{
 
     /**
     * The RtfChunk contains one piece of text. The smallest text element available

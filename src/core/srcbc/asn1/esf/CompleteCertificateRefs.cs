@@ -1,17 +1,16 @@
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.2.1 Complete Certificate Refs Attribute Definition
-	/// <code>
-	/// CompleteCertificateRefs ::= SEQUENCE OF OtherCertID
-	/// </code>
-	/// </remarks>
-	public class CompleteCertificateRefs
+    /// <remarks>
+    /// RFC 3126: 4.2.1 Complete Certificate Refs Attribute Definition
+    /// <code>
+    /// CompleteCertificateRefs ::= SEQUENCE OF OtherCertID
+    /// </code>
+    /// </remarks>
+    public class CompleteCertificateRefs
 		: Asn1Encodable
 	{
 		private readonly Asn1Sequence otherCertIDs;

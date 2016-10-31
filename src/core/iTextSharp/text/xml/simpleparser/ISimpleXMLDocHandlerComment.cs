@@ -46,7 +46,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml.simpleparser {
+namespace iTextSharp.text.xml.simpleparser
+{
     /**
     * The handler for the events fired by <CODE>SimpleXMLParser</CODE>.
     * @author Paulo Soares (psoares@consiste.pt)

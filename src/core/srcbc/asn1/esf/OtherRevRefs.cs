@@ -2,19 +2,19 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
-	/// <code>
-	/// OtherRevRefs ::= SEQUENCE 
-	/// {
-	///		otherRevRefType      OtherRevRefType,
-	///		otherRevRefs         ANY DEFINED BY otherRevRefType
-	/// }
-	///
-	/// OtherRevRefType ::= OBJECT IDENTIFIER
-	/// </code>
-	/// </remarks>
-	public class OtherRevRefs
+    /// <remarks>
+    /// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
+    /// <code>
+    /// OtherRevRefs ::= SEQUENCE 
+    /// {
+    ///		otherRevRefType      OtherRevRefType,
+    ///		otherRevRefs         ANY DEFINED BY otherRevRefType
+    /// }
+    ///
+    /// OtherRevRefType ::= OBJECT IDENTIFIER
+    /// </code>
+    /// </remarks>
+    public class OtherRevRefs
 		: Asn1Encodable
 	{
 		private readonly DerObjectIdentifier	otherRevRefType;

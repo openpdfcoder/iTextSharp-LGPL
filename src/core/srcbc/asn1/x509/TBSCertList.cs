@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Asn1.X509
 {
-	public class CrlEntry
+    public class CrlEntry
 		: Asn1Encodable
 	{
 		internal Asn1Sequence	seq;

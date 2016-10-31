@@ -1,20 +1,19 @@
+using Org.BouncyCastle.Asn1.X509;
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// <code>
-	/// OtherSigningCertificate ::= SEQUENCE {
-	/// 	certs		SEQUENCE OF OtherCertID,
-	/// 	policies	SEQUENCE OF PolicyInformation OPTIONAL
-	/// }
-	/// </code>
-	/// </remarks>
-	public class OtherSigningCertificate
+    /// <remarks>
+    /// <code>
+    /// OtherSigningCertificate ::= SEQUENCE {
+    /// 	certs		SEQUENCE OF OtherCertID,
+    /// 	policies	SEQUENCE OF PolicyInformation OPTIONAL
+    /// }
+    /// </code>
+    /// </remarks>
+    public class OtherSigningCertificate
 		: Asn1Encodable
 	{
 		private readonly Asn1Sequence	certs;

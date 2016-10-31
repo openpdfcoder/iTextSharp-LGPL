@@ -1,17 +1,16 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* This does your basic RSA Chaum's blinding and unblinding as outlined in
 	* "Handbook of Applied Cryptography", page 475. You need to use this if you are
 	* trying to get another party to generate signatures without them being aware
 	* of the message they are signing.
 	*/
-	public class RsaBlindingEngine
+    public class RsaBlindingEngine
 		: IAsymmetricBlockCipher
 	{
 		private readonly RsaCoreEngine core = new RsaCoreEngine();

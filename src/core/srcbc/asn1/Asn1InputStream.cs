@@ -1,19 +1,18 @@
+using Org.BouncyCastle.Asn1.Utilities;
+using Org.BouncyCastle.Utilities.IO;
 using System;
 using System.Diagnostics;
 using System.IO;
 
-using Org.BouncyCastle.Asn1.Utilities;
-using Org.BouncyCastle.Utilities.IO;
-
 namespace Org.BouncyCastle.Asn1
 {
-	/**
+    /**
 	 * a general purpose ASN.1 decoder - note: this class differs from the
 	 * others in that it returns null after it has read the last object in
 	 * the stream. If an ASN.1 Null is encountered a Der/BER Null object is
 	 * returned.
 	 */
-	public class Asn1InputStream
+    public class Asn1InputStream
 		: FilterStream
 	{
 		private readonly int limit;

@@ -1,8 +1,7 @@
+using Org.BouncyCastle.Crypto;
 using System;
 using System.Diagnostics;
 using System.IO;
-
-using Org.BouncyCastle.Crypto;
 
 namespace Org.BouncyCastle.Crypto.IO
 {

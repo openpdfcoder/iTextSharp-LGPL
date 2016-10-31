@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Org.BouncyCastle.Asn1.Cmp
 {
-	public class PkiFreeText
+    public class PkiFreeText
 		: Asn1Encodable
 	{
 		internal Asn1Sequence strings;

@@ -1,6 +1,5 @@
-using System.Collections;
-
 using Org.BouncyCastle.X509;
+using System.Collections;
 
 namespace Org.BouncyCastle.Pkcs
 {

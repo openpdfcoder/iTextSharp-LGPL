@@ -1,23 +1,22 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <summary>
-	/// Summary description for OtherHashAlgAndValue.
-	/// </summary>
-	/// <remarks>
-	/// <code>
-	/// OtherHashAlgAndValue ::= SEQUENCE {
-	///		hashAlgorithm	AlgorithmIdentifier,
-	/// 	hashValue		OtherHashValue
-	/// }
-	/// 
-	/// OtherHashValue ::= OCTET STRING
-	/// </code>
-	/// </remarks>
-	public class OtherHashAlgAndValue
+    /// <summary>
+    /// Summary description for OtherHashAlgAndValue.
+    /// </summary>
+    /// <remarks>
+    /// <code>
+    /// OtherHashAlgAndValue ::= SEQUENCE {
+    ///		hashAlgorithm	AlgorithmIdentifier,
+    /// 	hashValue		OtherHashValue
+    /// }
+    /// 
+    /// OtherHashValue ::= OCTET STRING
+    /// </code>
+    /// </remarks>
+    public class OtherHashAlgAndValue
 		: Asn1Encodable
 	{
 		private readonly AlgorithmIdentifier	hashAlgorithm;

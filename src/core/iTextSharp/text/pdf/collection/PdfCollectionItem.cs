@@ -1,7 +1,8 @@
-using System;
 using iTextSharp.text.pdf;
+using System;
 
-namespace iTextSharp.text.pdf.collection {
+namespace iTextSharp.text.pdf.collection
+{
 
     public class PdfCollectionItem : PdfDictionary {
         

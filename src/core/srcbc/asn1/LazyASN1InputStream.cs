@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Asn1
 {
-	public class LazyAsn1InputStream
+    public class LazyAsn1InputStream
 		: Asn1InputStream
 	{
 		public LazyAsn1InputStream(

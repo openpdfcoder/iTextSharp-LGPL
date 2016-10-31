@@ -1,10 +1,10 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.text;
 using iTextSharp.text.rtf.style;
+using iTextSharp.text.rtf.text;
+using System;
+using System.IO;
 /*
  * $Id: RtfListItem.cs,v 1.7 2008/05/16 19:31:02 psoares33 Exp $
  * 
@@ -55,7 +55,8 @@ using iTextSharp.text.rtf.style;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.list {
+namespace iTextSharp.text.rtf.list
+{
 
     /**
     * The RtfListItem acts as a wrapper for a ListItem.

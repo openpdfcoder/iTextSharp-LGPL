@@ -1,19 +1,18 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Paddings
 {
-	/**
+    /**
 	* A wrapper class that allows block ciphers to be used to process data in
 	* a piecemeal fashion with padding. The PaddedBufferedBlockCipher
 	* outputs a block only when the buffer is full and more data is being added,
 	* or on a doFinal (unless the current block in the buffer is a pad block).
 	* The default padding mechanism used is the one outlined in Pkcs5/Pkcs7.
 	*/
-	public class PaddedBufferedBlockCipher
+    public class PaddedBufferedBlockCipher
 		: BufferedBlockCipher
 	{
 		private readonly IBlockCipherPadding padding;

@@ -34,7 +34,8 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * and contributors of zlib.
  */
 
-namespace Org.BouncyCastle.Utilities.Zlib {
+namespace Org.BouncyCastle.Utilities.Zlib
+{
 
     internal sealed class InfCodes{
 

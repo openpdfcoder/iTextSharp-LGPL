@@ -1,7 +1,6 @@
+using iTextSharp.text;
 using System;
 using System.IO;
-
-using iTextSharp.text;
 
 /*
  * $Id: PdfDashPattern.cs,v 1.3 2008/05/13 11:25:19 psoares33 Exp $
@@ -53,7 +52,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
      * A <CODE>PdfDashPattern</CODE> defines a dash pattern as described in

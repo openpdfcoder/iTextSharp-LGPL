@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Utilities;
-
 namespace Org.BouncyCastle.Asn1
 {
-	public class BerTaggedObjectParser
+    public class BerTaggedObjectParser
 		: Asn1TaggedObjectParser
 	{
 		private int _baseTag;

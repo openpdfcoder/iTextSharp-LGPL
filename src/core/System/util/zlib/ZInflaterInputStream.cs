@@ -49,7 +49,8 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace System.util.zlib {
+namespace System.util.zlib
+{
     /// <summary>
     /// Summary description for DeflaterOutputStream.
     /// </summary>

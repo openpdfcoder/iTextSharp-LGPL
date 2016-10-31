@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Tsp
 {
-	public class Accuracy
+    public class Accuracy
 		: Asn1Encodable
 	{
 		private readonly DerInteger seconds;

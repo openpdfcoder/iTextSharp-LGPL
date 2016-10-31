@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	public class ParametersWithSBox : ICipherParameters
+    public class ParametersWithSBox : ICipherParameters
 	{
 		private ICipherParameters  parameters;
 		private byte[] sBox;

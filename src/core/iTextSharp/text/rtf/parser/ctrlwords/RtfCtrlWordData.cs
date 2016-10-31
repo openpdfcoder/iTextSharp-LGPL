@@ -1,5 +1,5 @@
-using System;
 using iTextSharp.text.rtf.parser.properties;
+using System;
 /* $Id: RtfCtrlWordData.cs,v 1.2 2008/05/13 11:25:58 psoares33 Exp $
  * 
  *
@@ -49,7 +49,8 @@ using iTextSharp.text.rtf.parser.properties;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.parser.ctrlwords {
+namespace iTextSharp.text.rtf.parser.ctrlwords
+{
 
     /**
     * The control word and parameter information as parsed by the parser.

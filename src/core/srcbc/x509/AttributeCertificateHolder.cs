@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
@@ -9,25 +6,27 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.X509
 {
-	/// <remarks>
-	/// The Holder object.
-	/// <pre>
- 	/// Holder ::= SEQUENCE {
- 	///		baseCertificateID   [0] IssuerSerial OPTIONAL,
- 	///			-- the issuer and serial number of
- 	///			-- the holder's Public Key Certificate
- 	///		entityName          [1] GeneralNames OPTIONAL,
- 	///			-- the name of the claimant or role
- 	///		objectDigestInfo    [2] ObjectDigestInfo OPTIONAL
- 	///			-- used to directly authenticate the holder,
- 	///			-- for example, an executable
- 	/// }
-	/// </pre>
-	/// </remarks>
-	public class AttributeCertificateHolder
+    /// <remarks>
+    /// The Holder object.
+    /// <pre>
+    /// Holder ::= SEQUENCE {
+    ///		baseCertificateID   [0] IssuerSerial OPTIONAL,
+    ///			-- the issuer and serial number of
+    ///			-- the holder's Public Key Certificate
+    ///		entityName          [1] GeneralNames OPTIONAL,
+    ///			-- the name of the claimant or role
+    ///		objectDigestInfo    [2] ObjectDigestInfo OPTIONAL
+    ///			-- used to directly authenticate the holder,
+    ///			-- for example, an executable
+    /// }
+    /// </pre>
+    /// </remarks>
+    public class AttributeCertificateHolder
 		//: CertSelector, Selector
 		: IX509Selector
 	{

@@ -2,14 +2,14 @@ using System;
 
 namespace Org.BouncyCastle.Math.EC.Abc
 {
-	/**
+    /**
 	* Class holding methods for point multiplication based on the window
 	* &#964;-adic nonadjacent form (WTNAF). The algorithms are based on the
 	* paper "Improved Algorithms for Arithmetic on Anomalous Binary Curves"
 	* by Jerome A. Solinas. The paper first appeared in the Proceedings of
 	* Crypto 1997.
 	*/
-	internal class Tnaf
+    internal class Tnaf
 	{
 		private static readonly BigInteger MinusOne = BigInteger.One.Negate();
 		private static readonly BigInteger MinusTwo = BigInteger.Two.Negate();

@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Org.BouncyCastle.Math.EC.Abc
 {
-	/**
+    /**
 	* Class representing a simple version of a big decimal. A
 	* <code>SimpleBigDecimal</code> is basically a
 	* {@link java.math.BigInteger BigInteger} with a few digits on the right of
@@ -15,7 +15,7 @@ namespace Org.BouncyCastle.Math.EC.Abc
 	* result of a multiplication of two <code>SimpleBigDecimal</code>s returns a
 	* <code>SimpleBigDecimal</code> with double scale.
 	*/
-	internal class SimpleBigDecimal
+    internal class SimpleBigDecimal
 		//	: Number
 	{
 		//	private static final long serialVersionUID = 1L;

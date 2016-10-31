@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Math.EC.Multiplier
 {
-	internal class ReferenceMultiplier
+    internal class ReferenceMultiplier
 		: ECMultiplier
 	{
 		/**

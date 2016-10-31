@@ -1,5 +1,5 @@
-using System;
 using iTextSharp.text;
+using System;
 /*
  * $Id: BarcodeCodabar.cs,v 1.7 2007/02/22 20:48:38 psoares33 Exp $
  *

@@ -1,15 +1,14 @@
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Asn1.Cms;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Asn1.Cms;
-
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	 * Default signed attributes generator.
 	 */
-	public class DefaultSignedAttributeTableGenerator
+    public class DefaultSignedAttributeTableGenerator
 		: CmsAttributeTableGenerator
 	{
 		private readonly Hashtable table;

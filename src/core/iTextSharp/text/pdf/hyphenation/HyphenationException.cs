@@ -15,7 +15,8 @@ using System;
  * limitations under the License.
  */
 
-namespace iTextSharp.text.pdf.hyphenation {
+namespace iTextSharp.text.pdf.hyphenation
+{
     /**
     * @author Carlos Villegas <cav@uniscope.co.jp>
     */

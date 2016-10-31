@@ -1,24 +1,23 @@
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// <code>
-	/// SignaturePolicyId ::= SEQUENCE {
-	/// 	sigPolicyIdentifier		SigPolicyId,
-	/// 	sigPolicyHash			SigPolicyHash,
-	/// 	sigPolicyQualifiers		SEQUENCE SIZE (1..MAX) OF SigPolicyQualifierInfo OPTIONAL
-	/// }
-	/// 
-	/// SigPolicyId ::= OBJECT IDENTIFIER
-	/// 
-	/// SigPolicyHash ::= OtherHashAlgAndValue
-	/// </code>
-	/// </remarks>
-	public class SignaturePolicyId
+    /// <remarks>
+    /// <code>
+    /// SignaturePolicyId ::= SEQUENCE {
+    /// 	sigPolicyIdentifier		SigPolicyId,
+    /// 	sigPolicyHash			SigPolicyHash,
+    /// 	sigPolicyQualifiers		SEQUENCE SIZE (1..MAX) OF SigPolicyQualifierInfo OPTIONAL
+    /// }
+    /// 
+    /// SigPolicyId ::= OBJECT IDENTIFIER
+    /// 
+    /// SigPolicyHash ::= OtherHashAlgAndValue
+    /// </code>
+    /// </remarks>
+    public class SignaturePolicyId
 		: Asn1Encodable
 	{
 		private readonly DerObjectIdentifier	sigPolicyIdentifier;

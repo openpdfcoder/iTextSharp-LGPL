@@ -1,15 +1,15 @@
-using System;
-using System.Collections;
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Pkix
 {
-	/**
+    /**
 	 * The <i>Service Provider Interface</i> (<b>SPI</b>) 
 	 * for the {@link CertPathValidator CertPathValidator} class. All 
 	 * <code>CertPathValidator</code> implementations must include a class (the
@@ -31,7 +31,7 @@ namespace Org.BouncyCastle.Pkix
 	 * manipulating a different <code>CertPathValidatorSpi</code> instance need not
 	 * synchronize.
 	 */
-	/// <summary>
+    /// <summary>
     /// CertPathValidatorSpi implementation for X.509 Certificate validation a la RFC
     /// 3280.
     /// </summary>

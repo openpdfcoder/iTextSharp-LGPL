@@ -2,17 +2,17 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// <code>
-	/// SigPolicyQualifierInfo ::= SEQUENCE {
+    /// <remarks>
+    /// <code>
+    /// SigPolicyQualifierInfo ::= SEQUENCE {
     ///		sigPolicyQualifierId  SigPolicyQualifierId,
-	///		sigQualifier          ANY DEFINED BY sigPolicyQualifierId
-	/// }
-	/// 
-	/// SigPolicyQualifierId ::= OBJECT IDENTIFIER
-	/// </code>
-	/// </remarks>
-	public class SigPolicyQualifierInfo
+    ///		sigQualifier          ANY DEFINED BY sigPolicyQualifierId
+    /// }
+    /// 
+    /// SigPolicyQualifierId ::= OBJECT IDENTIFIER
+    /// </code>
+    /// </remarks>
+    public class SigPolicyQualifierInfo
 		: Asn1Encodable
 	{
 		private readonly DerObjectIdentifier	sigPolicyQualifierId;

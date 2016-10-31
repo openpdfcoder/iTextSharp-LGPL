@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Ess;
 using Org.BouncyCastle.Asn1.Pkcs;
@@ -14,10 +10,13 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Tsp
 {
-	public class TimeStampTokenGenerator
+    public class TimeStampTokenGenerator
 	{
 		private int accuracySeconds = -1;
 		private int accuracyMillis = -1;

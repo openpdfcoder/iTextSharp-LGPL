@@ -3,8 +3,8 @@ using System.Collections;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/// <remarks>Generator for X.509 extensions</remarks>
-	public class X509ExtensionsGenerator
+    /// <remarks>Generator for X.509 extensions</remarks>
+    public class X509ExtensionsGenerator
 	{
 		private Hashtable extensions = new Hashtable();
 		private ArrayList extOrdering = new ArrayList();

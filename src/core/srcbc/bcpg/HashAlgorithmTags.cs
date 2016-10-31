@@ -1,7 +1,7 @@
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic tags for hash algorithms.</remarks>
-	public enum HashAlgorithmTag
+    /// <remarks>Basic tags for hash algorithms.</remarks>
+    public enum HashAlgorithmTag
 	{
 		MD5 = 1,			// MD5
 		Sha1 = 2,			// SHA-1

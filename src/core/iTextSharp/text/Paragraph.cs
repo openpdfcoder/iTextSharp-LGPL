@@ -1,7 +1,7 @@
+using iTextSharp.text.factories;
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text.factories;
 
 /*
  * $Id: Paragraph.cs,v 1.13 2008/05/13 11:25:12 psoares33 Exp $
@@ -53,7 +53,8 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// A Paragraph is a series of Chunks and/or Phrases.
     /// </summary>

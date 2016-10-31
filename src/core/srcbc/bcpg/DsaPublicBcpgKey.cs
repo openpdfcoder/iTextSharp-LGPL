@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Base class for a DSA public key.</remarks>
-	public class DsaPublicBcpgKey
+    /// <remarks>Base class for a DSA public key.</remarks>
+    public class DsaPublicBcpgKey
 		: BcpgObject, IBcpgKey
     {
         private readonly MPInteger p, q, g, y;

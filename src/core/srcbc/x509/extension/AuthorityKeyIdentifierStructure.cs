@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
+using System;
 
 namespace Org.BouncyCastle.X509.Extension
 {
-	/// <remarks>A high level authority key identifier.</remarks>
-	public class AuthorityKeyIdentifierStructure
+    /// <remarks>A high level authority key identifier.</remarks>
+    public class AuthorityKeyIdentifierStructure
 		: AuthorityKeyIdentifier
 	{
 		/**

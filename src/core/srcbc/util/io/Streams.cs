@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Utilities.IO
 {
-	public sealed class Streams
+    public sealed class Streams
 	{
 		private const int BufferSize = 512;
 

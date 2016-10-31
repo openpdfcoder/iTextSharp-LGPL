@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Utilities;
-
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic packet for a PGP secret key.</remarks>
+    /// <remarks>Basic packet for a PGP secret key.</remarks>
     public class SecretKeyPacket
         : ContainedPacket //, PublicKeyAlgorithmTag
     {

@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Digests
 {
-	/**
+    /**
 	* Implementation of WhirlpoolDigest, based on Java source published by Barreto
 	* and Rijmen.
 	*
 	*/
-	public sealed class WhirlpoolDigest : IDigest
+    public sealed class WhirlpoolDigest : IDigest
 	{
 		private const int BYTE_LENGTH = 64;
 

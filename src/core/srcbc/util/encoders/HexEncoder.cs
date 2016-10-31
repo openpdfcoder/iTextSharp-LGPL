@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Utilities.Encoders
 {
-	public class HexEncoder
+    public class HexEncoder
 		: IEncoder
 	{
 		private static readonly byte[] encodingTable =

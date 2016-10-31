@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* HC-128 is a software-efficient stream cipher created by Hongjun Wu. It
 	* generates keystream from a 128-bit secret key and a 128-bit initialization
 	* vector.
@@ -18,7 +17,7 @@ namespace Org.BouncyCastle.Crypto.Engines
 	* http://www.ecrypt.eu.org/stream/hcp3.html
 	* </p>
 	*/
-	public class HC128Engine
+    public class HC128Engine
 		: IStreamCipher
 	{
 		private uint[] p = new uint[512];

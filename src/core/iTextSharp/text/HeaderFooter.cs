@@ -1,6 +1,6 @@
 using System;
-using System.util;
 using System.Collections;
+using System.util;
 
 /*
  * $Id: HeaderFooter.cs,v 1.6 2008/05/13 11:25:10 psoares33 Exp $
@@ -52,7 +52,8 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// A HeaderFooter-object is a Rectangle with text
     /// that can be put above and/or below every page.

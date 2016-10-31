@@ -1,18 +1,17 @@
-using System;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Macs;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Utilities;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.IO;
+using System;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/// <remarks>Some helper fuctions for MicroTLS.</remarks>
-	public class TlsUtilities
+    /// <remarks>Some helper fuctions for MicroTLS.</remarks>
+    public class TlsUtilities
 	{
 		internal static byte[] ToByteArray(string str)
 		{

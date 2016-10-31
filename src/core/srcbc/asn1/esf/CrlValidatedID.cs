@@ -2,15 +2,15 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
-	/// <code>
-	/// CrlValidatedID ::= SEQUENCE {
-	///		crlHash			OtherHash,
-	///		crlIdentifier	CrlIdentifier OPTIONAL}
-	/// </code>
-	/// </remarks>
-	public class CrlValidatedID
+    /// <remarks>
+    /// RFC 3126: 4.2.2 Complete Revocation Refs Attribute Definition
+    /// <code>
+    /// CrlValidatedID ::= SEQUENCE {
+    ///		crlHash			OtherHash,
+    ///		crlIdentifier	CrlIdentifier OPTIONAL}
+    /// </code>
+    /// </remarks>
+    public class CrlValidatedID
 		: Asn1Encodable
 	{
 		private readonly OtherHash		crlHash;

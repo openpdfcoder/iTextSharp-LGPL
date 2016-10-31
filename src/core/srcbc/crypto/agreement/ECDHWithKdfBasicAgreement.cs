@@ -1,16 +1,15 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Crypto.Agreement.Kdf;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Crypto.Agreement
 {
-	public class ECDHWithKdfBasicAgreement
+    public class ECDHWithKdfBasicAgreement
 		: ECDHBasicAgreement
 	{
 		private static readonly Hashtable algorithms = new Hashtable();

@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.Security;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Security;
-
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>A one pass signature object.</remarks>
+    /// <remarks>A one pass signature object.</remarks>
     public class PgpOnePassSignature
     {
         private OnePassSignaturePacket sigPack;

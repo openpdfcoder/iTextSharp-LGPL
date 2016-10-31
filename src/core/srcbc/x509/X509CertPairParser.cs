@@ -1,15 +1,14 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities.IO;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.X509
 {
-	public class X509CertPairParser
+    public class X509CertPairParser
 	{
 		private Stream currentStream;
 

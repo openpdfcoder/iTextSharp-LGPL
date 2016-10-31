@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Utilities.Encoders
 {
-	/**
+    /**
 	* Convert binary data to and from UrlBase64 encoding.  This is identical to
 	* Base64 encoding, except that the padding character is "." and the other 
 	* non-alphanumeric characters are "-" and "_" instead of "+" and "/".
@@ -16,7 +16,7 @@ namespace Org.BouncyCastle.Utilities.Encoders
 	* parameter.
 	* </p>
 	*/
-	public class UrlBase64
+    public class UrlBase64
 	{
 		private static readonly IEncoder encoder = new UrlBase64Encoder();
 

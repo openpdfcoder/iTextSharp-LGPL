@@ -1,13 +1,13 @@
-using System;
 using Org.BouncyCastle.Crypto;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Digests
 {
-	/**
+    /**
 	* Wrapper class that reduces the output length of a particular digest to
 	* only the first n bytes of the digest function.
 	*/
-	public class ShortenedDigest
+    public class ShortenedDigest
 		: IDigest
 	{
 		private IDigest	baseDigest;

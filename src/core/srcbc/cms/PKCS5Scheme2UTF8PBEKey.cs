@@ -1,17 +1,16 @@
-using System;
-
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	 * PKCS5 scheme-2 - password converted to bytes using UTF-8.
 	 */
-	public class Pkcs5Scheme2Utf8PbeKey
+    public class Pkcs5Scheme2Utf8PbeKey
 		: CmsPbeKey
 	{
 		public Pkcs5Scheme2Utf8PbeKey(

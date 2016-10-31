@@ -1,12 +1,12 @@
+using iTextSharp.text;
+using iTextSharp.text.pdf.collection;
+using iTextSharp.text.pdf.draw;
+using iTextSharp.text.pdf.intern;
 using System;
 using System.Collections;
 using System.IO;
-using System.util.collections;
-using iTextSharp.text;
-using iTextSharp.text.pdf.intern;
-using iTextSharp.text.pdf.draw;
-using iTextSharp.text.pdf.collection;
 using System.util;
+using System.util.collections;
 /*
  * 
  * $Id: PdfDocument.cs,v 1.75 2008/05/13 11:25:19 psoares33 Exp $
@@ -57,7 +57,8 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * <CODE>PdfDocument</CODE> is the class that is used by <CODE>PdfWriter</CODE>
     * to translate a <CODE>Document</CODE> into a PDF with different pages.

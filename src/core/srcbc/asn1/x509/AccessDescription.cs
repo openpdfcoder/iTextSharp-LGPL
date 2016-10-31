@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * The AccessDescription object.
 	 * <pre>
 	 * AccessDescription  ::=  SEQUENCE {
@@ -10,7 +10,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 *       accessLocation        GeneralName  }
 	 * </pre>
 	 */
-	public class AccessDescription
+    public class AccessDescription
 		: Asn1Encodable
 	{
 		public readonly static DerObjectIdentifier IdADCAIssuers = new DerObjectIdentifier("1.3.6.1.5.5.7.48.2");

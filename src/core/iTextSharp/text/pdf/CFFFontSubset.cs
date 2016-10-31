@@ -1,7 +1,8 @@
 using System;
 using System.Collections;
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * This Class subsets a CFF Type Font. The subset is preformed for CID fonts and NON CID fonts.
     * The Charstring is subseted for both types. For CID fonts only the FDArray which are used are embedded. 

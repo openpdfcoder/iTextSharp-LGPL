@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * ObjectDigestInfo ASN.1 structure used in v2 attribute certificates.
 	 * 
 	 * <pre>
@@ -22,7 +22,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 * </pre>
 	 * 
 	 */
-	public class ObjectDigestInfo
+    public class ObjectDigestInfo
         : Asn1Encodable
     {
 		/**

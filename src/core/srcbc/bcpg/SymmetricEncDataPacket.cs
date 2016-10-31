@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic type for a symmetric key encrypted packet.</remarks>
+    /// <remarks>Basic type for a symmetric key encrypted packet.</remarks>
     public class SymmetricEncDataPacket
         : InputStreamPacket
     {

@@ -1,14 +1,14 @@
-using System;
-using System.IO;
 using Org.BouncyCastle.Bcpg.Attr;
 using Org.BouncyCastle.Utilities.IO;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/**
+    /**
 	* reader for user attribute sub-packets
 	*/
-	public class UserAttributeSubpacketsParser
+    public class UserAttributeSubpacketsParser
 	{
 		private readonly Stream input;
 

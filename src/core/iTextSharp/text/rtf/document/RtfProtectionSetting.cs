@@ -1,7 +1,7 @@
+using iTextSharp.text;
+using iTextSharp.text.rtf;
 using System;
 using System.IO;
-using iTextSharp.text.rtf;
-using iTextSharp.text;
 /*
  * $Id: RtfProtectionSetting.cs,v 1.2 2008/05/13 11:25:50 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document {
+namespace iTextSharp.text.rtf.document
+{
 
     /**
     * The RtfProtectionSetting handles document protection elements 

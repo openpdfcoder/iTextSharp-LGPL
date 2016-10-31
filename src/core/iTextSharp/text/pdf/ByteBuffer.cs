@@ -1,7 +1,7 @@
 using System;
+using System.Globalization;
 using System.IO;
 using System.Text;
-using System.Globalization;
 
 /*
  * $Id: ByteBuffer.cs,v 1.7 2008/05/13 11:25:17 psoares33 Exp $
@@ -53,7 +53,8 @@ using System.Globalization;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
      * Acts like a <CODE>StringBuilder</CODE> but works with <CODE>byte</CODE> arrays.
      * floating point is converted to a format suitable to the PDF.

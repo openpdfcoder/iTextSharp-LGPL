@@ -1,18 +1,17 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	/**
+    /**
 	 * Parameters for NaccacheStern public private key generation. For details on
 	 * this cipher, please see
 	 *
 	 * http://www.gemplus.com/smart/rd/publications/pdf/NS98pkcs.pdf
 	 */
-	public class NaccacheSternKeyGenerationParameters : KeyGenerationParameters
+    public class NaccacheSternKeyGenerationParameters : KeyGenerationParameters
 	{
 		// private BigInteger publicExponent;
 		private readonly int certainty;

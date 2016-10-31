@@ -1,10 +1,10 @@
-using System;
-using System.Collections;
-using System.Security.Cryptography;
-using System.Text;
-using System.IO;
 using iTextSharp.text.pdf.crypto;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
+using System.Security.Cryptography;
+using System.Text;
 
 /*
  * $Id: PdfEncryption.cs,v 1.13 2007/06/14 20:01:48 psoares33 Exp $
@@ -55,13 +55,14 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
-/**
- *
- * @author  Paulo Soares (psoares@consiste.pt)
- */
-public class PdfEncryption {
+    /**
+     *
+     * @author  Paulo Soares (psoares@consiste.pt)
+     */
+    public class PdfEncryption {
 
     public const int STANDARD_ENCRYPTION_40 = 2;
     public const int STANDARD_ENCRYPTION_128 = 3;

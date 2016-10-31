@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Pkcs;
@@ -10,6 +7,8 @@ using Org.BouncyCastle.Crypto.IO;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities.Collections;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {

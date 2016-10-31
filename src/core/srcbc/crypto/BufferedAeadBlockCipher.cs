@@ -1,15 +1,14 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Modes;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto
 {
-	/**
+    /**
 	* The AEAD block ciphers already handle buffering internally, so this class
 	* just takes care of implementing IBufferedCipher methods.
 	*/
-	public class BufferedAeadBlockCipher
+    public class BufferedAeadBlockCipher
 		: BufferedCipherBase
 	{
 		private readonly IAeadBlockCipher cipher;

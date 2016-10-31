@@ -1,12 +1,11 @@
-using System;
-using System.IO;
-using System.Text;
-using System.Collections;
-using System.Globalization;
-using System.util;
-
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using System;
+using System.Collections;
+using System.Globalization;
+using System.IO;
+using System.Text;
+using System.util;
 
 /*
  * $Id: HtmlWriter.cs,v 1.24 2008/05/13 11:25:15 psoares33 Exp $
@@ -58,7 +57,8 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html {
+namespace iTextSharp.text.html
+{
     /**
      * A <CODE>DocWriter</CODE> class for HTML.
      * <P>

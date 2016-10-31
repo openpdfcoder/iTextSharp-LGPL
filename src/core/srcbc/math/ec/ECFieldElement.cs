@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities;
 using System;
 using System.Diagnostics;
 
-using Org.BouncyCastle.Utilities;
-
 namespace Org.BouncyCastle.Math.EC
 {
-	public abstract class ECFieldElement
+    public abstract class ECFieldElement
 	{
 		public abstract BigInteger ToBigInteger();
 		public abstract string FieldName { get; }

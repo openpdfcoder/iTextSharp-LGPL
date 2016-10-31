@@ -47,7 +47,8 @@ using System.Text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * Shape arabic characters. This code was inspired by an LGPL'ed C library:

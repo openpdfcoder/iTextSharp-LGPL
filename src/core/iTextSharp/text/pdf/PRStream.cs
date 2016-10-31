@@ -53,9 +53,10 @@ using System.util.zlib;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
-public class PRStream : PdfStream {
+    public class PRStream : PdfStream {
     
     protected PdfReader reader;
     protected int offset;

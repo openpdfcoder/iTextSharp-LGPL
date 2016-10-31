@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 {
-	/**
+    /**
 	* A declaration of majority.
 	* <p/>
 	* <pre>
@@ -21,7 +21,7 @@ namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 	* fullAgeAtCountry indicates the majority of the owner with respect to the laws
 	* of a specific country.
 	*/
-	public class DeclarationOfMajority
+    public class DeclarationOfMajority
 		: Asn1Encodable, IAsn1Choice
 	{
 		public enum Choice

@@ -1,8 +1,8 @@
 using System;
-using System.Text;
 using System.Collections;
-using System.Net;
 using System.IO;
+using System.Net;
+using System.Text;
 
 /*
  * Copyright 2003 by Paulo Soares.
@@ -50,7 +50,8 @@ using System.IO;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /** Reads an FDF form and makes the fields available
     * @author Paulo Soares (psoares@consiste.pt)
     */

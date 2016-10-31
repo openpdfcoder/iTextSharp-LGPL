@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* A Noekeon engine, using direct-key mode.
 	*/
-	public class NoekeonEngine
+    public class NoekeonEngine
 		: IBlockCipher
 	{
 		private const int GenericSize = 16; // Block and key size, as well as the amount of rounds.

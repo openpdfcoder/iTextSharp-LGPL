@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * Policy qualifiers, used in the X509V3 CertificatePolicies
 	 * extension.
 	 *
@@ -12,7 +12,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 *       qualifier          ANY DEFINED BY policyQualifierId }
 	 * </pre>
 	 */
-	public class PolicyQualifierInfo
+    public class PolicyQualifierInfo
 		: Asn1Encodable
 	{
 		internal readonly DerObjectIdentifier	policyQualifierId;

@@ -1,17 +1,16 @@
+using Org.BouncyCastle.Math;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Math;
-
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	/**
+    /**
 	 * Private key parameters for NaccacheStern cipher. For details on this cipher,
 	 * please see
 	 *
 	 * http://www.gemplus.com/smart/rd/publications/pdf/NS98pkcs.pdf
 	 */
-	public class NaccacheSternPrivateKeyParameters : NaccacheSternKeyParameters
+    public class NaccacheSternPrivateKeyParameters : NaccacheSternKeyParameters
 	{
 		private readonly BigInteger phiN;
 		private readonly ArrayList smallPrimes;

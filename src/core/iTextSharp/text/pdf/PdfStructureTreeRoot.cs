@@ -49,7 +49,8 @@ using System.Collections;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * The structure tree root corresponds to the highest hierarchy level in a tagged PDF.

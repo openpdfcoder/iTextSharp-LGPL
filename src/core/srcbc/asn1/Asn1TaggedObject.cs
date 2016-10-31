@@ -1,6 +1,5 @@
-using System;
-
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Asn1
 {

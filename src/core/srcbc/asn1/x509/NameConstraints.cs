@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	public class NameConstraints
+    public class NameConstraints
 		: Asn1Encodable
 	{
 		private Asn1Sequence permitted, excluded;

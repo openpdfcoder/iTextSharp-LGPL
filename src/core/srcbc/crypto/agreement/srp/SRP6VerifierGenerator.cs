@@ -1,13 +1,12 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Agreement.Srp
 {
-	/**
+    /**
 	 * Generates new SRP verifier for user
 	 */
-	public class Srp6VerifierGenerator
+    public class Srp6VerifierGenerator
 	{
 	    protected BigInteger N;
 	    protected BigInteger g;

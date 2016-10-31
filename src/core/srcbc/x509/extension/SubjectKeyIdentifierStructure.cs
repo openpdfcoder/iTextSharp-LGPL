@@ -1,16 +1,15 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Security.Certificates;
+using System;
 
 namespace Org.BouncyCastle.X509.Extension
 {
-	/**
+    /**
 	 * A high level subject key identifier.
 	 */
-	public class SubjectKeyIdentifierStructure
+    public class SubjectKeyIdentifierStructure
 		: SubjectKeyIdentifier
 	{
 //		private AuthorityKeyIdentifier authKeyID;

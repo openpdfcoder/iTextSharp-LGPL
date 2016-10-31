@@ -1,8 +1,7 @@
-using System;
-using System.IO;
-using System.Collections;
-
 using iTextSharp.text;
+using System;
+using System.Collections;
+using System.IO;
 
 /*
  * $Id: TrueTypeFontSubSet.cs,v 1.4 2008/05/13 11:25:23 psoares33 Exp $
@@ -54,7 +53,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /** Subsets a True Type font by removing the unneeded glyphs from
      * the font.

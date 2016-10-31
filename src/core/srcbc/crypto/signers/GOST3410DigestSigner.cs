@@ -1,17 +1,16 @@
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Crypto.Parameters;
+using Org.BouncyCastle.Crypto.Signers;
+using Org.BouncyCastle.Math;
+using Org.BouncyCastle.Security;
 using System;
 using System.Collections;
 using System.IO;
 using System.Text;
 
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Crypto.Signers;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Math;
-using Org.BouncyCastle.Security;
-
 namespace Org.BouncyCastle.Crypto.Signers
 {
-	public class Gost3410DigestSigner
+    public class Gost3410DigestSigner
 		: ISigner
 	{
 		private readonly IDigest digest;

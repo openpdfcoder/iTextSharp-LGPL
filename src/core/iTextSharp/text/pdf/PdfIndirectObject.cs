@@ -1,7 +1,6 @@
+using iTextSharp.text;
 using System;
 using System.IO;
-
-using iTextSharp.text;
 
 /*
  * $Id: PdfIndirectObject.cs,v 1.3 2008/05/13 11:25:21 psoares33 Exp $
@@ -53,23 +52,24 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
-/**
- * <CODE>PdfIndirectObject</CODE> is the Pdf indirect object.
- * <P>
- * An <I>indirect object</I> is an object that has been labeled so that it can be referenced by
- * other objects. Any type of <CODE>PdfObject</CODE> may be labeled as an indirect object.<BR>
- * An indirect object consists of an object identifier, a direct object, and the <B>endobj</B>
- * keyword. The <I>object identifier</I> consists of an integer <I>object number</I>, an integer
- * <I>generation number</I>, and the <B>obj</B> keyword.<BR>
- * This object is described in the 'Portable Document Format Reference Manual version 1.3'
- * section 4.10 (page 53).
- *
- * @see        PdfObject
- * @see        PdfIndirectReference
- */
+namespace iTextSharp.text.pdf
+{
+    /**
+     * <CODE>PdfIndirectObject</CODE> is the Pdf indirect object.
+     * <P>
+     * An <I>indirect object</I> is an object that has been labeled so that it can be referenced by
+     * other objects. Any type of <CODE>PdfObject</CODE> may be labeled as an indirect object.<BR>
+     * An indirect object consists of an object identifier, a direct object, and the <B>endobj</B>
+     * keyword. The <I>object identifier</I> consists of an integer <I>object number</I>, an integer
+     * <I>generation number</I>, and the <B>obj</B> keyword.<BR>
+     * This object is described in the 'Portable Document Format Reference Manual version 1.3'
+     * section 4.10 (page 53).
+     *
+     * @see        PdfObject
+     * @see        PdfIndirectReference
+     */
 
-public class PdfIndirectObject {
+    public class PdfIndirectObject {
     
         // membervariables
         

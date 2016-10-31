@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Crypto.Utilities
 {
-	internal sealed class Pack
+    internal sealed class Pack
 	{
 		private Pack()
 		{

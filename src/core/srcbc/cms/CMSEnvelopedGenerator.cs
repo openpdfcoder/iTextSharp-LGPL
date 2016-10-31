@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.Kisa;
@@ -15,10 +11,13 @@ using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* General class for generating a CMS enveloped-data message.
 	*
 	* A simple example of usage.
@@ -31,7 +30,7 @@ namespace Org.BouncyCastle.Cms
 	*      CMSEnvelopedData         data = fact.generate(content, algorithm, "BC");
 	* </pre>
 	*/
-	public class CmsEnvelopedGenerator
+    public class CmsEnvelopedGenerator
 	{
 		internal static readonly short[] rc2Table =
 		{

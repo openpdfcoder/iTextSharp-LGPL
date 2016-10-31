@@ -1,26 +1,25 @@
-using System;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.X509;
+using System;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.Pkix
 {
-	/// <summary>
-	/// A trust anchor or most-trusted Certification Authority (CA).
-	/// 
-	/// This class represents a "most-trusted CA", which is used as a trust anchor
-	/// for validating X.509 certification paths. A most-trusted CA includes the
-	/// public key of the CA, the CA's name, and any constraints upon the set of
-	/// paths which may be validated using this key. These parameters can be
-	/// specified in the form of a trusted X509Certificate or as individual
-	/// parameters.
-	/// </summary>
-	public class TrustAnchor
+    /// <summary>
+    /// A trust anchor or most-trusted Certification Authority (CA).
+    /// 
+    /// This class represents a "most-trusted CA", which is used as a trust anchor
+    /// for validating X.509 certification paths. A most-trusted CA includes the
+    /// public key of the CA, the CA's name, and any constraints upon the set of
+    /// paths which may be validated using this key. These parameters can be
+    /// specified in the form of a trusted X509Certificate or as individual
+    /// parameters.
+    /// </summary>
+    public class TrustAnchor
 	{
 		private readonly AsymmetricKeyParameter pubKey;
 		private readonly string caName;

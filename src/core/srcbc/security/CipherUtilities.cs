@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Globalization;
-
-using Org.BouncyCastle.Asn1;
+﻿using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Kisa;
 using Org.BouncyCastle.Asn1.Nist;
@@ -18,13 +14,16 @@ using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Macs;
 using Org.BouncyCastle.Crypto.Modes;
 using Org.BouncyCastle.Crypto.Paddings;
+using System;
+using System.Collections;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Security
 {
-	/// <remarks>
-	///  Cipher Utility class contains methods that can not be specifically grouped into other classes.
-	/// </remarks>
-	public sealed class CipherUtilities
+    /// <remarks>
+    ///  Cipher Utility class contains methods that can not be specifically grouped into other classes.
+    /// </remarks>
+    public sealed class CipherUtilities
 	{
 		private static readonly Hashtable algorithms = new Hashtable();
 		private static readonly Hashtable oids = new Hashtable();

@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	public abstract class PgpKeyRing
+    public abstract class PgpKeyRing
 		: PgpObject
 	{
 		internal PgpKeyRing()

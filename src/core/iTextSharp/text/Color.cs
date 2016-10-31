@@ -1,6 +1,7 @@
 using System;
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// Base class for Color, serves as wrapper class for <see cref="T:System.Drawing.Color"/>
     /// to allow extension.

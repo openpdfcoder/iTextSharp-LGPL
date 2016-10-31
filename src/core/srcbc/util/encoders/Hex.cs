@@ -3,10 +3,10 @@ using System.IO;
 
 namespace Org.BouncyCastle.Utilities.Encoders
 {
-	/// <summary>
-	/// Class to decode and encode Hex.
-	/// </summary>
-	public sealed class Hex
+    /// <summary>
+    /// Class to decode and encode Hex.
+    /// </summary>
+    public sealed class Hex
 	{
 		private static readonly IEncoder encoder = new HexEncoder();
 

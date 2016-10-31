@@ -1,15 +1,14 @@
+using Org.BouncyCastle.Crypto.Parameters;
 using System;
 using System.Collections;
 using System.Globalization;
 
-using Org.BouncyCastle.Crypto.Parameters;
-
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* implementation of GOST 28147-89
 	*/
-	public class Gost28147Engine
+    public class Gost28147Engine
 		: IBlockCipher
 	{
 		private const int  BlockSize = 8;

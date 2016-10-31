@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Org.BouncyCastle.Utilities.Collections
 {
-	public sealed class EnumerableProxy
+    public sealed class EnumerableProxy
 		: IEnumerable
 	{
 		private readonly IEnumerable inner;

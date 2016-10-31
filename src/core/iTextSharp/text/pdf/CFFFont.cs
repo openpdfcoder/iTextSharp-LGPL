@@ -1,6 +1,6 @@
 using System;
-using System.Text;
 using System.Collections;
+using System.Text;
 /*
  *
  * Copyright 2003 Sivan Toledo
@@ -38,7 +38,8 @@ using System.Collections;
  *
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     public class CFFFont {
         
         internal static String[] operatorNames = {

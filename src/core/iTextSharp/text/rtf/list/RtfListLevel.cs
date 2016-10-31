@@ -1,11 +1,11 @@
-using System;
-using System.IO;
-using System.Collections;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.style;
 using iTextSharp.text.rtf.text;
+using System;
+using System.Collections;
+using System.IO;
 /*
  * $Id: RtfListLevel.java 3580 2008-08-06 15:52:00Z howard_s $
  *
@@ -54,7 +54,8 @@ using iTextSharp.text.rtf.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.list {
+namespace iTextSharp.text.rtf.list
+{
 
     /**
     * The RtfListLevel is a listlevel object in a list.

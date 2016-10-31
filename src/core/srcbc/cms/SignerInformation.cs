@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.Diagnostics;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.X509;
@@ -12,13 +7,17 @@ using Org.BouncyCastle.Crypto.Signers;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.Diagnostics;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* an expanded SignerInfo block from a CMS Signed message
 	*/
-	public class SignerInformation
+    public class SignerInformation
 	{
 		private static readonly CmsSignedHelper Helper = CmsSignedHelper.Instance;
 

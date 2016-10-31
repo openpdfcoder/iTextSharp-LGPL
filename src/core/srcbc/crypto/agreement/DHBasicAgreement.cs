@@ -1,19 +1,18 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Agreement
 {
-	/**
+    /**
 	 * a Diffie-Hellman key agreement class.
 	 * <p>
 	 * note: This is only the basic algorithm, it doesn't take advantage of
 	 * long term public keys if they are available. See the DHAgreement class
 	 * for a "better" implementation.</p>
 	 */
-	public class DHBasicAgreement
+    public class DHBasicAgreement
 		: IBasicAgreement
 	{
 		private DHPrivateKeyParameters	key;

@@ -49,7 +49,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * This is a node in a document logical structure. It may contain a mark point or it may contain
     * other nodes.

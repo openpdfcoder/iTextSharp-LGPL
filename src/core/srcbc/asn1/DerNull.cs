@@ -2,10 +2,10 @@ using System;
 
 namespace Org.BouncyCastle.Asn1
 {
-	/**
+    /**
 	 * A Null object.
 	 */
-	public class DerNull
+    public class DerNull
 		: Asn1Null
 	{
 		public static readonly DerNull Instance = new DerNull(0);

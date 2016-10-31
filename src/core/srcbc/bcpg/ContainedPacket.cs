@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic type for a PGP packet.</remarks>
+    /// <remarks>Basic type for a PGP packet.</remarks>
     public abstract class ContainedPacket
         : Packet
     {

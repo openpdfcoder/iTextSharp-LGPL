@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Base class for an ElGamal secret key.</remarks>
-	public class ElGamalSecretBcpgKey
+    /// <remarks>Base class for an ElGamal secret key.</remarks>
+    public class ElGamalSecretBcpgKey
 		: BcpgObject, IBcpgKey
 	{
 		internal MPInteger x;

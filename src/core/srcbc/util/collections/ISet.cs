@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Org.BouncyCastle.Utilities.Collections
 {
-	public interface ISet
+    public interface ISet
 		: ICollection
 	{
 		void Add(object o);

@@ -1,6 +1,5 @@
-using System;
-
 using Org.BouncyCastle.Asn1.Pkcs;
+using System;
 
 namespace Org.BouncyCastle.Asn1.X509
 {

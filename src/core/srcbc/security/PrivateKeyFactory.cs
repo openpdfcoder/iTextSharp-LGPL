@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Nist;
@@ -16,6 +11,10 @@ using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Pkcs;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.Security
 {

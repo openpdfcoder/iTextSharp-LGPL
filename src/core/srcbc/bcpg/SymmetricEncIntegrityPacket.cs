@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	public class SymmetricEncIntegrityPacket
+    public class SymmetricEncIntegrityPacket
 		: InputStreamPacket
 	{
 		internal readonly int version;

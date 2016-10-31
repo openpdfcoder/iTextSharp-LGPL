@@ -1,13 +1,12 @@
+using Org.BouncyCastle.Apache.Bzip2;
+using Org.BouncyCastle.Utilities.Zlib;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Apache.Bzip2;
-using Org.BouncyCastle.Utilities.Zlib;
-
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>Class for producing compressed data packets.</remarks>
-	public class PgpCompressedDataGenerator
+    /// <remarks>Class for producing compressed data packets.</remarks>
+    public class PgpCompressedDataGenerator
 		: IStreamGenerator
 	{
 		private readonly CompressionAlgorithmTag algorithm;

@@ -2,13 +2,13 @@ using System;
 
 namespace Org.BouncyCastle.X509.Store
 {
-	/// <remarks>
-	/// This class is an <code>IX509Selector</code> implementation to select
-	/// certificate pairs, which are e.g. used for cross certificates. The set of
-	/// criteria is given from two <code>X509CertStoreSelector</code> objects,
-	/// each of which, if present, must match the respective component of a pair.
-	/// </remarks>
-	public class X509CertPairStoreSelector
+    /// <remarks>
+    /// This class is an <code>IX509Selector</code> implementation to select
+    /// certificate pairs, which are e.g. used for cross certificates. The set of
+    /// criteria is given from two <code>X509CertStoreSelector</code> objects,
+    /// each of which, if present, must match the respective component of a pair.
+    /// </remarks>
+    public class X509CertPairStoreSelector
 		: IX509Selector
 	{
 		private static X509CertStoreSelector CloneSelector(

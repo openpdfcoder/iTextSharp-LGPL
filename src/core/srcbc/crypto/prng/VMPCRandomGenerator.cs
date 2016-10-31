@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Crypto.Prng
 {
-	public class VmpcRandomGenerator
+    public class VmpcRandomGenerator
 		: IRandomGenerator 
 	{
 		private byte n = 0;

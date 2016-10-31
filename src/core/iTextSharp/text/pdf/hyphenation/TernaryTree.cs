@@ -9,7 +9,8 @@ using System.Text;
  * LICENSE file included with these sources.
  */
 
-namespace iTextSharp.text.pdf.hyphenation {
+namespace iTextSharp.text.pdf.hyphenation
+{
     /**
      * <h2>Ternary Search Tree</h2>
      *

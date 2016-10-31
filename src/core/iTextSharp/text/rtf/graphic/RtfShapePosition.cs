@@ -1,7 +1,7 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
+using System;
+using System.IO;
 /**
  * $Id: RtfShapePosition.cs,v 1.6 2008/05/23 17:24:27 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using iTextSharp.text.rtf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.graphic {
+namespace iTextSharp.text.rtf.graphic
+{
 
     /**
     * The RtfShapePosition stores position and ordering

@@ -1,17 +1,16 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X500;
+using System;
 
 namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 {
-	/**
+    /**
 	* Some other restriction regarding the usage of this certificate.
 	* <p/>
 	* <pre>
 	*  RestrictionSyntax ::= DirectoryString (SIZE(1..1024))
 	* </pre>
 	*/
-	public class Restriction
+    public class Restriction
 		: Asn1Encodable
 	{
 		private readonly DirectoryString restriction;

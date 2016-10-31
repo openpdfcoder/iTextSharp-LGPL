@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * <code>NoticeReference</code> class, used in
 	 * <code>CertificatePolicies</code> X509 V3 extensions
 	 * (in policy qualifiers).
@@ -18,7 +18,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 * @see PolicyQualifierInfo
 	 * @see PolicyInformation
 	 */
-	public class NoticeReference
+    public class NoticeReference
 		: Asn1Encodable
 	{
 		internal readonly DisplayText organization;

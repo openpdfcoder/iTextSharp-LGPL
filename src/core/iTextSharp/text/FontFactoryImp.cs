@@ -1,12 +1,11 @@
-using System;
-using System.IO;
-using System.Collections;
-using System.util;
-using System.Globalization;
-
+using iTextSharp.text;
 using iTextSharp.text.html;
 using iTextSharp.text.pdf;
-using iTextSharp.text;
+using System;
+using System.Collections;
+using System.Globalization;
+using System.IO;
+using System.util;
 
 /*
  * $Id: FontFactoryImp.cs,v 1.13 2008/05/13 11:25:10 psoares33 Exp $
@@ -57,7 +56,8 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// If you are using True Type fonts, you can declare the paths of the different ttf- and ttc-files
     /// to this class first and then create fonts in your code using one of the getFont method

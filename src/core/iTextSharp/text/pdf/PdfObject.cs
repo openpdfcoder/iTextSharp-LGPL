@@ -51,7 +51,8 @@
 using System;
 using System.IO;
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
      * <CODE>PdfObject</CODE> is the abstract baseclass of all PDF objects.
  * <P>

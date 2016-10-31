@@ -47,7 +47,8 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html.simpleparser {
+namespace iTextSharp.text.html.simpleparser
+{
 
     public class StyleSheet {
         

@@ -1,21 +1,20 @@
-using System;
-
 using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Esf
 {
-	/// <remarks>
-	/// <code>
-	/// OtherHash ::= CHOICE {
-	///		sha1Hash	OtherHashValue, -- This contains a SHA-1 hash
-	/// 	otherHash	OtherHashAlgAndValue
-	///	}
-	///	
-	///	OtherHashValue ::= OCTET STRING
-	/// </code>
-	/// </remarks>
-	public class OtherHash
+    /// <remarks>
+    /// <code>
+    /// OtherHash ::= CHOICE {
+    ///		sha1Hash	OtherHashValue, -- This contains a SHA-1 hash
+    /// 	otherHash	OtherHashAlgAndValue
+    ///	}
+    ///	
+    ///	OtherHashValue ::= OCTET STRING
+    /// </code>
+    /// </remarks>
+    public class OtherHash
 		: Asn1Encodable, IAsn1Choice
 	{
 		private readonly Asn1OctetString		sha1Hash;

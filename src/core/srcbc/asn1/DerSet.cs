@@ -2,10 +2,10 @@ using System.IO;
 
 namespace Org.BouncyCastle.Asn1
 {
-	/**
+    /**
 	 * A Der encoded set object
 	 */
-	public class DerSet
+    public class DerSet
 		: Asn1Set
 	{
 		public static readonly DerSet Empty = new DerSet();

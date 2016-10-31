@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Misc;
 using Org.BouncyCastle.Asn1.Utilities;
@@ -14,6 +9,10 @@ using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Encoders;
 using Org.BouncyCastle.X509.Extension;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.X509
 {

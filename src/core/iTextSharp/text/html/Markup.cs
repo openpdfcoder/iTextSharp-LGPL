@@ -1,10 +1,10 @@
+using iTextSharp.text;
 using System;
-using System.util;
-using System.IO;
-using System.Text;
 using System.Collections;
 using System.Globalization;
-using iTextSharp.text;
+using System.IO;
+using System.Text;
+using System.util;
 
 /*
  * $Id: Markup.cs,v 1.2 2008/05/13 11:25:16 psoares33 Exp $
@@ -56,7 +56,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html {
+namespace iTextSharp.text.html
+{
     /// <summary>
     /// A class that contains all the possible tagnames and their attributes.
     /// </summary>

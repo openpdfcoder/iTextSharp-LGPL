@@ -1,5 +1,5 @@
-using System;
 using iTextSharp.text.pdf.codec;
+using System;
 
 /*
  * $Id: ImgCCITT.cs,v 1.6 2008/05/13 11:25:11 psoares33 Exp $
@@ -51,7 +51,8 @@ using iTextSharp.text.pdf.codec;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /**
      * CCITT Image data that has to be inserted into the document
      *

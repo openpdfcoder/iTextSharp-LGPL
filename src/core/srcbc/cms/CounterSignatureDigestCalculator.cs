@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Cms
 {
-	internal class CounterSignatureDigestCalculator
+    internal class CounterSignatureDigestCalculator
 		: IDigestCalculator
 	{
 		private readonly string alg;

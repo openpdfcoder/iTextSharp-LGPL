@@ -1,6 +1,5 @@
-using System.Collections;
-
 using Org.BouncyCastle.Crypto;
+using System.Collections;
 
 namespace Org.BouncyCastle.Pkcs
 {

@@ -1,7 +1,7 @@
-using System;
-using System.Collections;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Pkix
 {

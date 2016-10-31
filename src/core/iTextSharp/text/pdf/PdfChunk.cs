@@ -1,8 +1,7 @@
+using iTextSharp.text;
 using System;
 using System.Collections;
 using System.util;
-
-using iTextSharp.text;
 
 /*
  * $Id: PdfChunk.cs,v 1.11 2008/05/22 22:11:10 psoares33 Exp $
@@ -54,7 +53,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
      * A <CODE>PdfChunk</CODE> is the PDF translation of a <CODE>Chunk</CODE>.

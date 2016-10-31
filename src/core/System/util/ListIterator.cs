@@ -1,7 +1,8 @@
 using System;
 using System.Collections;
 
-namespace System.util {
+namespace System.util
+{
     /// <summary>
     /// Summary description for ListIterator.
     /// </summary>

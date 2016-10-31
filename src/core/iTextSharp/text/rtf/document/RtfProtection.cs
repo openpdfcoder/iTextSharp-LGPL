@@ -48,8 +48,9 @@ using System;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
- 
-namespace iTextSharp.text.rtf.document {
+
+namespace iTextSharp.text.rtf.document
+{
 
     /**
     * <code>RtfProtection</code> 

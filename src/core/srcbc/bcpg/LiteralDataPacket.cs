@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Utilities;
-
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Generic literal data packet.</remarks>
+    /// <remarks>Generic literal data packet.</remarks>
     public class LiteralDataPacket
         : InputStreamPacket
 	{

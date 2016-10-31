@@ -1,10 +1,10 @@
+using iTextSharp.text.html;
+using iTextSharp.text.xml.simpleparser;
 using System;
+using System.Collections;
 using System.IO;
 using System.Text;
-using System.Collections;
 using System.util;
-using iTextSharp.text.xml.simpleparser;
-using iTextSharp.text.html;
 /*
  * Copyright 2005 by Paulo Soares.
  *
@@ -52,7 +52,8 @@ using iTextSharp.text.html;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.hyphenation {
+namespace iTextSharp.text.pdf.hyphenation
+{
     /** Parses the xml hyphenation pattern.
     *
     * @author Paulo Soares (psoares@consiste.pt)

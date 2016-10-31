@@ -1,10 +1,10 @@
 namespace Org.BouncyCastle.Math.EC.Multiplier
 {
-	/**
+    /**
 	* Class holding precomputation data for the WTNAF (Window
 	* <code>&#964;</code>-adic Non-Adjacent Form) algorithm.
 	*/
-	internal class WTauNafPreCompInfo
+    internal class WTauNafPreCompInfo
 		: PreCompInfo
 	{
 		/**

@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* an implementation of the AES (Rijndael), from FIPS-197.
 	* <p>
 	* For further details see: <a href="http://csrc.nist.gov/encryption/aes/">http://csrc.nist.gov/encryption/aes/</a>.
@@ -29,7 +28,7 @@ namespace Org.BouncyCastle.Crypto.Engines
 	* This file contains the middle performance version with 2Kbytes of static tables for round precomputation.
 	* </p>
 	*/
-	public class AesEngine
+    public class AesEngine
 		: IBlockCipher
 	{
 		// The S box

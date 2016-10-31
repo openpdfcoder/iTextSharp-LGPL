@@ -1,6 +1,5 @@
-using System;
-
 using iTextSharp.text.pdf.hyphenation;
+using System;
 
 /*
  * Copyright 2002 Paulo Soares
@@ -49,7 +48,8 @@ using iTextSharp.text.pdf.hyphenation;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /** Hyphenates words automatically accordingly to the language and country.
      * The hyphenator engine was taken from FOP and uses the TEX patterns. If a language

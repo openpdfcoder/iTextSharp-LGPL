@@ -1,14 +1,13 @@
-using System;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
-using Asn1Pkcs = Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509;
+using System;
+using System.IO;
+using Asn1Pkcs = Org.BouncyCastle.Asn1.Pkcs;
 
 namespace Org.BouncyCastle.Cms
 {

@@ -1,10 +1,10 @@
-using System;
-using System.IO;
-using System.Collections;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.graphic;
+using System;
+using System.Collections;
+using System.IO;
 using ST = iTextSharp.text.rtf.style;
 /*
  * $Id: RtfParagraph.cs,v 1.11 2008/05/16 19:31:24 psoares33 Exp $
@@ -56,7 +56,8 @@ using ST = iTextSharp.text.rtf.style;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp.text.rtf.text
+{
 
     /**
     * The RtfParagraph is an extension of the RtfPhrase that adds alignment and

@@ -1,12 +1,12 @@
-using System;
-using System.IO;
-using System.Collections;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
-using iTextSharp.text.rtf.text;
 using iTextSharp.text.rtf.style;
+using iTextSharp.text.rtf.text;
+using System;
+using System.Collections;
+using System.IO;
 /*
  * $Id: RtfTable.cs,v 1.9 2008/05/23 17:24:29 psoares33 Exp $
  * 
@@ -57,7 +57,8 @@ using iTextSharp.text.rtf.style;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.table {
+namespace iTextSharp.text.rtf.table
+{
 
     /**
     * The RtfTable wraps a Table.

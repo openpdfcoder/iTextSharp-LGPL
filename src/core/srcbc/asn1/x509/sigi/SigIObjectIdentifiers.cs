@@ -2,11 +2,11 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.X509.SigI
 {
-	/**
+    /**
 	 * Object Identifiers of SigI specifciation (German Signature Law
 	 * Interoperability specification).
 	 */
-	public sealed class SigIObjectIdentifiers
+    public sealed class SigIObjectIdentifiers
 	{
 		private SigIObjectIdentifiers()
 		{

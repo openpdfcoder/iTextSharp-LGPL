@@ -2,13 +2,13 @@ using System;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/// <remarks>
-	/// A queue for bytes.
-	/// <p>
-	/// This file could be more optimized.
-	/// </p>
-	/// </remarks>
-	public class ByteQueue
+    /// <remarks>
+    /// A queue for bytes.
+    /// <p>
+    /// This file could be more optimized.
+    /// </p>
+    /// </remarks>
+    public class ByteQueue
 	{
 		/// <returns>The smallest number which can be written as 2^x which is bigger than i.</returns>
 		public static int NextTwoPow(

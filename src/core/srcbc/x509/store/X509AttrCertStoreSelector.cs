@@ -1,24 +1,23 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.Utilities.Date;
 using Org.BouncyCastle.X509.Extension;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.X509.Store
 {
-	/**
+    /**
 	* This class is an <code>Selector</code> like implementation to select
 	* attribute certificates from a given set of criteria.
 	*
 	* @see org.bouncycastle.x509.X509AttributeCertificate
 	* @see org.bouncycastle.x509.X509Store
 	*/
-	public class X509AttrCertStoreSelector
+    public class X509AttrCertStoreSelector
 		: IX509Selector
 	{
 		// TODO: name constraints???

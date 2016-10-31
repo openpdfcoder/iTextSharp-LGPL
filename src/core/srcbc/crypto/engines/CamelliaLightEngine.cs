@@ -1,13 +1,12 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* Camellia - based on RFC 3713, smaller implementation, about half the size of CamelliaEngine.
 	*/
-	public class CamelliaLightEngine
+    public class CamelliaLightEngine
 		: IBlockCipher
 	{
 		private const int BLOCK_SIZE = 16;

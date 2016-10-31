@@ -1,10 +1,11 @@
-using System;
-using System.IO;
-using System.Collections;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
+using System;
+using System.Collections;
+using System.IO;
 
-namespace iTextSharp.text.rtf.style {
+namespace iTextSharp.text.rtf.style
+{
 
     /**
     * The RtfStylesheetList stores the RtfParagraphStyles that are used in the document.

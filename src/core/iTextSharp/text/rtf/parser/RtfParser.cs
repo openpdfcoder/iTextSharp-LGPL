@@ -1,13 +1,13 @@
-using System;
-using System.IO;
-using System.Collections;
-using System.Globalization;
-using System.Text;
 using iTextSharp.text;
 using iTextSharp.text.rtf.direct;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.parser.ctrlwords;
 using iTextSharp.text.rtf.parser.destinations;
+using System;
+using System.Collections;
+using System.Globalization;
+using System.IO;
+using System.Text;
 /*
  * $Id: RtfParser.cs,v 1.4 2008/05/16 19:31:08 psoares33 Exp $
  * 
@@ -57,7 +57,8 @@ using iTextSharp.text.rtf.parser.destinations;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser {
+namespace iTextSharp.text.rtf.parser
+{
 
     /**
     * The RtfParser allows the importing of RTF documents or

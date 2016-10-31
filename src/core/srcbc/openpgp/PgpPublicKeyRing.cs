@@ -1,19 +1,18 @@
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 using System.IO;
 
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>
-	/// Class to hold a single master public key and its subkeys.
-	/// <p>
-	/// Often PGP keyring files consist of multiple master keys, if you are trying to process
-	/// or construct one of these you should use the <c>PgpPublicKeyRingBundle</c> class.
-	/// </p>
-	/// </remarks>
-	public class PgpPublicKeyRing
+    /// <remarks>
+    /// Class to hold a single master public key and its subkeys.
+    /// <p>
+    /// Often PGP keyring files consist of multiple master keys, if you are trying to process
+    /// or construct one of these you should use the <c>PgpPublicKeyRingBundle</c> class.
+    /// </p>
+    /// </remarks>
+    public class PgpPublicKeyRing
 		: PgpKeyRing
     {
         private readonly ArrayList keys;

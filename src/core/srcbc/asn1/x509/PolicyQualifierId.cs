@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * PolicyQualifierId, used in the CertificatePolicies
 	 * X509V3 extension.
 	 *
@@ -12,7 +12,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 *       OBJECT IDENTIFIER ( id-qt-cps | id-qt-unotice )
 	 * </pre>
 	 */
-	public sealed class PolicyQualifierID : DerObjectIdentifier
+    public sealed class PolicyQualifierID : DerObjectIdentifier
 	{
 		private const string IdQt = "1.3.6.1.5.5.7.2";
 

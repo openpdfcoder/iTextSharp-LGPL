@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Utilities
 {
-	/**
+    /**
 	 * BigInteger utilities.
 	 */
-	public sealed class BigIntegers
+    public sealed class BigIntegers
 	{
 		private const int MaxIterations = 1000;
 

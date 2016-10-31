@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using System.Xml;
 using System.Text;
+using System.Xml;
 /*
  * Copyright 2008 by Bruno Lowagie
  *
@@ -48,7 +48,8 @@ using System.Text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.xml.xmp {
+namespace iTextSharp.text.xml.xmp
+{
 
 
     /**

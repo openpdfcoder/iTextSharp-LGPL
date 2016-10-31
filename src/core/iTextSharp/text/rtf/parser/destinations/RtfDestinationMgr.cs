@@ -1,8 +1,8 @@
+using iTextSharp.text.rtf.parser;
+using iTextSharp.text.rtf.parser.ctrlwords;
 using System;
 using System.Collections;
 using System.Reflection;
-using iTextSharp.text.rtf.parser;
-using iTextSharp.text.rtf.parser.ctrlwords;
 /*
  * $Id: RtfDestinationMgr.cs,v 1.4 2008/05/13 11:26:00 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using iTextSharp.text.rtf.parser.ctrlwords;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.rtf.parser.destinations {
+namespace iTextSharp.text.rtf.parser.destinations
+{
 
     /**
     * <code>RtfDestinationMgr</code> manages destination objects for the parser

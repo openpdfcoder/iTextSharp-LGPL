@@ -1,6 +1,6 @@
+using iTextSharp.text;
 using System;
 using System.IO;
-using iTextSharp.text;
 /*
  * $Id: RtfTableOfContents.cs,v 1.7 2008/05/23 17:24:26 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.field {
+namespace iTextSharp.text.rtf.field
+{
 
     /**
     * The RtfTableOfContents together with multiple RtfTOCEntry objects generates a table 

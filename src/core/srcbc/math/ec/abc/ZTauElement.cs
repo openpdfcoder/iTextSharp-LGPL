@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Math.EC.Abc
 {
-	/**
+    /**
 	* Class representing an element of <code><b>Z</b>[&#964;]</code>. Let
 	* <code>&#955;</code> be an element of <code><b>Z</b>[&#964;]</code>. Then
 	* <code>&#955;</code> is given as <code>&#955; = u + v&#964;</code>. The
@@ -8,7 +8,7 @@ namespace Org.BouncyCastle.Math.EC.Abc
 	* are no accessor methods.
 	* Immutable class.
 	*/
-	internal class ZTauElement 
+    internal class ZTauElement 
 	{
 		/**
 		* The &quot;real&quot; part of <code>&#955;</code>.

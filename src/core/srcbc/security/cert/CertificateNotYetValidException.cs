@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Security.Certificates
 {
-	public class CertificateNotYetValidException : CertificateException
+    public class CertificateNotYetValidException : CertificateException
 	{
 		public CertificateNotYetValidException() : base() { }
 		public CertificateNotYetValidException(string message) : base(message) { }

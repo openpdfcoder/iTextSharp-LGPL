@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.X509;
@@ -14,10 +10,13 @@ using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.Utilities.IO;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* Parsing class for an CMS Signed Data object from an input stream.
 	* <p>
 	* Note: that because we are in a streaming mode only one signer can be tried and it is important
@@ -55,7 +54,7 @@ namespace Org.BouncyCastle.Cms
 	*  </pre>
 	*  where bufSize is a suitably large buffer size.
 	*/
-	public class CmsSignedDataParser
+    public class CmsSignedDataParser
 		: CmsContentInfoParser
 	{
 		private static readonly CmsSignedHelper Helper = CmsSignedHelper.Instance;

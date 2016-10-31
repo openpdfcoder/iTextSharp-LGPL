@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Math.EC.Abc;
+using System;
 
 namespace Org.BouncyCastle.Math.EC.Multiplier
 {
-	/**
+    /**
 	* Class implementing the WTNAF (Window
 	* <code>&#964;</code>-adic Non-Adjacent Form) algorithm.
 	*/
-	internal class WTauNafMultiplier
+    internal class WTauNafMultiplier
 		: ECMultiplier
 	{
 		/**

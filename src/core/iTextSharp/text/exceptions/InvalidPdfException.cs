@@ -49,7 +49,8 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.exceptions {
+namespace iTextSharp.text.exceptions
+{
 
     /**
      * Typed exception used when opening an existing PDF document.

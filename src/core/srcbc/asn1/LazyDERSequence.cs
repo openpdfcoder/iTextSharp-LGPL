@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace Org.BouncyCastle.Asn1
 {
-	internal class LazyDerSequence
+    internal class LazyDerSequence
 		: DerSequence
 	{
 		private byte[]	encoded;

@@ -47,7 +47,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /** Implements a shading pattern as a <code>Color</code>.
      *

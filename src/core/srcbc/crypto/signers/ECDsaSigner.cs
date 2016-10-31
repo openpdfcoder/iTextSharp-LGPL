@@ -1,17 +1,17 @@
-using System;
-using Org.BouncyCastle.Math;
-using Org.BouncyCastle.Math.EC;
-using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Parameters;
+using Org.BouncyCastle.Math;
+using Org.BouncyCastle.Math.EC;
+using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Signers
 {
-	/**
+    /**
 	 * EC-DSA as described in X9.62
 	 */
-	public class ECDsaSigner
+    public class ECDsaSigner
 		: IDsa
 	{
 		private ECKeyParameters key;

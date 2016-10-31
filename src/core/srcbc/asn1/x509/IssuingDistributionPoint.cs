@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities;
 using System;
 using System.Text;
 
-using Org.BouncyCastle.Utilities;
-
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * <pre>
 	 * IssuingDistributionPoint ::= SEQUENCE { 
 	 *   distributionPoint          [0] DistributionPointName OPTIONAL, 
@@ -16,7 +15,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 *   onlyContainsAttributeCerts [5] BOOLEAN DEFAULT FALSE }
 	 * </pre>
 	 */
-	public class IssuingDistributionPoint
+    public class IssuingDistributionPoint
         : Asn1Encodable
     {
 		private readonly DistributionPointName	_distributionPoint;

@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Ocsp;
 using Org.BouncyCastle.Asn1.X509;
@@ -9,13 +5,16 @@ using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Ocsp
 {
-	/**
+    /**
 	 * Generator for basic OCSP response objects.
 	 */
-	public class BasicOcspRespGenerator
+    public class BasicOcspRespGenerator
 	{
 		private readonly IList list = new ArrayList();
 

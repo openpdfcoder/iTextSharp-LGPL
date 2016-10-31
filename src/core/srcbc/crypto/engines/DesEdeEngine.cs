@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/// <remarks>A class that provides a basic DESede (or Triple DES) engine.</remarks>
+    /// <remarks>A class that provides a basic DESede (or Triple DES) engine.</remarks>
     public class DesEdeEngine
 		: DesEngine
     {

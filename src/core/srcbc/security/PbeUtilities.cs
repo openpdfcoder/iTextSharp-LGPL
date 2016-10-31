@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Globalization;
-
-using Org.BouncyCastle.Asn1;
+﻿using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.Pkcs;
@@ -16,13 +12,16 @@ using Org.BouncyCastle.Crypto.Macs;
 using Org.BouncyCastle.Crypto.Modes;
 using Org.BouncyCastle.Crypto.Paddings;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
+using System.Collections;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Security
 {
-	/// <summary>
-	///
-	/// </summary>
-	public sealed class PbeUtilities
+    /// <summary>
+    ///
+    /// </summary>
+    public sealed class PbeUtilities
 	{
 		private PbeUtilities()
 		{

@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Security
 {
-	[Obsolete("Never thrown")]
+    [Obsolete("Never thrown")]
 	public class NoSuchAlgorithmException : GeneralSecurityException
 	{
 		public NoSuchAlgorithmException() : base() {}

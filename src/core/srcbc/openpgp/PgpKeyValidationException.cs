@@ -2,10 +2,10 @@ using System;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>
-	/// Thrown if the key checksum is invalid.
-	/// </remarks>
-	public class PgpKeyValidationException
+    /// <remarks>
+    /// Thrown if the key checksum is invalid.
+    /// </remarks>
+    public class PgpKeyValidationException
 		: PgpException
 	{
 		public PgpKeyValidationException() : base() {}

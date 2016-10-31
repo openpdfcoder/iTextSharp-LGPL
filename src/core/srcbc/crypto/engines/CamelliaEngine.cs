@@ -1,13 +1,12 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* Camellia - based on RFC 3713.
 	*/
-	public class CamelliaEngine
+    public class CamelliaEngine
 		: IBlockCipher
 	{
 		private bool initialised = false;

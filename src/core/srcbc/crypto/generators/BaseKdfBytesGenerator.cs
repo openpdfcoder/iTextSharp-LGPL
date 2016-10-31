@@ -1,16 +1,15 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	/**
+    /**
 	* Basic KDF generator for derived keys and ivs as defined by IEEE P1363a/ISO 18033
 	* <br/>
 	* This implementation is based on ISO 18033/P1363a.
 	*/
-	public class BaseKdfBytesGenerator
+    public class BaseKdfBytesGenerator
 		: IDerivationFunction
 	{
 		private int     counterStart;

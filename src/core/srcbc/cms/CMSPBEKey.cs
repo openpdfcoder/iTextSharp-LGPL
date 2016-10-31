@@ -1,16 +1,15 @@
-using System;
-
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Utilities;
+using System;
 
 //import javax.crypto.interfaces.PBEKey;
 
 namespace Org.BouncyCastle.Cms
 {
-	public abstract class CmsPbeKey
+    public abstract class CmsPbeKey
 		// TODO Create an equivalent interface somewhere?
 		//	: PBEKey
 		: ICipherParameters

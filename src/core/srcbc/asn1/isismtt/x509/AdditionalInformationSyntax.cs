@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X500;
+using System;
 
 namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 {
-	/**
+    /**
 	* Some other information of non-restrictive nature regarding the usage of this
 	* certificate.
 	* 
@@ -12,7 +11,7 @@ namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 	*    AdditionalInformationSyntax ::= DirectoryString (SIZE(1..2048))
 	* </pre>
 	*/
-	public class AdditionalInformationSyntax
+    public class AdditionalInformationSyntax
 		: Asn1Encodable
 	{
 		private readonly DirectoryString information;

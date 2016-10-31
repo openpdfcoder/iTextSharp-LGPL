@@ -1,16 +1,15 @@
+using Org.BouncyCastle.Utilities;
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 using System.Text;
 
-using Org.BouncyCastle.Utilities;
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Pkix
 {
-	/// <summary>
-	/// Summary description for PkixPolicyNode.
-	/// </summary>
-	public class PkixPolicyNode
+    /// <summary>
+    /// Summary description for PkixPolicyNode.
+    /// </summary>
+    public class PkixPolicyNode
 //		: IPolicyNode
 	{
 		protected IList				mChildren;

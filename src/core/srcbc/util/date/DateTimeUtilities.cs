@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Utilities.Date
 {
-	public class DateTimeUtilities
+    public class DateTimeUtilities
 	{
 		public static readonly DateTime UnixEpoch = new DateTime(1970, 1, 1);
 

@@ -1,7 +1,7 @@
 using System;
-using System.Text;
 using System.Collections;
 using System.Reflection;
+using System.Text;
 
 /*
  * $Id: PdfName.cs,v 1.31 2008/05/24 18:41:23 psoares33 Exp $
@@ -53,7 +53,8 @@ using System.Reflection;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
      * <CODE>PdfName</CODE> is an object that can be used as a name in a PDF-file.
      * <P>

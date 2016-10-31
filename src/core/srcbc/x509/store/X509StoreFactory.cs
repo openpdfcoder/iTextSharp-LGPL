@@ -4,7 +4,7 @@ using System.Globalization;
 
 namespace Org.BouncyCastle.X509.Store
 {
-	public sealed class X509StoreFactory
+    public sealed class X509StoreFactory
 	{
 		private X509StoreFactory()
 		{

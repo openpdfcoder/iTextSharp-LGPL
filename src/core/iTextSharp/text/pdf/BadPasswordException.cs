@@ -50,7 +50,8 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     public class BadPasswordException : IOException {
         public BadPasswordException(string message) : base(message) {

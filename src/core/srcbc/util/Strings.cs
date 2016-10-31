@@ -3,8 +3,8 @@ using System.Text;
 
 namespace Org.BouncyCastle.Utilities
 {
-	/// <summary> General string utilities.</summary>
-	public sealed class Strings
+    /// <summary> General string utilities.</summary>
+    public sealed class Strings
 	{
 		private Strings()
 		{

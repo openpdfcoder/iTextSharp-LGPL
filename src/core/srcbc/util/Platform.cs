@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Org.BouncyCastle.Utilities
 {
-	internal sealed class Platform
+    internal sealed class Platform
 	{
 		private Platform()
 		{

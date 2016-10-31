@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Crypto.Parameters;
 using System;
 using System.Diagnostics;
 
-using Org.BouncyCastle.Crypto.Parameters;
-
 namespace Org.BouncyCastle.Crypto
 {
-	/**
+    /**
 	* A wrapper class that allows block ciphers to be used to process data in
 	* a piecemeal fashion. The BufferedBlockCipher outputs a block only when the
 	* buffer is full and more data is being added, or on a doFinal.
@@ -14,7 +13,7 @@ namespace Org.BouncyCastle.Crypto
 	* OFB one the last block may not be a multiple of the block size.
 	* </p>
 	*/
-	public class BufferedBlockCipher
+    public class BufferedBlockCipher
 		: BufferedCipherBase
 	{
 		internal byte[]			buf;

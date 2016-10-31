@@ -1,7 +1,7 @@
+using iTextSharp.text.factories;
 using System;
 using System.Collections;
 using System.util;
-using iTextSharp.text.factories;
 /*
  * $Id: ListItem.cs,v 1.11 2008/05/13 11:25:11 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// A ListItem is a Paragraph
     /// that can be added to a List.

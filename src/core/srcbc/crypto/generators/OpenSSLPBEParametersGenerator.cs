@@ -1,19 +1,18 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	/**
+    /**
 	 * Generator for PBE derived keys and ivs as usd by OpenSSL.
 	 * <p>
 	 * The scheme is a simple extension of PKCS 5 V2.0 Scheme 1 using MD5 with an
 	 * iteration count of 1.
 	 * </p>
 	 */
-	public class OpenSslPbeParametersGenerator
+    public class OpenSslPbeParametersGenerator
 		: PbeParametersGenerator
 	{
 		private readonly IDigest digest = new MD5Digest();

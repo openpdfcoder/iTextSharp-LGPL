@@ -1,8 +1,8 @@
-using System;
-using System.IO;
-using System.Collections;
-using System.util;
 using iTextSharp.text.pdf;
+using System;
+using System.Collections;
+using System.IO;
+using System.util;
 /*
  * $Id: DocWriter.cs,v 1.7 2008/05/13 11:25:09 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// An abstract Writer class for documents.
     /// </summary>

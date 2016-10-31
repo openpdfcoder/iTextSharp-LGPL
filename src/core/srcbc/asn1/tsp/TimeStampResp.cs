@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Asn1.Cmp;
+using Org.BouncyCastle.Asn1.Cms;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Asn1.Cmp;
-using Org.BouncyCastle.Asn1.Cms;
-
 namespace Org.BouncyCastle.Asn1.Tsp
 {
-	public class TimeStampResp
+    public class TimeStampResp
 		: Asn1Encodable
 	{
 		private readonly PkiStatusInfo	pkiStatusInfo;

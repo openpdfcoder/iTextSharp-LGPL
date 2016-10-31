@@ -1,10 +1,10 @@
+using iTextSharp.text.xml.simpleparser;
 using System;
 using System.Collections;
 using System.Globalization;
 using System.IO;
 using System.Text;
 using System.util;
-using iTextSharp.text.xml.simpleparser;
 
 /*
  * Copyright 2002-2006 Paulo Soares
@@ -53,12 +53,13 @@ using iTextSharp.text.xml.simpleparser;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
-/** Supports fast encodings for winansi and PDFDocEncoding.
- *
- * @author Paulo Soares (psoares@consiste.pt)
- */
-public class PdfEncodings {
+namespace iTextSharp.text.pdf
+{
+    /** Supports fast encodings for winansi and PDFDocEncoding.
+     *
+     * @author Paulo Soares (psoares@consiste.pt)
+     */
+    public class PdfEncodings {
     
     protected const int CIDNONE = 0;
     protected const int CIDRANGE = 1;

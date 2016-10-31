@@ -1,13 +1,13 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document.output;
-using iTextSharp.text.rtf.list;
-using ST = iTextSharp.text.rtf.style;
-using iTextSharp.text.rtf.style;
-using HF = iTextSharp.text.rtf.headerfooter;
 using iTextSharp.text.rtf.headerfooter;
+using iTextSharp.text.rtf.list;
+using iTextSharp.text.rtf.style;
+using System;
+using System.IO;
+using HF = iTextSharp.text.rtf.headerfooter;
+using ST = iTextSharp.text.rtf.style;
 //using iTextSharp.text.rtf;
 /*
  * $Id: RtfDocumentHeader.cs,v 1.11 2008/05/16 19:30:51 psoares33 Exp $
@@ -59,7 +59,8 @@ using iTextSharp.text.rtf.headerfooter;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document {
+namespace iTextSharp.text.rtf.document
+{
 
     /**
     * The RtfDocumentHeader contains all classes required for the generation of

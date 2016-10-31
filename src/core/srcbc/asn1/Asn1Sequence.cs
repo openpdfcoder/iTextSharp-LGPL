@@ -1,7 +1,6 @@
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
-
-using Org.BouncyCastle.Utilities.Collections;
 
 namespace Org.BouncyCastle.Asn1
 {

@@ -2,8 +2,8 @@ using System;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>Generic exception class for PGP encoding/decoding problems.</remarks>
-	public class PgpException
+    /// <remarks>Generic exception class for PGP encoding/decoding problems.</remarks>
+    public class PgpException
 		: Exception
 	{
 		public PgpException() : base() {}

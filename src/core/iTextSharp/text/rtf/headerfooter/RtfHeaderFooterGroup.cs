@@ -1,15 +1,16 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
+using System;
+using System.IO;
 /*
  * Created on Aug 6, 2004
  *
  * To change the template for this generated file go to
  * Window - Preferences - Java - Code Generation - Code and Comments
  */
-namespace iTextSharp.text.rtf.headerfooter {
+namespace iTextSharp.text.rtf.headerfooter
+{
 
     /**
     * The RtfHeaderFooterGroup holds 0 - 3 RtfHeaderFooters that create a group

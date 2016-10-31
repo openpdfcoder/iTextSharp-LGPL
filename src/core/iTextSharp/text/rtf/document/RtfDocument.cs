@@ -1,12 +1,12 @@
-using System;
-using System.IO;
-using System.Collections;
-using System.Text;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
-using iTextSharp.text.rtf.document.output;
 using iTextSharp.text.rtf.document;
+using iTextSharp.text.rtf.document.output;
 using iTextSharp.text.rtf.graphic;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
 /*
  * $Id: RtfDocument.cs,v 1.12 2008/05/16 19:30:50 psoares33 Exp $
  * 
@@ -57,7 +57,8 @@ using iTextSharp.text.rtf.graphic;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.document {
+namespace iTextSharp.text.rtf.document
+{
 
     /**
     * The RtfDocument stores all document related data and also the main data stream.

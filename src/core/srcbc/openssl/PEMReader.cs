@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Pkcs;
@@ -17,17 +12,21 @@ using Org.BouncyCastle.Pkcs;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities.Encoders;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.OpenSsl
 {
-	/**
+    /**
 	* Class for reading OpenSSL PEM encoded streams containing 
 	* X509 certificates, PKCS8 encoded keys and PKCS7 objects.
 	* <p>
 	* In the case of PKCS7 objects the reader will return a CMS ContentInfo object. Keys and
 	* Certificates will be returned using the appropriate java.security type.</p>
 	*/
-	public class PemReader
+    public class PemReader
 	{
 		private readonly TextReader reader;
 		private readonly IPasswordFinder pFinder;

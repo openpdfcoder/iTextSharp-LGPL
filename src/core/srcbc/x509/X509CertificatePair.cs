@@ -1,19 +1,18 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities;
+using System;
 
 namespace Org.BouncyCastle.X509
 {
-	/// <remarks>
-	/// This class contains a cross certificate pair. Cross certificates pairs may
-	/// contain two cross signed certificates from two CAs. A certificate from the
-	/// other CA to this CA is contained in the forward certificate, the certificate
-	/// from this CA to the other CA is contained in the reverse certificate.
-	/// </remarks>
-	public class X509CertificatePair
+    /// <remarks>
+    /// This class contains a cross certificate pair. Cross certificates pairs may
+    /// contain two cross signed certificates from two CAs. A certificate from the
+    /// other CA to this CA is contained in the forward certificate, the certificate
+    /// from this CA to the other CA is contained in the reverse certificate.
+    /// </remarks>
+    public class X509CertificatePair
 	{
 		private readonly X509Certificate forward;
 		private readonly X509Certificate reverse;

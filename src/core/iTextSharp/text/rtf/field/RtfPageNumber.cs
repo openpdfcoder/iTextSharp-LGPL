@@ -1,14 +1,15 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf.document;
+using System;
+using System.IO;
 /*
  * Created on Aug 10, 2004
  *
  * To change the template for this generated file go to
  * Window - Preferences - Java - Code Generation - Code and Comments
  */
-namespace iTextSharp.text.rtf.field {
+namespace iTextSharp.text.rtf.field
+{
 
     /**
     * The RtfPageNumber provides the page number field in rtf documents.

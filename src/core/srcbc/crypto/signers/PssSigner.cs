@@ -1,16 +1,15 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Signers
 {
-	/// <summary> RSA-PSS as described in Pkcs# 1 v 2.1.
-	/// <p>
-	/// Note: the usual value for the salt length is the number of
-	/// bytes in the hash function.</p>
-	/// </summary>
-	public class PssSigner
+    /// <summary> RSA-PSS as described in Pkcs# 1 v 2.1.
+    /// <p>
+    /// Note: the usual value for the salt length is the number of
+    /// bytes in the hash function.</p>
+    /// </summary>
+    public class PssSigner
 		: ISigner
 	{
 		public const byte TrailerImplicit = (byte)0xBC;

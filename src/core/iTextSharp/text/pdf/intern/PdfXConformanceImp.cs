@@ -1,8 +1,8 @@
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using iTextSharp.text.pdf.interfaces;
 using System;
 using System.Collections;
-using iTextSharp.text.pdf;
-using iTextSharp.text;
-using iTextSharp.text.pdf.interfaces;
 
 /*
  * $Id: PdfXConformanceImp.cs,v 1.3 2007/06/05 15:00:44 psoares33 Exp $
@@ -53,7 +53,8 @@ using iTextSharp.text.pdf.interfaces;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.intern {
+namespace iTextSharp.text.pdf.intern
+{
 
     public class PdfXConformanceImp : IPdfXConformance {
 

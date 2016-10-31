@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * PolicyMappings V3 extension, described in RFC3280.
 	 * <pre>
 	 *    PolicyMappings ::= Sequence SIZE (1..MAX) OF Sequence {
@@ -12,7 +12,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 *
 	 * @see <a href="http://www.faqs.org/rfc/rfc3280.txt">RFC 3280, section 4.2.1.6</a>
 	 */
-	public class PolicyMappings
+    public class PolicyMappings
 		: Asn1Encodable
 	{
 		private readonly Asn1Sequence seq;

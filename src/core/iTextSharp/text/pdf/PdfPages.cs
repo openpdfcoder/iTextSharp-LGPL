@@ -51,7 +51,8 @@ using System.IO;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
     * <CODE>PdfPages</CODE> is the PDF Pages-object.
     * <P>

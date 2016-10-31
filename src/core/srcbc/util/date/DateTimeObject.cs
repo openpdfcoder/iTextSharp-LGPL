@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Utilities.Date
 {
-	public sealed class DateTimeObject
+    public sealed class DateTimeObject
 	{
 		private readonly DateTime dt;
 

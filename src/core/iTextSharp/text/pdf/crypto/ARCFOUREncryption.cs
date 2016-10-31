@@ -47,7 +47,8 @@ using System;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf.crypto {
+namespace iTextSharp.text.pdf.crypto
+{
 
     public class ARCFOUREncryption {
 

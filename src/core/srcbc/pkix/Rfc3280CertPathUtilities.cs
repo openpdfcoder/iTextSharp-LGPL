@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.Globalization;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
@@ -14,10 +9,14 @@ using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.Utilities.Date;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
+using System.Globalization;
+using System.IO;
 
 namespace Org.BouncyCastle.Pkix
 {
-	public class Rfc3280CertPathUtilities
+    public class Rfc3280CertPathUtilities
 	{
 		internal static readonly string ANY_POLICY = "2.5.29.32.0";
 

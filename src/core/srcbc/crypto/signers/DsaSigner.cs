@@ -1,18 +1,18 @@
-using System;
-using Org.BouncyCastle.Math;
-using Org.BouncyCastle.Math.EC;
-using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Parameters;
+using Org.BouncyCastle.Math;
+using Org.BouncyCastle.Math.EC;
+using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Signers
 {
-	/**
+    /**
 	 * The Digital Signature Algorithm - as described in "Handbook of Applied
 	 * Cryptography", pages 452 - 453.
 	 */
-	public class DsaSigner
+    public class DsaSigner
 		: IDsa
 	{
 		private DsaKeyParameters key;

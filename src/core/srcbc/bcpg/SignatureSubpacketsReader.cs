@@ -1,14 +1,14 @@
-using System;
-using System.IO;
 using Org.BouncyCastle.Bcpg.Sig;
 using Org.BouncyCastle.Utilities.IO;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Bcpg
 {
-	/**
+    /**
 	* reader for signature sub-packets
 	*/
-	public class SignatureSubpacketsParser
+    public class SignatureSubpacketsParser
 	{
 		private readonly Stream input;
 

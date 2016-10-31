@@ -1,14 +1,13 @@
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.Crypto.Parameters;
+using Org.BouncyCastle.Security;
 using System;
 using System.Collections;
 using System.IO;
 
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.Security;
-
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>General class to handle a PGP secret key object.</remarks>
+    /// <remarks>General class to handle a PGP secret key object.</remarks>
     public class PgpSecretKey
     {
         private readonly SecretKeyPacket	secret;

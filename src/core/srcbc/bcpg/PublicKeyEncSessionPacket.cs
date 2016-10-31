@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Math;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Math;
-
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic packet for a PGP public key.</remarks>
-	public class PublicKeyEncSessionPacket
+    /// <remarks>Basic packet for a PGP public key.</remarks>
+    public class PublicKeyEncSessionPacket
 		: ContainedPacket //, PublicKeyAlgorithmTag
 	{
 		private int version;

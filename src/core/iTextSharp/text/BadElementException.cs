@@ -50,7 +50,7 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text 
+namespace iTextSharp.text
 {
     /// <summary>
     /// Signals an attempt to create an Element that hasn't got the right form.

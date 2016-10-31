@@ -1,6 +1,7 @@
 using System;
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// Interface for a text element to which other objects can be added.
     /// </summary>

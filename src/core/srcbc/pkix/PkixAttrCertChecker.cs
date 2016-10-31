@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Utilities.Collections;
+using Org.BouncyCastle.X509;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Utilities.Collections;
-using Org.BouncyCastle.X509;
-
 namespace Org.BouncyCastle.Pkix
 {
-	public abstract class PkixAttrCertChecker
+    public abstract class PkixAttrCertChecker
 	{
 		/**
 		 * Returns an immutable <code>Set</code> of X.509 attribute certificate

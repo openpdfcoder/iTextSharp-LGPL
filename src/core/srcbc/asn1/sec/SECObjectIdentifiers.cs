@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X9;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Sec
 {
-	public abstract class SecObjectIdentifiers
+    public abstract class SecObjectIdentifiers
 	{
 		/**
 		 *  EllipticCurve OBJECT IDENTIFIER ::= {

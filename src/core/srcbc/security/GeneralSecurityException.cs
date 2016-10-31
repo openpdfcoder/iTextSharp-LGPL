@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Security
 {
-	public class GeneralSecurityException
+    public class GeneralSecurityException
 		: Exception
 	{
 		public GeneralSecurityException()

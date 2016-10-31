@@ -1,14 +1,13 @@
+using Org.BouncyCastle.Utilities.IO;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Utilities.IO;
-
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* a holding class for a file of data to be processed.
 	*/
-	public class CmsProcessableFile
+    public class CmsProcessableFile
 		: CmsProcessable
 	{
 		private const int DefaultBufSize = 32 * 1024;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Org.BouncyCastle.Utilities.Encoders
 {
-	public sealed class Base64
+    public sealed class Base64
 	{
 //		private static readonly IEncoder encoder = new Base64Encoder();
 

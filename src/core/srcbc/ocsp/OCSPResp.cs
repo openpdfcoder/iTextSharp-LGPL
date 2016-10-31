@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Asn1.Ocsp;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Asn1.Ocsp;
-
 namespace Org.BouncyCastle.Ocsp
 {
-	public class OcspResp
+    public class OcspResp
 	{
 		private OcspResponse resp;
 

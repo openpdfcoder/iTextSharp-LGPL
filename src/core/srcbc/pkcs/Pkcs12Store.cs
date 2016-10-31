@@ -1,24 +1,23 @@
-using System;
-using System.Collections;
-using System.Globalization;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.Pkcs;
-using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Asn1.Utilities;
+using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.Utilities.Encoders;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.Globalization;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.Pkcs
 {
-	public class Pkcs12Store
+    public class Pkcs12Store
 	{
 		private readonly IgnoresCaseHashtable	keys = new IgnoresCaseHashtable();
 		private readonly Hashtable				localIds = new Hashtable();

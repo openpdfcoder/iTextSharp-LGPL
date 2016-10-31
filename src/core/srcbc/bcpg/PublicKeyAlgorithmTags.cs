@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Public Key Algorithm tag numbers.</remarks>
+    /// <remarks>Public Key Algorithm tag numbers.</remarks>
     public enum PublicKeyAlgorithmTag
     {
         RsaGeneral = 1,			// RSA (Encrypt or Sign)

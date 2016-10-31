@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Cms
 {
-	public class CmsAttributeTableGenerationException
+    public class CmsAttributeTableGenerationException
 		: CmsException
 	{
 		public CmsAttributeTableGenerationException()

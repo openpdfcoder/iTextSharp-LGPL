@@ -1,7 +1,7 @@
+using iTextSharp.text;
 using System;
 using System.Collections;
 using System.Globalization;
-using iTextSharp.text;
 using System.util;
 /*
  * $Id: WebColors.cs,v 1.3 2008/05/13 11:25:16 psoares33 Exp $
@@ -53,7 +53,8 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html {
+namespace iTextSharp.text.html
+{
 
     /**
     * This class is a HashMap that contains the names of colors as a key and the

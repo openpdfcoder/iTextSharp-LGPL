@@ -4,15 +4,15 @@ using System.IO;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>
+    /// <remarks>
     /// General class for reading a PGP object stream.
     /// <p>
     /// Note: if this class finds a PgpPublicKey or a PgpSecretKey it
     /// will create a PgpPublicKeyRing, or a PgpSecretKeyRing for each
     /// key found. If all you are trying to do is read a key ring file use
     /// either PgpPublicKeyRingBundle or PgpSecretKeyRingBundle.</p>
-	/// </remarks>
-	public class PgpObjectFactory
+    /// </remarks>
+    public class PgpObjectFactory
     {
         private readonly BcpgInputStream bcpgIn;
 

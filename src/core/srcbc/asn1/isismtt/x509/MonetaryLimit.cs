@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 {
-	/**
+    /**
 	* Monetary limit for transactions. The QcEuMonetaryLimit QC statement MUST be
 	* used in new certificates in place of the extension/attribute MonetaryLimit
 	* since January 1, 2004. For the sake of backward compatibility with
@@ -28,7 +27,7 @@ namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 	* <p/>
 	* value = amount�10*exponent
 	*/
-	public class MonetaryLimit
+    public class MonetaryLimit
 		: Asn1Encodable
 	{
 		private readonly DerPrintableString	currency;

@@ -1,12 +1,11 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	public class Gost3410PrivateKeyParameters
+    public class Gost3410PrivateKeyParameters
 		: Gost3410KeyParameters
 	{
 		private readonly BigInteger x;

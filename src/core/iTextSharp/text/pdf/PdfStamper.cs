@@ -1,9 +1,9 @@
-using System;
-using System.IO;
-using System.Collections;
-using iTextSharp.text.pdf.interfaces;
 using iTextSharp.text.pdf.collection;
+using iTextSharp.text.pdf.interfaces;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
 /*
  * Copyright 2003, 2004 by Paulo Soares.
  *
@@ -51,7 +51,8 @@ using Org.BouncyCastle.X509;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /** Applies extra content to the pages of a PDF document.
     * This extra content can be all the objects allowed in PdfContentByte
     * including pages from other Pdfs. The original PDF will keep

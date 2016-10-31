@@ -1,9 +1,9 @@
-using System;
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.Crypto.Engines;
 using Org.BouncyCastle.Crypto.Modes;
 using Org.BouncyCastle.Crypto.Paddings;
-using Org.BouncyCastle.Crypto.Engines;
-using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 /*
  * $Id: AESCipher.cs,v 1.4 2007/03/06 12:29:31 psoares33 Exp $
  *
@@ -52,12 +52,13 @@ using Org.BouncyCastle.Crypto.Parameters;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf.crypto {
+namespace iTextSharp.text.pdf.crypto
+{
 
-/**
- * Creates an AES Cipher with CBC and padding PKCS5/7.
- * @author Paulo Soares (psoares@consiste.pt)
- */
+    /**
+     * Creates an AES Cipher with CBC and padding PKCS5/7.
+     * @author Paulo Soares (psoares@consiste.pt)
+     */
     public class AESCipher {
         private PaddedBufferedBlockCipher bp;
         

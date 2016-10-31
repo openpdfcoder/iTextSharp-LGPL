@@ -1,13 +1,13 @@
-using System;
-using System.IO;
-using System.Collections;
-using System.Net;
-using Org.BouncyCastle.X509;
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Asn1.Ocsp;
+using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Ocsp;
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Asn1.Ocsp;
+using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
+using System.Net;
 /*
  * $Id: OcspClientBouncyCastle.java 3959 2009-06-09 08:31:05Z blowagie $
  *
@@ -57,7 +57,8 @@ using Org.BouncyCastle.Asn1.Ocsp;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * OcspClient implementation using BouncyCastle.

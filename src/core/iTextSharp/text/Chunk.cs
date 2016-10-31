@@ -1,12 +1,11 @@
-using System;
-using System.Text;
-using System.Collections;
-using System.util;
-
-using iTextSharp.text.pdf;
-using iTextSharp.text.html;
 using iTextSharp.text.factories;
+using iTextSharp.text.html;
+using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.draw;
+using System;
+using System.Collections;
+using System.Text;
+using System.util;
 
 /*
  * $Id: Chunk.cs,v 1.20 2008/05/13 11:25:09 psoares33 Exp $
@@ -58,7 +57,8 @@ using iTextSharp.text.pdf.draw;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// This is the smallest significant part of text that can be added to a document.
     /// </summary>

@@ -1,5 +1,5 @@
-using System;
 using iTextSharp.text;
+using System;
 /*
  * Copyright 2001, 2002 Paulo Soares
  *
@@ -47,7 +47,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * Implements the form XObject.

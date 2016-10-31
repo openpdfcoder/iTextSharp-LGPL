@@ -1,9 +1,8 @@
-using System;
-using System.Globalization;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Prng;
+using System;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Security
 {

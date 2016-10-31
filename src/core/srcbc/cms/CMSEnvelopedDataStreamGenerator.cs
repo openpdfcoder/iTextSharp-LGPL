@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.Nist;
@@ -16,10 +12,13 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities.IO;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* General class for generating a CMS enveloped-data message stream.
 	* <p>
 	* A simple example of usage.
@@ -38,7 +37,7 @@ namespace Org.BouncyCastle.Cms
 	* </pre>
 	* </p>
 	*/
-	public class CmsEnvelopedDataStreamGenerator
+    public class CmsEnvelopedDataStreamGenerator
 		: CmsEnvelopedGenerator
 	{
 		private object	_originatorInfo = null;

@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Asn1.X500;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Asn1.X500;
-
 namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 {
-	/**
+    /**
 	* Names of authorities which are responsible for the administration of title
 	* registers.
 	* 
@@ -20,7 +19,7 @@ namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 	* @see Org.BouncyCastle.Asn1.IsisMtt.X509.AdmissionSyntax
 	* 
 	*/
-	public class NamingAuthority
+    public class NamingAuthority
 		: Asn1Encodable
 	{
 		/**

@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Utilities;
 using Org.BouncyCastle.Asn1.X509;
@@ -10,16 +5,20 @@ using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.X509.Extension;
+using System;
+using System.Collections;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.X509
 {
-	/**
+    /**
 	 * The following extensions are listed in RFC 2459 as relevant to CRL Entries
 	 *
 	 * ReasonCode Hode Instruction Code Invalidity Date Certificate Issuer
 	 * (critical)
 	 */
-	public class X509CrlEntry
+    public class X509CrlEntry
 		: X509ExtensionBase
 	{
 		private CrlEntry	c;

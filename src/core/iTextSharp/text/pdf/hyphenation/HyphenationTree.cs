@@ -1,7 +1,7 @@
 using System;
+using System.Collections;
 using System.IO;
 using System.Text;
-using System.Collections;
 /*
  * Copyright 1999-2004 The Apache Software Foundation.
  * 
@@ -19,8 +19,9 @@ using System.Collections;
  */
 
 /* $Id: HyphenationTree.cs,v 1.2 2005/06/18 08:05:23 psoares33 Exp $ */
- 
-namespace iTextSharp.text.pdf.hyphenation {
+
+namespace iTextSharp.text.pdf.hyphenation
+{
     /**
     * This tree structure stores the hyphenation patterns in an efficient
     * way for fast lookup. It provides the provides the method to

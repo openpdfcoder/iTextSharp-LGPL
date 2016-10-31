@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.X509.Store
 {
-	public class NoSuchStoreException
+    public class NoSuchStoreException
 		: X509StoreException
 	{
 		public NoSuchStoreException()

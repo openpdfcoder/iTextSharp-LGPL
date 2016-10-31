@@ -1,6 +1,6 @@
 using System;
-using System.IO;
 using System.Collections;
+using System.IO;
 using System.util;
 
 /*
@@ -53,21 +53,22 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
-/**
- * <CODE>PdfArray</CODE> is the PDF Array object.
- * <P>
- * An array is a sequence of PDF objects. An array may contain a mixture of object types.
- * An array is written as a left square bracket ([), followed by a sequence of objects,
- * followed by a right square bracket (]).<BR>
- * This object is described in the 'Portable Document Format Reference Manual version 1.3'
- * section 4.6 (page 40).
- *
- * @see        PdfObject
- */
+    /**
+     * <CODE>PdfArray</CODE> is the PDF Array object.
+     * <P>
+     * An array is a sequence of PDF objects. An array may contain a mixture of object types.
+     * An array is written as a left square bracket ([), followed by a sequence of objects,
+     * followed by a right square bracket (]).<BR>
+     * This object is described in the 'Portable Document Format Reference Manual version 1.3'
+     * section 4.6 (page 40).
+     *
+     * @see        PdfObject
+     */
 
-public class PdfArray : PdfObject {
+    public class PdfArray : PdfObject {
     
     // membervariables
     

@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Pkcs;
+using System;
 
 namespace Org.BouncyCastle.Pkcs
 {
-	public class Pkcs12StoreBuilder
+    public class Pkcs12StoreBuilder
 	{
 		private DerObjectIdentifier	keyAlgorithm = PkcsObjectIdentifiers.PbeWithShaAnd3KeyTripleDesCbc;
 		private DerObjectIdentifier	certAlgorithm = PkcsObjectIdentifiers.PbewithShaAnd40BitRC2Cbc;

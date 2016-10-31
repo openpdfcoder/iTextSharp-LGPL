@@ -34,7 +34,8 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * and contributors of zlib.
  */
 
-namespace System.util.zlib {
+namespace System.util.zlib
+{
 
     public sealed class ZStream{
 

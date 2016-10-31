@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Bcpg.Sig;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Bcpg.Sig;
-
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>Generator for signature subpackets.</remarks>
+    /// <remarks>Generator for signature subpackets.</remarks>
     public class PgpSignatureSubpacketGenerator
     {
         private ArrayList list = new ArrayList();

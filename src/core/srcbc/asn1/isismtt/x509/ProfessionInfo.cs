@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Asn1.X500;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Asn1.X500;
-
 namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 {
-	/**
+    /**
 	* Professions, specializations, disciplines, fields of activity, etc.
 	* 
 	* <pre>
@@ -21,7 +20,7 @@ namespace Org.BouncyCastle.Asn1.IsisMtt.X509
 	* 
 	* @see Org.BouncyCastle.Asn1.IsisMtt.X509.AdmissionSyntax
 	*/
-	public class ProfessionInfo
+    public class ProfessionInfo
 		: Asn1Encodable
 	{
 		/**

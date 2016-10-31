@@ -153,7 +153,8 @@ using System;
  * @author Doug Felt
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     public sealed class BidiOrder {
         private sbyte[] initialTypes;
         private sbyte[] embeddings; // generated from processing format codes

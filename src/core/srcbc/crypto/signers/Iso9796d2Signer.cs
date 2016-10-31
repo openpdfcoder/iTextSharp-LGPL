@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Signers
 {
 
-	/// <summary> ISO9796-2 - mechanism using a hash function with recovery (scheme 1)</summary>
-	public class Iso9796d2Signer : ISignerWithRecovery
+    /// <summary> ISO9796-2 - mechanism using a hash function with recovery (scheme 1)</summary>
+    public class Iso9796d2Signer : ISignerWithRecovery
 	{
 		/// <summary>
 		/// Return a reference to the recoveredMessage message.

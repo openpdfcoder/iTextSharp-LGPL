@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Mozilla
 {
-	/**
+    /**
 	 * This is designed to parse
 	 * the PublicKeyAndChallenge created by the KEYGEN tag included by
 	 * Mozilla based browsers.
@@ -16,7 +15,7 @@ namespace Org.BouncyCastle.Asn1.Mozilla
 	 *
 	 *  </pre>
 	 */
-	public class PublicKeyAndChallenge
+    public class PublicKeyAndChallenge
 		: Asn1Encodable
 	{
 		private Asn1Sequence			pkacSeq;

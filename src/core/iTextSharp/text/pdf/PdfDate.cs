@@ -1,6 +1,6 @@
 using System;
-using System.Text;
 using System.Globalization;
+using System.Text;
 
 /*
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie
@@ -49,7 +49,8 @@ using System.Globalization;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
      * <CODE>PdfDate</CODE> is the PDF date object.

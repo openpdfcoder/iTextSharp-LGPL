@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	public class Gost3410Parameters
+    public class Gost3410Parameters
 		: ICipherParameters
 	{
 		private readonly BigInteger p, q, a;

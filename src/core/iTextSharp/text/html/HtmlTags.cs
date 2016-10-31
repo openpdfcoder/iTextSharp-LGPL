@@ -50,7 +50,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html {
+namespace iTextSharp.text.html
+{
 
     /**
      * A class that contains all the possible tagnames and their attributes.

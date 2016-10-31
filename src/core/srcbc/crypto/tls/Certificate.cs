@@ -1,16 +1,15 @@
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Asn1.X509;
 using System;
 using System.Collections;
 using System.IO;
 
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Asn1.X509;
-
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/**
+    /**
 	* A representation for a certificate chain as used by an tls server.
 	*/
-	public class Certificate
+    public class Certificate
 	{
 		/**
 		* The certificates.

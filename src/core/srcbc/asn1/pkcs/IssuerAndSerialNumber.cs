@@ -1,7 +1,6 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Pkcs
 {

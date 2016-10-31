@@ -50,7 +50,8 @@ using System.Collections;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// Interface for a text element.
     /// </summary>

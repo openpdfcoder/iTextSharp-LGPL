@@ -1,8 +1,8 @@
+using iTextSharp.text.pdf;
 using System;
 using System.Collections;
 using System.Text;
 using System.util;
-using iTextSharp.text.pdf;
 
 /*
  * $Id: RectangleReadOnly.cs,v 1.2 2008/05/13 11:25:12 psoares33 Exp $
@@ -54,7 +54,8 @@ using iTextSharp.text.pdf;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// A RectangleReadOnly is the representation of a geometric figure.
     /// It's the same as a Rectangle but immutable.

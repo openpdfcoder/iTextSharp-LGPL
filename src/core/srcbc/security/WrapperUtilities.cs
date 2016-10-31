@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Globalization;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Kisa;
 using Org.BouncyCastle.Asn1.Nist;
@@ -9,13 +5,16 @@ using Org.BouncyCastle.Asn1.Ntt;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Engines;
+using System;
+using System.Collections;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Security
 {
-	/// <remarks>
-	///  Utility class for creating IWrapper objects from their names/Oids
-	/// </remarks>
-	public sealed class WrapperUtilities
+    /// <remarks>
+    ///  Utility class for creating IWrapper objects from their names/Oids
+    /// </remarks>
+    public sealed class WrapperUtilities
 	{
 		private WrapperUtilities()
 		{

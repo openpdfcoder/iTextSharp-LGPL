@@ -1,7 +1,7 @@
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 using System;
 using System.Collections;
-using iTextSharp.text.pdf;
-using iTextSharp.text;
 /*
  * $Id: PdfAnnotationsImp.cs,v 1.1 2007/02/09 15:34:40 psoares33 Exp $
  *
@@ -51,7 +51,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.intern {
+namespace iTextSharp.text.pdf.intern
+{
 
     public class PdfAnnotationsImp {
 

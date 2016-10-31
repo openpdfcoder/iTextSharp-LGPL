@@ -1,8 +1,7 @@
-using System;
-using System.Text;
-using System.Drawing;
-
 using iTextSharp.text;
+using System;
+using System.Drawing;
+using System.Text;
 
 /*
  * $Id: HtmlEncoder.cs,v 1.6 2008/05/13 11:25:15 psoares33 Exp $
@@ -54,7 +53,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.html {
+namespace iTextSharp.text.html
+{
     /**
      * This class converts a <CODE>String</CODE> to the HTML-format of a String.
      * <P>

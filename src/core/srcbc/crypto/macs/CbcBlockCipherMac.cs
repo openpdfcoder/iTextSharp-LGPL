@@ -1,7 +1,6 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Modes;
 using Org.BouncyCastle.Crypto.Paddings;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Macs
 {

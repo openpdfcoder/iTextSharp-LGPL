@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using iTextSharp.text.rtf.document;
@@ -8,6 +6,8 @@ using iTextSharp.text.rtf.graphic;
 using iTextSharp.text.rtf.list;
 using iTextSharp.text.rtf.table;
 using iTextSharp.text.rtf.text;
+using System;
+using System.Collections;
 /*
  * $Id: RtfMapper.cs,v 1.4 2008/05/16 19:30:14 psoares33 Exp $
  * 
@@ -58,7 +58,8 @@ using iTextSharp.text.rtf.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf {
+namespace iTextSharp.text.rtf
+{
 
     /**
     * The RtfMapper provides mappings between com.lowagie.text.* classes

@@ -1,9 +1,8 @@
+using iTextSharp.text.html;
+using iTextSharp.text.pdf;
 using System;
 using System.Collections;
 using System.util;
-
-using iTextSharp.text.html;
-using iTextSharp.text.pdf;
 
 /*
  * $Id: Table.cs,v 1.23 2008/05/13 11:25:13 psoares33 Exp $
@@ -58,7 +57,8 @@ using iTextSharp.text.pdf;
  * Steve Ogryzek. Check the CVS repository.
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// A Table is a Rectangle that contains Cells,
     /// ordered in some kind of matrix.

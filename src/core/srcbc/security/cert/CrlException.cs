@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Security.Certificates
 {
-	public class CrlException : GeneralSecurityException
+    public class CrlException : GeneralSecurityException
 	{
 		public CrlException() : base() { }
 		public CrlException(string msg) : base(msg) {}

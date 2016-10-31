@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities.IO;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Utilities.IO;
-
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic output stream.</remarks>
+    /// <remarks>Basic output stream.</remarks>
     public class BcpgOutputStream
         : BaseOutputStream
     {

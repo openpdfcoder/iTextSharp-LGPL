@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.OpenSsl
 {
-	public class PemException
+    public class PemException
 		: IOException
 	{
 		public PemException(

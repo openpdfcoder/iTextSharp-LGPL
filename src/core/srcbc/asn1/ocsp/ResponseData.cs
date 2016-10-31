@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Ocsp
 {
-	public class ResponseData
+    public class ResponseData
 		: Asn1Encodable
 	{
 		private static readonly DerInteger V1 = new DerInteger(0);

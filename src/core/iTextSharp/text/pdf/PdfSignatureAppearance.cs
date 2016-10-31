@@ -1,10 +1,10 @@
+using iTextSharp.text;
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.X509;
 using System;
 using System.Collections;
-using System.Text;
 using System.IO;
-using Org.BouncyCastle.X509;
-using Org.BouncyCastle.Crypto;
-using iTextSharp.text;
+using System.Text;
 /*
  * $Id: PdfSignatureAppearance.cs,v 1.13 2008/04/17 15:32:39 psoares33 Exp $
  * 
@@ -53,7 +53,8 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * This class takes care of the cryptographic options and appearances that form a signature.

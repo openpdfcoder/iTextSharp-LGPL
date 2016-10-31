@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Asn1.X509;
+using System;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	/**
+    /**
 	 * Produce an object suitable for an ASN1OutputStream.
 	 * <pre>
 	 * AuthenticatedData ::= SEQUENCE {
@@ -25,7 +24,7 @@ namespace Org.BouncyCastle.Asn1.Cms
 	 * MessageAuthenticationCode ::= OCTET STRING
 	 * </pre>
 	 */
-	public class AuthenticatedDataParser
+    public class AuthenticatedDataParser
 	{
 	    private Asn1SequenceParser seq;
 	    private DerInteger version;

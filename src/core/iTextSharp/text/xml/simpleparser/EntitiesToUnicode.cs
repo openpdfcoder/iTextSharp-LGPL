@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
-using System.Text;
 using System.Globalization;
+using System.Text;
 /*
  * $Id: EntitiesToUnicode.cs,v 1.3 2008/05/13 11:26:14 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using System.Globalization;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.xml.simpleparser {
+namespace iTextSharp.text.xml.simpleparser
+{
 
     /**
     * This class contains entities that can be used in an entity tag.

@@ -1,11 +1,10 @@
-using System;
-
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Crypto.Utilities;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* HC-256 is a software-efficient stream cipher created by Hongjun Wu. It 
 	* generates keystream from a 256-bit secret key and a 256-bit initialization 
 	* vector.
@@ -19,7 +18,7 @@ namespace Org.BouncyCastle.Crypto.Engines
 	* http://www.ecrypt.eu.org/stream/hcp3.html
 	* </p>
 	*/
-	public class HC256Engine
+    public class HC256Engine
 		: IStreamCipher
 	{
 		private uint[] p = new uint[1024];

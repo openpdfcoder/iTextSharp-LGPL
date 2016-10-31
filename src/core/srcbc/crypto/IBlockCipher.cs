@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Crypto
 {
-	/// <remarks>Base interface for a symmetric key block cipher.</remarks>
+    /// <remarks>Base interface for a symmetric key block cipher.</remarks>
     public interface IBlockCipher
     {
 		/// <summary>The name of the algorithm this cipher implements.</summary>

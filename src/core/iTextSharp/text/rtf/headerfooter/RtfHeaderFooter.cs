@@ -1,8 +1,8 @@
-using System;
-using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
+using System;
+using System.IO;
 using FD = iTextSharp.text.rtf.field;
 /*
  * Created on Aug 10, 2004
@@ -10,7 +10,8 @@ using FD = iTextSharp.text.rtf.field;
  * To change the template for this generated file go to
  * Window - Preferences - Java - Code Generation - Code and Comments
  */
-namespace iTextSharp.text.rtf.headerfooter {
+namespace iTextSharp.text.rtf.headerfooter
+{
 
     /**
     * The RtfHeaderFooter represents one header or footer. This class can be used

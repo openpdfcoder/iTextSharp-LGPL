@@ -47,7 +47,8 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     public class DocumentFont : BaseFont {
         
         // code, [glyph, width]

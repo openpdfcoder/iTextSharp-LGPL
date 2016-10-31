@@ -1,9 +1,8 @@
+using Org.BouncyCastle.Utilities.Encoders;
 using System;
 using System.Globalization;
 using System.IO;
 using System.Text;
-
-using Org.BouncyCastle.Utilities.Encoders;
 
 namespace Org.BouncyCastle.Asn1.X509
 {

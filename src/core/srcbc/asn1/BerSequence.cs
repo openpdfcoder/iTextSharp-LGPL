@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Asn1
 {
-	public class BerSequence
+    public class BerSequence
 		: DerSequence
 	{
 		public static new readonly BerSequence Empty = new BerSequence();

@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Crypto.IO
 {
-	public class SignerStream
+    public class SignerStream
 		: Stream
 	{
 		protected readonly Stream stream;

@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	 * The Holder object.
 	 * <p>
 	 * For an v2 attribute certificate this is:
@@ -32,7 +32,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	 * </pre>
 	 * </p>
 	 */
-	public class Holder
+    public class Holder
         : Asn1Encodable
     {
 		internal readonly IssuerSerial		baseCertificateID;

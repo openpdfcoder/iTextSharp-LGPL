@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	/**
+    /**
 	* <pre>
 	* SignedData ::= SEQUENCE {
 	*     version CMSVersion,
@@ -15,7 +15,7 @@ namespace Org.BouncyCastle.Asn1.Cms
 	*   }
 	* </pre>
 	*/
-	public class SignedDataParser
+    public class SignedDataParser
 	{
 		private Asn1SequenceParser	_seq;
 		private DerInteger			_version;

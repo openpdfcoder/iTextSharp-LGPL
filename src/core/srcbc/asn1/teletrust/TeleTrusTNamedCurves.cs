@@ -1,19 +1,18 @@
-using System.Collections;
-using System.Globalization;
-
 using Org.BouncyCastle.Asn1.X9;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Math.EC;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.Utilities.Encoders;
+using System.Collections;
+using System.Globalization;
 
 namespace Org.BouncyCastle.Asn1.TeleTrust
 {
-	/**
+    /**
 	* elliptic curves defined in "ECC Brainpool Standard Curves and Curve Generation"
 	* http://www.ecc-brainpool.org/download/draft_pkix_additional_ecc_dp.txt
 	*/
-	public class TeleTrusTNamedCurves
+    public class TeleTrusTNamedCurves
 	{
 		internal class BrainpoolP160r1Holder
 			: X9ECParametersHolder

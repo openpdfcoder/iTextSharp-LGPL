@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Asn1.Cms
 {
-	/**
+    /**
 	* Produce an object suitable for an Asn1OutputStream.
 	* <pre>
 	* ContentInfo ::= SEQUENCE {
@@ -11,7 +11,7 @@ namespace Org.BouncyCastle.Asn1.Cms
 	*          [0] EXPLICIT ANY DEFINED BY contentType OPTIONAL }
 	* </pre>
 	*/
-	public class ContentInfoParser
+    public class ContentInfoParser
 	{
 		private DerObjectIdentifier		contentType;
 		private Asn1TaggedObjectParser	content;

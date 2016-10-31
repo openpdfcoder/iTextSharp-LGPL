@@ -1,10 +1,9 @@
-using System;
-
 using Org.BouncyCastle.Math;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	public class RsaBlindingParameters
+    public class RsaBlindingParameters
 		: ICipherParameters
 	{
 		private readonly RsaKeyParameters	publicKey;

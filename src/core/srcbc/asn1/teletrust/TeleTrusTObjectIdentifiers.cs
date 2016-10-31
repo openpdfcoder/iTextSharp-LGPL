@@ -1,6 +1,6 @@
 namespace Org.BouncyCastle.Asn1.TeleTrust
 {
-	public sealed class TeleTrusTObjectIdentifiers
+    public sealed class TeleTrusTObjectIdentifiers
 	{
 		private TeleTrusTObjectIdentifiers()
 		{

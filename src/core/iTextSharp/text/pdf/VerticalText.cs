@@ -1,7 +1,6 @@
+using iTextSharp.text;
 using System;
 using System.Collections;
-
-using iTextSharp.text;
 
 /*
  *
@@ -50,14 +49,15 @@ using iTextSharp.text;
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
-	/** Writes text vertically. Note that the naming is done according
+    /** Writes text vertically. Note that the naming is done according
 	 * to horizontal text although it referrs to vertical text.
 	 * A line with the alignment Element.LEFT_ALIGN will actually
 	 * be top aligned.
 	 */
-	public class VerticalText {
+    public class VerticalText {
 
 		/** Signals that there are no more text available. */    
 		public static int NO_MORE_TEXT = 1;

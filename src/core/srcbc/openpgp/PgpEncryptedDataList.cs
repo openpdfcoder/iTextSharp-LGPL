@@ -1,11 +1,10 @@
+using Org.BouncyCastle.Utilities.Collections;
 using System;
 using System.Collections;
 
-using Org.BouncyCastle.Utilities.Collections;
-
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>A holder for a list of PGP encryption method packets.</remarks>
+    /// <remarks>A holder for a list of PGP encryption method packets.</remarks>
     public class PgpEncryptedDataList
 		: PgpObject
     {

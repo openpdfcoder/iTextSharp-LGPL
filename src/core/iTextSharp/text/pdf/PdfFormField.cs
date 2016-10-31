@@ -1,8 +1,7 @@
-using System;
-using System.Drawing;
-using System.Collections;
-
 using iTextSharp.text;
+using System;
+using System.Collections;
+using System.Drawing;
 
 /*
  * Copyright 2002 by Paulo Soares.
@@ -51,7 +50,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /** Implements form fields.
      *

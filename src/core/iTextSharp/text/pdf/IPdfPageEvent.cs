@@ -1,6 +1,5 @@
-using System;
-
 using iTextSharp.text;
+using System;
 
 /*
  * $Id: IPdfPageEvent.cs,v 1.3 2008/05/13 11:25:17 psoares33 Exp $
@@ -52,7 +51,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
      * Allows a class to catch several document events.

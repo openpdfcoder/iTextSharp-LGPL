@@ -50,7 +50,8 @@ using System.Collections;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     public class PageResources {
         
         protected PdfDictionary fontDictionary = new PdfDictionary();

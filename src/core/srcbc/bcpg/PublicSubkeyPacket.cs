@@ -2,7 +2,7 @@ using System;
 using System.IO;
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Basic packet for a PGP public subkey</remarks>
+    /// <remarks>Basic packet for a PGP public subkey</remarks>
     public class PublicSubkeyPacket
         : PublicKeyPacket
     {

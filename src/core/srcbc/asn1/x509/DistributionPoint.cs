@@ -1,7 +1,6 @@
+using Org.BouncyCastle.Utilities;
 using System;
 using System.Text;
-
-using Org.BouncyCastle.Utilities;
 
 namespace Org.BouncyCastle.Asn1.X509
 {

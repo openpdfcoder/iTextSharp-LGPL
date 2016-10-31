@@ -1,6 +1,6 @@
 using System;
-using System.IO;
 using System.Collections;
+using System.IO;
 
 /*
  * Copyright 2002-2008 by Paulo Soares.
@@ -47,7 +47,8 @@ using System.Collections;
  * use in the design, construction, operation or maintenance of any 
  * nuclear facility.
  */
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /**
      * A class for performing LZW decoding.
      *

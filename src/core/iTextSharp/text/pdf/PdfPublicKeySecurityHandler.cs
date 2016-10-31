@@ -1,15 +1,15 @@
-using System;
-using System.IO;
-using System.Collections;
 using iTextSharp.text.pdf.crypto;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.X509;
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.X509;
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
+using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.IO;
 
 
 /**
@@ -52,7 +52,8 @@ using Org.BouncyCastle.Security;
  *
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
     * @author Aiken Sam (aikensam@ieee.org)

@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Math;
@@ -8,10 +5,12 @@ using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Date;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Extension;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.X509.Store
 {
-	public class X509CrlStoreSelector
+    public class X509CrlStoreSelector
 		: IX509Selector
 	{
 		// TODO Missing criteria?

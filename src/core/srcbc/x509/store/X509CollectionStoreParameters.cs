@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Org.BouncyCastle.X509.Store
 {
-	/// <remarks>This class contains a collection for collection based <code>X509Store</code>s.</remarks>
-	public class X509CollectionStoreParameters
+    /// <remarks>This class contains a collection for collection based <code>X509Store</code>s.</remarks>
+    public class X509CollectionStoreParameters
 		: IX509StoreParameters
 	{
 		private readonly ArrayList collection;

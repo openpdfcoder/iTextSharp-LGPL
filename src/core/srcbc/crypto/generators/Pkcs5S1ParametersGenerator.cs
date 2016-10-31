@@ -1,14 +1,13 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Generators
 {
-	/**
+    /**
 	* Generator for Pbe derived keys and ivs as defined by Pkcs 5 V2.0 Scheme 1.
 	* Note this generator is limited to the size of the hash produced by the
 	* digest used to drive it.
@@ -18,7 +17,7 @@ namespace Org.BouncyCastle.Crypto.Generators
 	* RSA's Pkcs5 Page</a>
 	* </p>
 	*/
-	public class Pkcs5S1ParametersGenerator
+    public class Pkcs5S1ParametersGenerator
 		: PbeParametersGenerator
 	{
 		private readonly IDigest digest;

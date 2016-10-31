@@ -1,8 +1,3 @@
-using System;
-using System.Collections;
-using System.Diagnostics;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.X509;
@@ -14,6 +9,10 @@ using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.Utilities.IO;
 using Org.BouncyCastle.X509;
+using System;
+using System.Collections;
+using System.Diagnostics;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {

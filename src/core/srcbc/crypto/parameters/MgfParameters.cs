@@ -2,7 +2,7 @@ using System;
 
 namespace Org.BouncyCastle.Crypto.Parameters
 {
-	/// <remarks>Parameters for mask derivation functions.</remarks>
+    /// <remarks>Parameters for mask derivation functions.</remarks>
     public class MgfParameters
 		: IDerivationParameters
     {

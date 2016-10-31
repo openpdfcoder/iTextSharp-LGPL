@@ -1,15 +1,14 @@
-using System;
-using System.IO;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Utilities.IO;
 using Org.BouncyCastle.Utilities.Zlib;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Cms
 {
-	/**
+    /**
 	* General class for generating a compressed CMS message stream.
 	* <p>
 	* A simple example of usage.
@@ -24,7 +23,7 @@ namespace Org.BouncyCastle.Cms
 	*      cOut.Close();
 	* </pre>
 	*/
-	public class CmsCompressedDataStreamGenerator
+    public class CmsCompressedDataStreamGenerator
 	{
 		public const string ZLib = "1.2.840.113549.1.9.16.3.8";
 

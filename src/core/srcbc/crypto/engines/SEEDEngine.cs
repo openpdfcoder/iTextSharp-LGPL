@@ -1,12 +1,12 @@
-using System;
 using Org.BouncyCastle.Crypto.Parameters;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Engines
 {
-	/**
+    /**
 	* Implementation of the SEED algorithm as described in RFC 4009
 	*/
-	public class SeedEngine
+    public class SeedEngine
 		: IBlockCipher
 	{
 		private const int BlockSize = 16;

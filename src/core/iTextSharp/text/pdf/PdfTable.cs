@@ -1,7 +1,6 @@
+using iTextSharp.text;
 using System;
 using System.Collections;
-
-using iTextSharp.text;
 
 /*
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie
@@ -50,7 +49,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
      * <CODE>PdfTable</CODE> is an object that contains the graphics and text of a table.

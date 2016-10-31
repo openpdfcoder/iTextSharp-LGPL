@@ -51,7 +51,7 @@ using System.util;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text 
+namespace iTextSharp.text
 {
     /// <summary>
     /// A class that contains all the possible tagnames and their attributes.

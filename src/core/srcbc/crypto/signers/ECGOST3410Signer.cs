@@ -1,17 +1,16 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Math.EC;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Signers
 {
-	/**
+    /**
 	 * GOST R 34.10-2001 Signature Algorithm
 	 */
-	public class ECGost3410Signer
+    public class ECGost3410Signer
 		: IDsa
 	{
 		private ECKeyParameters key;

@@ -1,7 +1,3 @@
-using System;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto.Agreement;
@@ -15,11 +11,14 @@ using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Date;
+using System;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.Crypto.Tls
 {
-	/// <remarks>An implementation of all high level protocols in TLS 1.0.</remarks>
-	public class TlsProtocolHandler
+    /// <remarks>An implementation of all high level protocols in TLS 1.0.</remarks>
+    public class TlsProtocolHandler
 	{
 		private const short RL_CHANGE_CIPHER_SPEC = 20;
 		private const short RL_ALERT = 21;

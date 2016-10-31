@@ -1,5 +1,5 @@
-using System;
 using iTextSharp.text.pdf;
+using System;
 /*
  * Copyright 2005 by Paulo Soares.
  *
@@ -49,7 +49,8 @@ using iTextSharp.text.pdf;
  * This code is base in the libtiff encoder
  */
 
-namespace iTextSharp.text.pdf.codec {
+namespace iTextSharp.text.pdf.codec
+{
     /**
     * Encodes data in the CCITT G4 FAX format.
     */

@@ -1,12 +1,11 @@
+using Org.BouncyCastle.Utilities;
+using Org.BouncyCastle.Utilities.IO;
 using System;
 using System.IO;
 
-using Org.BouncyCastle.Utilities;
-using Org.BouncyCastle.Utilities.IO;
-
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>The string to key specifier class.</remarks>
+    /// <remarks>The string to key specifier class.</remarks>
     public class S2k
         : BcpgObject
     {

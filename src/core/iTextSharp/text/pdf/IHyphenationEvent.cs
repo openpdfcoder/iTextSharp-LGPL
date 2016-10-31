@@ -47,7 +47,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
     /** Called by <code>Chunk</code> to hyphenate a word.
      *
      * @author Paulo Soares (psoares@consiste.pt)

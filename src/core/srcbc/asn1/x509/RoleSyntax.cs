@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Org.BouncyCastle.Asn1.X509
 {
-	/**
+    /**
 	* Implementation of the RoleSyntax object as specified by the RFC3281.
 	*
 	* <pre>
@@ -13,7 +13,7 @@ namespace Org.BouncyCastle.Asn1.X509
 	*           }
 	* </pre>
 	*/
-	public class RoleSyntax
+    public class RoleSyntax
 		: Asn1Encodable
 	{
 		private readonly GeneralNames	roleAuthority;

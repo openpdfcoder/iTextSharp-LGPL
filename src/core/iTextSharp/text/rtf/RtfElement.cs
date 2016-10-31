@@ -1,7 +1,7 @@
+using iTextSharp.text;
+using iTextSharp.text.rtf.document;
 using System;
 using System.IO;
-using iTextSharp.text.rtf.document;
-using iTextSharp.text;
 /*
  * $Id: RtfElement.cs,v 1.5 2008/05/16 19:30:14 psoares33 Exp $
  * 
@@ -52,7 +52,8 @@ using iTextSharp.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf {
+namespace iTextSharp.text.rtf
+{
 
     /**
     * RtfElement is the base class for all RTF Element classes

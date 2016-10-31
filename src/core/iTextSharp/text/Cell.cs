@@ -1,10 +1,9 @@
+using iTextSharp.text.factories;
+using iTextSharp.text.html;
+using iTextSharp.text.pdf;
 using System;
 using System.Collections;
 using System.util;
-
-using iTextSharp.text.html;
-using iTextSharp.text.pdf;
-using iTextSharp.text.factories;
 
 /*
  * $Id: Cell.cs,v 1.17 2008/05/13 11:25:08 psoares33 Exp $
@@ -56,7 +55,8 @@ using iTextSharp.text.factories;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// A Cell is a Rectangle containing other Elements.
     /// </summary>

@@ -1,15 +1,14 @@
-using System;
-using System.IO;
 using Org.BouncyCastle.Asn1;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Date;
+using System;
+using System.IO;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>A PGP signature object.</remarks>
+    /// <remarks>A PGP signature object.</remarks>
     public class PgpSignature
     {
         public const int BinaryDocument = 0x00;

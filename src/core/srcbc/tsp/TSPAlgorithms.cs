@@ -1,17 +1,16 @@
-using System.Collections;
-
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Oiw;
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Asn1.TeleTrust;
+using System.Collections;
 
 namespace Org.BouncyCastle.Tsp
 {
-	/**
+    /**
 	 * Recognised hash algorithms for the time stamp protocol.
 	 */
-	public abstract class TspAlgorithms
+    public abstract class TspAlgorithms
 	{
 		public static readonly string MD5 = PkcsObjectIdentifiers.MD5.Id;
 

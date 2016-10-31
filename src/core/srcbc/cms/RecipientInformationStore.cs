@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Org.BouncyCastle.Cms
 {
-	public class RecipientInformationStore
+    public class RecipientInformationStore
 	{
 		private readonly ArrayList all; //ArrayList[RecipientInformation]
 		private readonly Hashtable table = new Hashtable(); // Hashtable[RecipientID, ArrayList[RecipientInformation]]

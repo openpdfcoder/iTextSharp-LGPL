@@ -1,10 +1,10 @@
-using System;
-using System.IO;
-using System.Collections;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.style;
+using System;
+using System.Collections;
+using System.IO;
 using ST = iTextSharp.text.rtf.style;
 
 /*
@@ -57,7 +57,8 @@ using ST = iTextSharp.text.rtf.style;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.text {
+namespace iTextSharp.text.rtf.text
+{
 
     /**
     * The RtfPhrase contains multiple RtfChunks

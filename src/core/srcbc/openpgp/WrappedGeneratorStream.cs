@@ -1,10 +1,9 @@
-using System.IO;
-
 using Org.BouncyCastle.Asn1.Utilities;
+using System.IO;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	public class WrappedGeneratorStream
+    public class WrappedGeneratorStream
 		: FilterStream
 	{
 		private readonly IStreamGenerator gen;

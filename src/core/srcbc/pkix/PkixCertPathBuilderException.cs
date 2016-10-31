@@ -1,13 +1,12 @@
-using System;
-
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Pkix
 {
-	/// <summary>
-	/// Summary description for PkixCertPathBuilderException.
-	/// </summary>
-	public class PkixCertPathBuilderException : GeneralSecurityException
+    /// <summary>
+    /// Summary description for PkixCertPathBuilderException.
+    /// </summary>
+    public class PkixCertPathBuilderException : GeneralSecurityException
 	{
 		public PkixCertPathBuilderException() : base() { }
 		

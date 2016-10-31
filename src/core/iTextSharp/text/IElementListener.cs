@@ -1,6 +1,7 @@
 using System;
 
-namespace iTextSharp.text {
+namespace iTextSharp.text
+{
     /// <summary>
     /// A class that implements ElementListener will perform some
     /// actions when an Element is added.

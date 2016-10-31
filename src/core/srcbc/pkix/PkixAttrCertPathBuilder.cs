@@ -1,15 +1,14 @@
-using System;
-using System.Collections;
-
 using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Security.Certificates;
 using Org.BouncyCastle.Utilities.Collections;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
+using System;
+using System.Collections;
 
 namespace Org.BouncyCastle.Pkix
 {
-	public class PkixAttrCertPathBuilder
+    public class PkixAttrCertPathBuilder
 	{
 		/**
 		* Build and validate a CertPath using the given parameter.

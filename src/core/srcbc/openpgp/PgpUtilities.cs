@@ -1,7 +1,3 @@
-using System;
-using System.IO;
-using System.Text;
-
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
@@ -10,10 +6,13 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.Encoders;
 using Org.BouncyCastle.Utilities.IO;
+using System;
+using System.IO;
+using System.Text;
 
 namespace Org.BouncyCastle.Bcpg.OpenPgp
 {
-	/// <remarks>Basic utility class.</remarks>
+    /// <remarks>Basic utility class.</remarks>
     public sealed class PgpUtilities
     {
         private PgpUtilities()

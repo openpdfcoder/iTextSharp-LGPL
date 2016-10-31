@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Org.BouncyCastle.Crypto.IO
 {
-	public class MacStream
+    public class MacStream
 		: Stream
 	{
 		protected readonly Stream stream;

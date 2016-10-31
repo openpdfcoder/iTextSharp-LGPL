@@ -1,18 +1,17 @@
-using System;
-
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Math.EC;
 using Org.BouncyCastle.Security;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Signers
 {
-	/**
+    /**
 	 * EC-NR as described in IEEE 1363-2000
 	 */
-	public class ECNRSigner
+    public class ECNRSigner
 		: IDsa
 	{
 		private bool			forSigning;

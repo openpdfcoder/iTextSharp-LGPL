@@ -47,7 +47,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf {
+namespace iTextSharp.text.pdf
+{
 
     /**
      * A <CODE>PdfSpotColor</CODE> defines a ColorSpace

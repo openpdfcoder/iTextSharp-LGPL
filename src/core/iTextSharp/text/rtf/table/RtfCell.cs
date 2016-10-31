@@ -1,13 +1,13 @@
-using System;
-using System.IO;
-using System.Collections;
-using System.util;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using iTextSharp.text.rtf;
 using iTextSharp.text.rtf.document;
 using iTextSharp.text.rtf.style;
 using iTextSharp.text.rtf.text;
+using System;
+using System.Collections;
+using System.IO;
+using System.util;
 /*
  * $Id: RtfCell.cs,v 1.14 2008/05/16 19:31:18 psoares33 Exp $
  * 
@@ -58,7 +58,8 @@ using iTextSharp.text.rtf.text;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.rtf.table {
+namespace iTextSharp.text.rtf.table
+{
 
     /**
     * The RtfCell wraps a Cell, but can also be added directly to a Table.

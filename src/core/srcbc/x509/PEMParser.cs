@@ -1,13 +1,12 @@
+using Org.BouncyCastle.Asn1;
+using Org.BouncyCastle.Utilities.Encoders;
 using System;
 using System.IO;
 using System.Text;
 
-using Org.BouncyCastle.Asn1;
-using Org.BouncyCastle.Utilities.Encoders;
-
 namespace Org.BouncyCastle.X509
 {
-	class PemParser
+    class PemParser
 	{
 		private readonly string _header1;
 		private readonly string _header2;

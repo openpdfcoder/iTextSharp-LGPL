@@ -1,13 +1,12 @@
-using System;
-
 using Org.BouncyCastle.Asn1;
+using System;
 
 namespace Org.BouncyCastle.Crypto.Agreement.Kdf
 {
-	/**
+    /**
 	* RFC 2631 Diffie-hellman KEK derivation function.
 	*/
-	public class DHKekGenerator
+    public class DHKekGenerator
 		: IDerivationFunction
 	{
 		private readonly IDigest digest;

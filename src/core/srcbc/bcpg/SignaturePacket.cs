@@ -1,14 +1,13 @@
+using Org.BouncyCastle.Bcpg.Sig;
+using Org.BouncyCastle.Utilities;
+using Org.BouncyCastle.Utilities.Date;
 using System;
 using System.Collections;
 using System.IO;
 
-using Org.BouncyCastle.Bcpg.Sig;
-using Org.BouncyCastle.Utilities;
-using Org.BouncyCastle.Utilities.Date;
-
 namespace Org.BouncyCastle.Bcpg
 {
-	/// <remarks>Generic signature packet.</remarks>
+    /// <remarks>Generic signature packet.</remarks>
     public class SignaturePacket
         : ContainedPacket //, PublicKeyAlgorithmTag
     {

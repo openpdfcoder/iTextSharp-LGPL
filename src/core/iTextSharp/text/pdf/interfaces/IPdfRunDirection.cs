@@ -48,7 +48,8 @@ using System;
  * http://www.lowagie.com/iText/
  */
 
-namespace iTextSharp.text.pdf.interfaces {
+namespace iTextSharp.text.pdf.interfaces
+{
 
     public interface IPdfRunDirection {
         /** Sets the run direction. This is only used as a placeholder
